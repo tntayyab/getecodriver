@@ -1,0 +1,64 @@
+{
+  "name": "Get Eco Driver",
+  "domain": "getecodriver.com",
+  "url": "https://getecodriver.com",
+  "tagline": "Practical Guides to EV Range, Hypermiling & Fuel Efficiency",
+  "description": "Master eco-friendly driving, EV charging optimization, hybrid powertrain management, and fuel-saving techniques with engineering-backed guides.",
+  "language": "en-US",
+  "author": {
+    "name": "EcoDriver Editorial Board",
+    "title": "Automotive Efficiency & EV Systems Specialists"
+  },
+  "theme": {
+    "primaryColor": "#1B4332",
+    "primaryHover": "#2D6A4F",
+    "accentColor": "#40916C",
+    "bgColor": "#F8FBF9",
+    "surfaceColor": "#FFFFFF",
+    "textColor": "#1A201C",
+    "mutedColor": "#4A5568",
+    "borderColor": "#E2E8F0"
+  },
+  "affiliate": {
+    "amazonTag": "getecodriver-20"
+  },
+  "navigation": [
+    { "name": "Home", "url": "/" },
+    { "name": "EV Charging & Range", "url": "/ev-charging-and-range/" },
+    { "name": "Fuel Economy & Hypermiling", "url": "/fuel-economy-and-hypermiling/" },
+    { "name": "Hybrid Powertrains", "url": "/hybrid-powertrains/" },
+    { "name": "Eco Maintenance & Gear", "url": "/eco-maintenance-and-gear/" },
+    { "name": "About", "url": "/about-us/" }
+  ],
+  "categories": [
+    {
+      "slug": "ev-charging-and-range",
+      "name": "EV Charging & Range",
+      "description": "Level 1, 2, and DC fast charging protocols, battery preconditioning, cold-weather range mitigation, and battery degradation prevention.",
+      "icon": "⚡"
+    },
+    {
+      "slug": "fuel-economy-and-hypermiling",
+      "name": "Fuel Economy & Hypermiling",
+      "description": "Engineering-verified driving habits, pulse-and-glide techniques, throttle optimization, and aerodynamic drag reduction.",
+      "icon": "🌱"
+    },
+    {
+      "slug": "hybrid-powertrains",
+      "name": "Hybrid Powertrains",
+      "description": "Regenerative braking optimization, PHEV charge scheduling, EV-mode maximization, and hybrid battery cooling care.",
+      "icon": "🔋"
+    },
+    {
+      "slug": "eco-maintenance-and-gear",
+      "name": "Eco Maintenance & Gear",
+      "description": "Low rolling resistance tires, synthetic low-viscosity oils, aerodynamic accessories, and OBD2 efficiency monitors.",
+      "icon": "🛠️"
+    }
+  ],
+  "social": {
+    "twitter": "",
+    "youtube": "",
+    "facebook": ""
+  }
+}

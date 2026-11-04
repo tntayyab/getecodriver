@@ -1,0 +1,12 @@
+{
+  "name": "getecodriver",
+  "version": "1.0.0",
+  "description": "Pure Static HTML Generator for getecodriver.com",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve dist"
+  },
+  "author": "KYROS Digital Operations",
+  "license": "UNLICENSED"
+}
