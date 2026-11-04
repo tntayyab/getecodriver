@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="auto" style="background:#0F172A; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; border-radius:12px;">
+  <rect width="800" height="450" fill="#0F172A" rx="12"/>
+  <text x="40" y="45" fill="#F8FAFC" font-size="20" font-weight="700">Tire Inflation Profiles &amp; Mechanical Contact Patch</text>
+  <text x="40" y="72" fill="#94A3B8" font-size="13">Why under-inflation flexes tire sidewalls and generates extreme rolling resistance heat</text>
+
+  <!-- Profile 1: Under-inflated -->
+  <rect x="40" y="105" width="225" height="300" fill="#1E293B" rx="10" stroke="#EF4444" stroke-width="2"/>
+  <text x="152" y="135" fill="#F87171" font-size="16" font-weight="700" text-anchor="middle">Under-Inflated</text>
+  <text x="152" y="155" fill="#94A3B8" font-size="12" text-anchor="middle">&lt; 28 PSI (Shoulder Riding)</text>
+
+  <!-- Tire cross-section -->
+  <path d="M 80 280 C 80 200 110 180 152 180 C 195 180 225 200 225 280 C 200 270 175 295 152 295 C 130 295 105 270 80 280 Z" fill="#334155" stroke="#EF4444" stroke-width="2"/>
+  <line x1="60" y1="295" x2="245" y2="295" stroke="#64748B" stroke-width="3"/>
+  <text x="152" y="335" fill="#F87171" font-size="12" font-weight="700" text-anchor="middle">Shoulders Dragging</text>
+  <text x="152" y="355" fill="#CBD5E1" font-size="11" text-anchor="middle">• Extreme Flex Hysteresis</text>
+  <text x="152" y="375" fill="#CBD5E1" font-size="11" text-anchor="middle">• +25% Heat / -5% MPG</text>
+
+  <!-- Profile 2: Proper -->
+  <rect x="287" y="105" width="225" height="300" fill="#1E293B" rx="10" stroke="#10B981" stroke-width="2"/>
+  <text x="399" y="135" fill="#34D399" font-size="16" font-weight="700" text-anchor="middle">Correct Placard</text>
+  <text x="399" y="155" fill="#94A3B8" font-size="12" text-anchor="middle">35 PSI (Flat Uniform Contact)</text>
+
+  <path d="M 327 280 C 327 200 357 180 399 180 C 442 180 472 200 472 280 L 327 280 Z" fill="#334155" stroke="#10B981" stroke-width="2"/>
+  <line x1="307" y1="282" x2="492" y2="282" stroke="#64748B" stroke-width="3"/>
+  <text x="399" y="335" fill="#34D399" font-size="12" font-weight="700" text-anchor="middle">Even Contact Patch</text>
+  <text x="399" y="355" fill="#CBD5E1" font-size="11" text-anchor="middle">• Lowest Rolling Resistance</text>
+  <text x="399" y="375" fill="#CBD5E1" font-size="11" text-anchor="middle">• Maximum Tread Life</text>
+
+  <!-- Profile 3: Over-inflated -->
+  <rect x="535" y="105" width="225" height="300" fill="#1E293B" rx="10" stroke="#38BDF8" stroke-width="2"/>
+  <text x="647" y="135" fill="#38BDF8" font-size="16" font-weight="700" text-anchor="middle">Over-Inflated</text>
+  <text x="647" y="155" fill="#94A3B8" font-size="12" text-anchor="middle">&gt; 42 PSI (Center Crown Riding)</text>
+
+  <path d="M 575 270 C 575 200 605 180 647 180 C 690 180 720 200 720 270 C 690 278 670 285 647 285 C 625 285 605 278 575 270 Z" fill="#334155" stroke="#38BDF8" stroke-width="2"/>
+  <line x1="555" y1="285" x2="740" y2="285" stroke="#64748B" stroke-width="3"/>
+  <text x="647" y="335" fill="#38BDF8" font-size="12" font-weight="700" text-anchor="middle">Center Crown Wear</text>
+  <text x="647" y="355" fill="#CBD5E1" font-size="11" text-anchor="middle">• Reduced Wet Braking Grip</text>
+  <text x="647" y="375" fill="#CBD5E1" font-size="11" text-anchor="middle">• Harsh Impact Vulnerability</text>
+</svg>

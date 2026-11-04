@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="auto" style="background:#0F172A; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; border-radius:12px;">
+  <rect width="800" height="450" fill="#0F172A" rx="12"/>
+  <text x="40" y="45" fill="#F8FAFC" font-size="20" font-weight="700">Diagnostic Live Data: Hybrid Battery Block Voltage Delta</text>
+  <text x="40" y="72" fill="#94A3B8" font-size="13">A difference of > 0.30V between module blocks under acceleration triggers code P0A80</text>
+
+  <!-- Block bars (14 blocks in Prius pack) -->
+  <rect x="70" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="115" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="160" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="205" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="250" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="295" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+
+  <!-- Failing Block #7 -->
+  <rect x="340" y="240" width="35" height="80" fill="#EF4444" rx="4"/>
+  <text x="357" y="230" fill="#EF4444" font-size="13" font-weight="800" text-anchor="middle">13.2V</text>
+  <text x="357" y="340" fill="#EF4444" font-size="11" font-weight="700" text-anchor="middle">#7 FAIL</text>
+
+  <rect x="385" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="430" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="475" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="520" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="565" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="610" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+  <rect x="655" y="140" width="35" height="180" fill="#10B981" rx="4"/>
+
+  <!-- Voltage reference line -->
+  <line x1="60" y1="140" x2="700" y2="140" stroke="#34D399" stroke-width="2" stroke-dasharray="4"/>
+  <text x="710" y="144" fill="#34D399" font-size="12" font-weight="700">15.4V Normal</text>
+
+  <!-- Delta explanation -->
+  <rect x="70" y="370" width="660" height="55" fill="#1E293B" rx="8" stroke="#334155"/>
+  <text x="90" y="395" fill="#F8FAFC" font-size="13" font-weight="600">CRITICAL DIAGNOSTIC THRESHOLD: Delta = 15.4V - 13.2V = 2.2V (Max allowable is 0.3V)</text>
+  <text x="90" y="414" fill="#94A3B8" font-size="12">High internal resistance in a single degraded cell causes voltage collapse under acceleration load.</text>
+</svg>

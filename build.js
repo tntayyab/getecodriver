@@ -195,27 +195,27 @@ function renderFooter() {
 
 const DEFAULT_RAIL_PRODUCTS = [
   {
-    name: "Veepeak OBDCheck BLE OBD2 Diagnostic Scanner",
+    name: "Lectron Level 2 Electric Vehicle (EV) Charger 32A",
     score: "9.8",
-    img: "https://m.media-amazon.com/images/I/61t-X39nOaL._AC_SL500_.jpg",
+    img: "/assets/images/products/lectron-charger.webp",
+    asin: "B07B8X851P"
+  },
+  {
+    name: "Veepeak OBDCheck BLE OBD2 Diagnostic Scanner",
+    score: "9.7",
+    img: "/assets/images/products/veepeak-scanner.webp",
     asin: "B073NKRQPP"
   },
   {
     name: "AstroAI Digital Tire Pressure Gauge 150 PSI",
-    score: "9.7",
-    img: "https://m.media-amazon.com/images/I/71R2c39JtYL._AC_SL500_.jpg",
-    asin: "B01J888JF0"
-  },
-  {
-    name: "Lectron Level 2 Electric Vehicle (EV) Charger 32A",
     score: "9.6",
-    img: "https://m.media-amazon.com/images/I/61b7Uj5J5fL._AC_SL500_.jpg",
-    asin: "B07B8X851P"
+    img: "/assets/images/products/astroai-gauge.webp",
+    asin: "B01J888JF0"
   },
   {
     name: "NOCO Boost Plus GB40 1000A Jump Starter",
     score: "9.5",
-    img: "https://m.media-amazon.com/images/I/71G8lQ1oWCL._AC_SL500_.jpg",
+    img: "/assets/images/products/noco-booster.webp",
     asin: "B015TKUPIC"
   }
 ];
@@ -223,7 +223,7 @@ const DEFAULT_RAIL_PRODUCTS = [
 function renderRail(products = DEFAULT_RAIL_PRODUCTS) {
   const items = products.map(p => `
     <li class="rail-row">
-      <img src="${p.img}" alt="${p.name}" width="64" height="64" loading="lazy" decoding="async">
+      <img src="${p.img}" alt="${p.name}" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
       <div class="rail-body">
         <a class="rail-name" href="https://www.amazon.com/dp/${p.asin}?tag=${SITE.affiliate.amazonTag}" rel="nofollow" target="_blank">${p.name}</a>
         <span class="rail-meta">
@@ -361,10 +361,13 @@ ${renderHeader(articleUrl)}
       <article class="article">
         <span class="kicker">${cat.name}</span>
         <h1>${art.title}</h1>
-        <p class="meta">Updated on <time datetime="${art.dateModified || art.datePublished}">${formattedDate}</time> · By the <a href="/about-us/">${art.author || SITE.author.name}</a></p>
+        <p class="meta">Updated on <time datetime="${art.dateModified || art.datePublished}">${formattedDate}</time> · By <a href="/about-us/">${art.author || SITE.author.name}</a> · <span>${art.readTime || '8 min read'}</span></p>
+        ${art.authorCredentials ? `<p class="author-cred">${art.authorCredentials}</p>` : ''}
+
+        <!-- NO HERO IMAGE IN INTRO (Per user exact instruction) -->
 
         <div class="prose">
-          <!-- Exact Senior Learning Network Direct Answer Component -->
+          <!-- Direct Answer Callout Component -->
           ${art.directAnswer ? `
           <div class="answer">
             <div class="answer-label">
@@ -382,6 +385,15 @@ ${renderHeader(articleUrl)}
             </ol>
           </details>
 
+          <!-- Key Takeaways Box (carglassfix content pattern) -->
+          ${art.keyTakeaways && art.keyTakeaways.length > 0 ? `
+          <div class="takeaways-box">
+            <h2>Key takeaways</h2>
+            <ul>
+              ${art.keyTakeaways.map(t => `<li>${t}</li>`).join('')}
+            </ul>
+          </div>` : ''}
+
           ${sectionsHtml}
           ${faqHtml}
         </div>
@@ -392,6 +404,43 @@ ${renderHeader(articleUrl)}
     ${renderRail(art.railProducts || DEFAULT_RAIL_PRODUCTS)}
   </div>
 </main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const batterySelect = document.getElementById('calc-battery');
+  const chargerSelect = document.getElementById('calc-charger');
+  const windowSelect = document.getElementById('calc-window');
+  const resTime = document.getElementById('res-time');
+  const resSpeed = document.getElementById('res-speed');
+  const resEff = document.getElementById('res-eff');
+  const resCost = document.getElementById('res-cost');
+
+  function updateCalc() {
+    if (!batterySelect || !chargerSelect || !windowSelect) return;
+    const battery = parseFloat(batterySelect.value);
+    const kw = parseFloat(chargerSelect.value);
+    const windowFactor = parseFloat(windowSelect.value);
+    const kwhNeeded = battery * windowFactor;
+
+    // Efficiency: Level 1 (1.4 kW) is 76%, Level 2 is 89-91%
+    let efficiency = kw <= 1.5 ? 0.76 : (kw < 7 ? 0.86 : 0.895);
+    const totalKwhFromWall = kwhNeeded / efficiency;
+    const hours = (totalKwhFromWall / kw);
+    const milesPerHour = (kw * efficiency) * 3.4;
+    const cost = totalKwhFromWall * 0.16;
+
+    if (resTime) resTime.textContent = hours.toFixed(1) + ' Hours';
+    if (resSpeed) resSpeed.textContent = milesPerHour.toFixed(1) + ' Miles/Hr';
+    if (resEff) resEff.textContent = (efficiency * 100).toFixed(1) + '%';
+    if (resCost) resCost.textContent = '$' + cost.toFixed(2);
+  }
+
+  [batterySelect, chargerSelect, windowSelect].forEach(function(el) {
+    if (el) el.addEventListener('change', updateCalc);
+  });
+  updateCalc();
+});
+</script>
 
 ${renderFooter()}
 </body>

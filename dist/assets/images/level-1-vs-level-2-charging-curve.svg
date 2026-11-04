@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="100%" height="auto" style="background:#ffffff;border-radius:14px;border:1px solid #e2e8f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="440" y="36" text-anchor="middle" fill="#0f172a" font-size="19" font-weight="700">0% to 100% Full Charge Time by Battery Size &amp; Charger Level</text>
+  <text x="440" y="60" text-anchor="middle" fill="#64748b" font-size="13">Empirical charge duration accounting for thermal management and BMS ramp-down</text>
+
+  <!-- Legend -->
+  <g transform="translate(180, 82)">
+    <rect x="0" y="0" width="16" height="16" rx="4" fill="#94a3b8"/>
+    <text x="24" y="13" font-size="12" font-weight="600" fill="#475569">Level 1 (1.4 kW / 120V)</text>
+
+    <rect x="180" y="0" width="16" height="16" rx="4" fill="#0284c7"/>
+    <text x="204" y="13" font-size="12" font-weight="600" fill="#0284c7">Level 2 (7.7 kW / 240V 32A)</text>
+
+    <rect x="380" y="0" width="16" height="16" rx="4" fill="#16a34a"/>
+    <text x="404" y="13" font-size="12" font-weight="600" fill="#16a34a">Level 2 (11.5 kW / 240V 48A)</text>
+  </g>
+
+  <!-- BATTERY 1: 54 kWh Compact EV -->
+  <g transform="translate(60, 130)">
+    <text x="0" y="16" font-size="14" font-weight="700" fill="#1e293b">54 kWh Pack (Leaf / Bolt / Kona)</text>
+    
+    <!-- Level 1 Bar (38h -> 480px) -->
+    <rect x="0" y="28" width="480" height="24" rx="6" fill="#94a3b8"/>
+    <text x="490" y="45" font-size="12" font-weight="700" fill="#475569">38.5 Hours</text>
+
+    <!-- Level 2 32A (7.0h -> 90px) -->
+    <rect x="0" y="58" width="90" height="24" rx="6" fill="#0284c7"/>
+    <text x="100" y="75" font-size="12" font-weight="700" fill="#0284c7">7.0 Hours (Overnight)</text>
+
+    <!-- Level 2 48A (4.8h -> 62px) -->
+    <rect x="0" y="88" width="62" height="24" rx="6" fill="#16a34a"/>
+    <text x="72" y="105" font-size="12" font-weight="700" fill="#16a34a">4.8 Hours</text>
+  </g>
+
+  <!-- BATTERY 2: 75 kWh Mid-Size EV -->
+  <g transform="translate(60, 260)">
+    <text x="0" y="16" font-size="14" font-weight="700" fill="#1e293b">75 kWh Pack (Model 3/Y / Ioniq 5 / EV6)</text>
+    
+    <!-- Level 1 Bar (52h -> 650px) -->
+    <rect x="0" y="28" width="650" height="24" rx="6" fill="#94a3b8"/>
+    <text x="660" y="45" font-size="12" font-weight="700" fill="#dc2626">52.0 Hours (2+ Days!)</text>
+
+    <!-- Level 2 32A (9.5h -> 122px) -->
+    <rect x="0" y="58" width="122" height="24" rx="6" fill="#0284c7"/>
+    <text x="132" y="75" font-size="12" font-weight="700" fill="#0284c7">9.5 Hours (Overnight)</text>
+
+    <!-- Level 2 48A (6.5h -> 84px) -->
+    <rect x="0" y="88" width="84" height="24" rx="6" fill="#16a34a"/>
+    <text x="94" y="105" font-size="12" font-weight="700" fill="#16a34a">6.5 Hours (Fast Home Turnaround)</text>
+  </g>
+
+  <!-- Footnote -->
+  <text x="440" y="415" text-anchor="middle" fill="#94a3b8" font-size="11">Data assumes 88% Level 2 efficiency vs 76% Level 1 efficiency with standard 20°C ambient cell preconditioning.</text>
+</svg>

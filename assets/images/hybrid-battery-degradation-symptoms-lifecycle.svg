@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="auto" style="background:#0F172A; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; border-radius:12px;">
+  <rect width="800" height="450" fill="#0F172A" rx="12"/>
+  <text x="40" y="45" fill="#F8FAFC" font-size="20" font-weight="700">Chronological Symptoms of a Dying Hybrid Battery</text>
+  <text x="40" y="72" fill="#94A3B8" font-size="13">Progression timeline from early subtle efficiency drops to full system failure</text>
+
+  <!-- 4 Stage progression -->
+  <!-- Stage 1 -->
+  <rect x="40" y="110" width="165" height="280" fill="#1E293B" rx="8" stroke="#34D399"/>
+  <text x="122" y="140" fill="#34D399" font-size="14" font-weight="700" text-anchor="middle">STAGE 1</text>
+  <text x="122" y="160" fill="#F8FAFC" font-size="12" font-weight="600" text-anchor="middle">Subtle Drops</text>
+  <line x1="55" y1="175" x2="190" y2="175" stroke="#334155"/>
+  <text x="55" y="200" fill="#CBD5E1" font-size="11">• 4-7 MPG drop</text>
+  <text x="55" y="225" fill="#CBD5E1" font-size="11">• Gas engine starts</text>
+  <text x="55" y="240" fill="#94A3B8" font-size="10">  earlier at red lights</text>
+  <text x="55" y="265" fill="#CBD5E1" font-size="11">• EV mode duration</text>
+  <text x="55" y="280" fill="#94A3B8" font-size="10">  cut in half</text>
+
+  <!-- Stage 2 -->
+  <rect x="225" y="110" width="165" height="280" fill="#1E293B" rx="8" stroke="#38BDF8"/>
+  <text x="307" y="140" fill="#38BDF8" font-size="14" font-weight="700" text-anchor="middle">STAGE 2</text>
+  <text x="307" y="160" fill="#F8FAFC" font-size="12" font-weight="600" text-anchor="middle">Rapid SoC Swings</text>
+  <line x1="240" y1="175" x2="375" y2="175" stroke="#334155"/>
+  <text x="240" y="200" fill="#CBD5E1" font-size="11">• Dash battery meter</text>
+  <text x="240" y="215" fill="#94A3B8" font-size="10">  drops from full to</text>
+  <text x="240" y="230" fill="#94A3B8" font-size="10">  purple in 2 minutes</text>
+  <text x="240" y="255" fill="#CBD5E1" font-size="11">• Fan noise from</text>
+  <text x="240" y="270" fill="#94A3B8" font-size="10">  rear seat intake</text>
+
+  <!-- Stage 3 -->
+  <rect x="410" y="110" width="165" height="280" fill="#1E293B" rx="8" stroke="#F59E0B"/>
+  <text x="492" y="140" fill="#F59E0B" font-size="14" font-weight="700" text-anchor="middle">STAGE 3</text>
+  <text x="492" y="160" fill="#F8FAFC" font-size="12" font-weight="600" text-anchor="middle">High Engine Revving</text>
+  <line x1="425" y1="175" x2="560" y2="175" stroke="#334155"/>
+  <text x="425" y="200" fill="#CBD5E1" font-size="11">• Gas engine runs</text>
+  <text x="425" y="215" fill="#94A3B8" font-size="10">  continuously</text>
+  <text x="425" y="240" fill="#CBD5E1" font-size="11">• Sluggish acceleration</text>
+  <text x="425" y="255" fill="#94A3B8" font-size="10">  and loud high RPM</text>
+  <text x="425" y="280" fill="#CBD5E1" font-size="11">• Battery stays hot</text>
+
+  <!-- Stage 4 -->
+  <rect x="595" y="110" width="165" height="280" fill="#1E293B" rx="8" stroke="#EF4444"/>
+  <text x="677" y="140" fill="#EF4444" font-size="14" font-weight="700" text-anchor="middle">STAGE 4</text>
+  <text x="677" y="160" fill="#F8FAFC" font-size="12" font-weight="600" text-anchor="middle">Dashboard Warning</text>
+  <line x1="610" y1="175" x2="745" y2="175" stroke="#334155"/>
+  <text x="610" y="200" fill="#FCA5A5" font-size="11">• Red Triangle of Death</text>
+  <text x="610" y="225" fill="#FCA5A5" font-size="11">• Codes: P0A80, P0A7F</text>
+  <text x="610" y="250" fill="#FCA5A5" font-size="11">• Check Hybrid System</text>
+  <text x="610" y="275" fill="#FCA5A5" font-size="11">• Vehicle enters Limp Mode</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="auto" style="background:#0F172A; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; border-radius:12px;">
+  <rect width="800" height="450" fill="#0F172A" rx="12"/>
+  <text x="40" y="45" fill="#F8FAFC" font-size="20" font-weight="700">Where Does EV Battery Energy Actually Go at 70 MPH?</text>
+  <text x="40" y="72" fill="#94A3B8" font-size="13">Breakdown of primary road forces and parasitic loads draining electric range</text>
+
+  <!-- Bar 1: Aerodynamic Drag (54%) -->
+  <text x="40" y="125" fill="#F8FAFC" font-size="14" font-weight="600">Aerodynamic Drag (High Speed Air Resistance)</text>
+  <text x="740" y="125" fill="#38BDF8" font-size="15" font-weight="700" text-anchor="end">54% (16.2 kWh / 100 mi)</text>
+  <rect x="40" y="135" width="700" height="24" fill="#1E293B" rx="6"/>
+  <rect x="40" y="135" width="378" height="24" fill="#38BDF8" rx="6"/>
+
+  <!-- Bar 2: Rolling Resistance (26%) -->
+  <text x="40" y="195" fill="#F8FAFC" font-size="14" font-weight="600">Tire Rolling Resistance (Tread &amp; Deflection)</text>
+  <text x="740" y="195" fill="#34D399" font-size="15" font-weight="700" text-anchor="end">26% (7.8 kWh / 100 mi)</text>
+  <rect x="40" y="205" width="700" height="24" fill="#1E293B" rx="6"/>
+  <rect x="40" y="205" width="182" height="24" fill="#34D399" rx="6"/>
+
+  <!-- Bar 3: HVAC & Thermal (14%) -->
+  <text x="40" y="265" fill="#F8FAFC" font-size="14" font-weight="600">HVAC Cabin Climate &amp; Battery Thermal Loop</text>
+  <text x="740" y="265" fill="#FBBF24" font-size="15" font-weight="700" text-anchor="end">14% (4.2 kWh / 100 mi)</text>
+  <rect x="40" y="275" width="700" height="24" fill="#1E293B" rx="6"/>
+  <rect x="40" y="275" width="98" height="24" fill="#FBBF24" rx="6"/>
+
+  <!-- Bar 4: Drivetrain / Inverter Loss (6%) -->
+  <text x="40" y="335" fill="#F8FAFC" font-size="14" font-weight="600">Electric Motor &amp; Inverter Electrical Resistance</text>
+  <text x="740" y="335" fill="#A78BFA" font-size="15" font-weight="700" text-anchor="end">6% (1.8 kWh / 100 mi)</text>
+  <rect x="40" y="345" width="700" height="24" fill="#1E293B" rx="6"/>
+  <rect x="40" y="345" width="42" height="24" fill="#A78BFA" rx="6"/>
+
+  <!-- Bottom tip box -->
+  <rect x="40" y="390" width="720" height="42" fill="#1E293B" rx="8" stroke="#334155"/>
+  <text x="55" y="416" fill="#10B981" font-size="13" font-weight="700">PRO TIP:</text>
+  <text x="120" y="416" fill="#CBD5E1" font-size="13">Dropping speed from 75 mph to 65 mph cuts aero drag by 25%, saving up to 45 miles of range.</text>
+</svg>

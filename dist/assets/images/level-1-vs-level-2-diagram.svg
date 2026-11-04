@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="auto" style="background:#ffffff;border-radius:16px;border:1px solid #e2e8f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <linearGradient id="l1grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="l2grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Title & Subtitle -->
+  <text x="450" y="42" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="700">Level 1 vs Level 2 EV Charging Architecture &amp; Power Flow</text>
+  <text x="450" y="68" text-anchor="middle" fill="#64748b" font-size="13">Voltage, continuous amperage rating, delivery rate, and thermodynamic efficiency compared</text>
+
+  <!-- LEVEL 1 COLUMN -->
+  <g transform="translate(40, 95)">
+    <rect width="390" height="350" rx="14" fill="url(#l1grad)" stroke="#cbd5e1" stroke-width="1.5" filter="url(#cardShadow)"/>
+    
+    <!-- Header Banner -->
+    <rect width="390" height="52" rx="14" fill="#64748b"/>
+    <rect y="38" width="390" height="14" fill="#64748b"/>
+    <text x="195" y="33" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">LEVEL 1 (120V AC Standard)</text>
+
+    <!-- Voltage & Outlet -->
+    <g transform="translate(24, 75)">
+      <circle cx="16" cy="16" r="16" fill="#e2e8f0"/>
+      <text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">120V</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#1e293b">Standard Wall Plug</text>
+      <text x="46" y="30" font-size="12" fill="#64748b">NEMA 5-15 (15A Circuit, 12A Continuous)</text>
+    </g>
+
+    <!-- Power Output -->
+    <g transform="translate(24, 135)">
+      <circle cx="16" cy="16" r="16" fill="#fee2e2"/>
+      <text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#dc2626">kW</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#1e293b">1.4 kW Power Delivery</text>
+      <text x="46" y="30" font-size="12" fill="#64748b">Trickle charging rate (12A x 120V = 1,440W)</text>
+    </g>
+
+    <!-- Speed -->
+    <g transform="translate(24, 195)">
+      <circle cx="16" cy="16" r="16" fill="#fef3c7"/>
+      <text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#d97706">MPH</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#1e293b">3 to 5 Miles of Range / Hour</text>
+      <text x="46" y="30" font-size="12" fill="#64748b">~40–55 hours for full 75 kWh battery</text>
+    </g>
+
+    <!-- Efficiency & Loss -->
+    <g transform="translate(24, 255)">
+      <circle cx="16" cy="16" r="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <text x="16" y="21" text-anchor="middle" font-size="11" font-weight="700" fill="#475569">76%</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#1e293b">74% – 80% Efficiency</text>
+      <text x="46" y="30" font-size="12" fill="#dc2626">20–25% wasted on vehicle computer runtime</text>
+    </g>
+  </g>
+
+  <!-- LEVEL 2 COLUMN -->
+  <g transform="translate(470, 95)">
+    <rect width="390" height="350" rx="14" fill="url(#l2grad)" stroke="#0077cc" stroke-width="2" filter="url(#cardShadow)"/>
+    
+    <!-- Header Banner -->
+    <rect width="390" height="52" rx="14" fill="#0077cc"/>
+    <rect y="38" width="390" height="14" fill="#0077cc"/>
+    <text x="195" y="33" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">LEVEL 2 (240V AC Dedicated)</text>
+
+    <!-- Voltage & Outlet -->
+    <g transform="translate(24, 75)">
+      <circle cx="16" cy="16" r="16" fill="#bae6fd"/>
+      <text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#0284c7">240V</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#0f172a">Dedicated 240V Heavy Circuit</text>
+      <text x="46" y="30" font-size="12" fill="#0369a1">NEMA 14-50 (40A/50A) or Hardwired (60A)</text>
+    </g>
+
+    <!-- Power Output -->
+    <g transform="translate(24, 135)">
+      <circle cx="16" cy="16" r="16" fill="#dcfce7"/>
+      <text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#16a34a">kW</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#0f172a">7.2 kW – 11.5 kW High Delivery</text>
+      <text x="46" y="30" font-size="12" fill="#15803d">5x to 8x faster energy flow into battery</text>
+    </g>
+
+    <!-- Speed -->
+    <g transform="translate(24, 195)">
+      <circle cx="16" cy="16" r="16" fill="#dbeafe"/>
+      <text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#2563eb">MPH</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#0f172a">25 to 44 Miles of Range / Hour</text>
+      <text x="46" y="30" font-size="12" fill="#1d4ed8">6 to 9 hours for complete overnight 0-100%</text>
+    </g>
+
+    <!-- Efficiency & Loss -->
+    <g transform="translate(24, 255)">
+      <circle cx="16" cy="16" r="16" fill="#dcfce7" stroke="#86efac"/>
+      <text x="16" y="21" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">89%</text>
+      <text x="46" y="14" font-size="13" font-weight="700" fill="#0f172a">87% – 92% Efficiency</text>
+      <text x="46" y="30" font-size="12" fill="#16a34a">Saves ~$120–$180 annually in wasted electricity</text>
+    </g>
+  </g>
+</svg>
