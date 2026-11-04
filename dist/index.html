@@ -27,11 +27,59 @@
 </div></header>
 
 <main id="main" class="wrap">
-  <!-- Custom Hero Section -->
-  <section class="custom-hero">
-    <div class="custom-badge">🌱 Evidence-Based Green Driving</div>
-    <h1>Drive Farther. Charge Smarter. Burn Less.</h1>
-    <p>Master eco-friendly driving, EV charging optimization, hybrid powertrain management, and fuel-saving techniques with engineering-backed guides.</p>
+  <!-- Hero Featured Slider with 3 WebP Images -->
+  <section class="hero-slider" aria-label="Featured Efficiency Highlights">
+    <div class="slider-track">
+      <!-- Slide 1: EV Charging & Range -->
+      <div class="slide active">
+        <img src="/assets/images/slide-1-ev-charging.webp" alt="Electric vehicle charging at modern rapid station" class="slide-img" fetchpriority="high">
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <span class="slide-badge">⚡ EV Charging & Range</span>
+            <h2 class="slide-title">Why Does EV Range Drop in Winter? The Cold Penalty Solved</h2>
+            <p class="slide-desc">Explore the exact electrochemistry behind cold-weather lithium-ion resistance, cabin heat pumps vs resistive heaters, and battery preconditioning.</p>
+            <a href="/why-does-ev-range-drop-in-winter/" class="slide-btn">Read EV Range Guide &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: Hypermiling & Aerodynamics -->
+      <div class="slide">
+        <img src="/assets/images/slide-2-aerodynamic-hypermiling.webp" alt="Aerodynamic hybrid vehicle cruising along coastal highway" class="slide-img" loading="lazy">
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <span class="slide-badge">🌱 Hypermiling & Aerodynamics</span>
+            <h2 class="slide-title">Does AC Use More Gas Than Windows Down? The 45 MPH Rule</h2>
+            <p class="slide-desc">SAE wind tunnel testing proves exactly when aerodynamic drag overtakes AC compressor load. Master your highway hypermiling strategy.</p>
+            <a href="/does-ac-use-more-gas-than-windows-down/" class="slide-btn">Read Aerodynamics Guide &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Hybrid Powertrain Energy Recovery -->
+      <div class="slide">
+        <img src="/assets/images/slide-3-hybrid-telemetry.webp" alt="Driver cockpit view showing hybrid regenerative telemetry" class="slide-img" loading="lazy">
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <span class="slide-badge">🔋 Hybrid Powertrains</span>
+            <h2 class="slide-title">How Does Hybrid Regenerative Braking Work? Recapturing 70% Energy</h2>
+            <p class="slide-desc">Understand how permanent magnet motor-generators reverse torque into battery charge, brake-by-wire hydraulic blending, and real MPG gains.</p>
+            <a href="/how-does-hybrid-regenerative-braking-work/" class="slide-btn">Read Powertrain Guide &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="slider-arrow prev" aria-label="Previous slide" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="slider-arrow next" aria-label="Next slide" onclick="moveSlide(1)">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="slider-dots">
+      <button class="dot active" onclick="setSlide(0)" aria-label="Go to Slide 1"></button>
+      <button class="dot" onclick="setSlide(1)" aria-label="Go to Slide 2"></button>
+      <button class="dot" onclick="setSlide(2)" aria-label="Go to Slide 3"></button>
+    </div>
   </section>
 
   <!-- Custom Core Categories Grid -->
@@ -132,6 +180,54 @@
     </div>
   </div>
 </main>
+
+<script>
+(function() {
+  let current = 0;
+  const slides = document.querySelectorAll('.hero-slider .slide');
+  const dots = document.querySelectorAll('.hero-slider .dot');
+  const total = slides.length;
+  let timer = null;
+
+  function showSlide(index) {
+    slides.forEach((s, i) => {
+      s.classList.toggle('active', i === index);
+      if (dots[i]) dots[i].classList.toggle('active', i === index);
+    });
+    current = index;
+  }
+
+  window.moveSlide = function(step) {
+    let next = (current + step + total) % total;
+    showSlide(next);
+    resetTimer();
+  };
+
+  window.setSlide = function(index) {
+    showSlide(index);
+    resetTimer();
+  };
+
+  function startTimer() {
+    timer = setInterval(() => {
+      showSlide((current + 1) % total);
+    }, 5000);
+  }
+
+  function resetTimer() {
+    clearInterval(timer);
+    startTimer();
+  }
+
+  const sliderEl = document.querySelector('.hero-slider');
+  if (sliderEl) {
+    sliderEl.addEventListener('mouseenter', () => clearInterval(timer));
+    sliderEl.addEventListener('mouseleave', () => startTimer());
+  }
+
+  startTimer();
+})();
+</script>
 
 <footer class="site-footer"><div class="wrap">
 <div class="brand">Get Eco Driver</div>
