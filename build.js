@@ -392,6 +392,53 @@ ${renderFooter()}
   fs.writeFileSync(path.join(catDir, 'index.html'), html);
 });
 
+// 2.5. Generate Static Institutional Pages (About, Contact, Privacy, Terms)
+const pagesDir = path.join(ROOT, 'src', 'content', 'pages');
+if (fs.existsSync(pagesDir)) {
+  const pageFiles = fs.readdirSync(pagesDir).filter(f => f.endsWith('.json'));
+  pageFiles.forEach(f => {
+    const pageData = JSON.parse(fs.readFileSync(path.join(pagesDir, f), 'utf8'));
+    const pageUrl = `/${pageData.slug}/`;
+    allUrls.push({ url: pageUrl, lastmod: new Date().toISOString().split('T')[0] });
+
+    const html = `<!doctype html>
+<html lang="${SITE.language}">
+<head>
+${renderHead({
+  title: pageData.title,
+  description: pageData.description,
+  path: pageUrl
+})}
+</head>
+<body>
+${renderHeader(pageUrl)}
+
+<main class="main-wrapper">
+  <div class="article-container">
+    <nav class="breadcrumbs">
+      <a href="/">Home</a>
+      <span class="sep">&rsaquo;</span>
+      <span>${pageData.title}</span>
+    </nav>
+
+    <h1>${pageData.title}</h1>
+    
+    <div class="article-body" style="margin-top:2rem;">
+      ${pageData.contentHtml}
+    </div>
+  </div>
+</main>
+
+${renderFooter()}
+</body>
+</html>`;
+
+    const targetDir = path.join(DIST, pageData.slug);
+    ensureDir(targetDir);
+    fs.writeFileSync(path.join(targetDir, 'index.html'), html);
+  });
+}
+
 // 3. Generate Homepage
 allUrls.unshift({ url: '/', lastmod: new Date().toISOString().split('T')[0] });
 
