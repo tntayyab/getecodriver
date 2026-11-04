@@ -49,7 +49,7 @@
         <nav class="toc-side" aria-label="On this page">
           <p class="toc-title">On this page</p>
           <ol>
-            <li><a href="#the-physics-of-highway-drag-why-55-mph-dominates-efficiency">The Physics of Highway Drag: Why 55 MPH Dominates Efficiency</a></li><li><a href="#vehicle-class-variations-sedans-vs-boxy-crossovers-and-trucks">Vehicle Class Variations: Sedans vs Boxy Crossovers and Trucks</a></li><li><a href="#the-practical-highway-speed-strategy-balancing-time-and-fuel">The Practical Highway Speed Strategy: Balancing Time and Fuel</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+            <li><a href="#the-physics-of-highway-drag-why-55-mph-dominates-efficiency">The Physics of Highway Drag: Why 55 MPH Dominates Efficiency</a></li><li><a href="#vehicle-class-variations-sedans-vs-boxy-crossovers-and-trucks">Vehicle Class Variations: Sedans vs Boxy Crossovers and Trucks</a></li><li><a href="#the-practical-highway-speed-strategy-balancing-time-and-fuel">The Practical Highway Speed Strategy: Balancing Time and Fuel</a></li><li><a href="#empirical-dynamometer-testing-gallons-burned-vs-minutes-saved">Empirical Dynamometer Testing: Gallons Burned vs Minutes Saved</a></li><li><a href="#authoritative-data-physics-references">Authoritative Data & Physics References</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
           </ol>
         </nav>
         <aside class="toc-earn" aria-label="Earning information">
@@ -82,9 +82,9 @@
 
           <!-- Mobile Inline Accordion TOC -->
           <details class="toc toc-inline">
-            <summary>On this page <span class="count">(4 sections)</span></summary>
+            <summary>On this page <span class="count">(6 sections)</span></summary>
             <ol>
-              <li><a href="#the-physics-of-highway-drag-why-55-mph-dominates-efficiency">The Physics of Highway Drag: Why 55 MPH Dominates Efficiency</a></li><li><a href="#vehicle-class-variations-sedans-vs-boxy-crossovers-and-trucks">Vehicle Class Variations: Sedans vs Boxy Crossovers and Trucks</a></li><li><a href="#the-practical-highway-speed-strategy-balancing-time-and-fuel">The Practical Highway Speed Strategy: Balancing Time and Fuel</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+              <li><a href="#the-physics-of-highway-drag-why-55-mph-dominates-efficiency">The Physics of Highway Drag: Why 55 MPH Dominates Efficiency</a></li><li><a href="#vehicle-class-variations-sedans-vs-boxy-crossovers-and-trucks">Vehicle Class Variations: Sedans vs Boxy Crossovers and Trucks</a></li><li><a href="#the-practical-highway-speed-strategy-balancing-time-and-fuel">The Practical Highway Speed Strategy: Balancing Time and Fuel</a></li><li><a href="#empirical-dynamometer-testing-gallons-burned-vs-minutes-saved">Empirical Dynamometer Testing: Gallons Burned vs Minutes Saved</a></li><li><a href="#authoritative-data-physics-references">Authoritative Data & Physics References</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
             </ol>
           </details>
 
@@ -102,10 +102,10 @@
 <p>Aerodynamic drag force is defined by the classical fluid mechanics equation:</p>
 <p>$$F_d = \frac{1}{2} \rho v^2 C_d A$$</p>
 <p>Where $\rho$ is air density, $v$ is velocity, $C_d$ is the vehicle drag coefficient, and $A$ is frontal surface area. Crucially, the engine power required to overcome this aerodynamic drag scales with the <strong>cube of velocity ($v^3$)</strong>. Consequently, increasing road speed from 50 mph to 75 mph increases required aerodynamic engine power by over <strong>237%</strong>.</p>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/fuel-efficient-speed-aerodynamic-drag-curve.svg" alt="Line graph displaying aerodynamic drag force scaling with the square of velocity and horsepower demand beyond 55 mph" width="800" height="450" loading="lazy">
-  <p class="media-caption">Diagram 1: Exponential aerodynamic horsepower requirement curve. Engine power demanded solely to overcome air resistance climbs from 12 HP at 55 mph to 42 HP at 80 mph.</p>
-</div>
+  <figcaption class="media-caption">Diagram 1: Exponential aerodynamic horsepower requirement curve. Engine power demanded solely to overcome air resistance climbs from 12 HP at 55 mph to 42 HP at 80 mph. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
 <div class="data-table-wrap">
   <table class="data-table">
     <thead>
@@ -163,23 +163,21 @@
     </tbody>
   </table>
 </div>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/most-fuel-efficient-highway-speed-dash.webp" alt="Dashboard instrument cluster display showing cruising speed at 58 mph and instant fuel economy readout" width="800" height="450" loading="lazy">
-  <p class="media-caption">Figure 1: Real-time highway efficiency monitor recording peak 42.4 MPG fuel economy at steady 55-60 MPH cruising speed.</p>
-</div>
+  <figcaption class="media-caption">Figure 1: Real-time highway efficiency monitor recording peak 42.4 MPG fuel economy at steady 55-60 MPH cruising speed. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
 <h2 id="vehicle-class-variations-sedans-vs-boxy-crossovers-and-trucks">Vehicle Class Variations: Sedans vs Boxy Crossovers and Trucks</h2>
 <p>The penalty for high-speed driving depends heavily on a vehicle's frontal area ($A$) and aerodynamic profile ($C_d$). While a sleek sedan like a Toyota Prius or Tesla Model 3 boasts a $C_d$ of 0.23 to 0.25 with a compact frontal area of 2.1 m², a full-size pickup truck or large SUV presents a blunt $C_d$ of 0.38 to 0.44 and a massive frontal area of 3.2 m².</p>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/fuel-efficient-speed-mpg-by-vehicle.svg" alt="Bar chart comparing miles per gallon drop across sedans, crossovers, and pickup trucks at 55, 65, and 75 mph" width="800" height="450" loading="lazy">
-  <p class="media-caption">Diagram 2: Fuel economy across vehicle segments. High-frontal-area trucks and SUVs suffer the steepest proportional MPG penalties at interstate speeds.</p>
-</div>
-<div class="article-media-wrap">
+  <figcaption class="media-caption">Diagram 2: Fuel economy across vehicle segments. High-frontal-area trucks and SUVs suffer the steepest proportional MPG penalties at interstate speeds. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
+<figure class="article-media-wrap">
   <img src="/assets/images/most-fuel-efficient-highway-speed-aero.webp" alt="Aerodynamic profile illustration of a modern hybrid vehicle showing wind resistance streamlines" width="800" height="450" loading="lazy">
-  <p class="media-caption">Figure 2: Fluid dynamics analysis of highway airflow. Streamlined profiles delay wake boundary layer separation, reducing high-speed turbulence.</p>
-</div>
-<div class="video-wrapper">
-  <iframe src="https://www.youtube-nocookie.com/embed/Q2cK8eZf6m0" title="Engineering Explained: Does Driving Slower Save Gas?" loading="lazy" allowfullscreen></iframe>
-</div>
+  <figcaption class="media-caption">Figure 2: Fluid dynamics analysis of highway airflow. Streamlined profiles delay wake boundary layer separation, reducing high-speed turbulence. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
+<div class="video-wrapper"><iframe src="https://www.youtube-nocookie.com/embed/zrItBnao0no" title="What's the best highway speed for fuel economy? Results of my test" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h2 id="the-practical-highway-speed-strategy-balancing-time-and-fuel">The Practical Highway Speed Strategy: Balancing Time and Fuel</h2>
 <p>While driving 55 mph yields maximum fuel economy, highway safety, minimum speed limits, and traffic flow often make 55 mph impractical on 70 mph interstates. Apply this calibrated driving rule to optimize fuel efficiency without obstructing highway traffic:</p>
 <ul>
@@ -187,6 +185,48 @@
   <li><strong>Avoid 75+ MPH Passing Sprints:</strong> Cruising at 78 mph burns nearly 30% more fuel than 65 mph. Over a typical 300-mile highway tank, driving 78 mph consumes an extra 3.2 gallons of fuel ($12+ added cost) while saving only 24 minutes of travel time.</li>
   <li><strong>Leverage Overdrive Lockup:</strong> Modern 8-speed, 10-speed, and CVT transmissions engage full mechanical torque converter lockup around 48-52 mph. Ensure your engine operates between 1,400 and 1,800 RPM in top gear.</li>
 </ul>
+<h2 id="empirical-dynamometer-testing-gallons-burned-vs-minutes-saved">Empirical Dynamometer Testing: Gallons Burned vs Minutes Saved</h2>
+<p>To illustrate the economic and temporal trade-offs of highway cruising speeds, consider a standardized 500-mile interstate trip in a typical midsize vehicle (averaging 36 MPG at 55 MPH, 30 MPG at 65 MPH, and 24 MPG at 75 MPH) with gasoline priced at $3.60 per gallon:</p>
+<div class="data-table-wrap">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Cruising Speed</th>
+        <th>Trip Travel Time</th>
+        <th>Fuel Consumed</th>
+        <th>Total Fuel Cost</th>
+        <th>Net Savings vs 75 MPH</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>55 MPH Cruise</strong></td>
+        <td>9 hrs 5 mins</td>
+        <td>13.88 Gallons</td>
+        <td>$49.97</td>
+        <td><strong>+$25.03 Saved (33.3% Cheaper)</strong></td>
+      </tr>
+      <tr>
+        <td><strong>65 MPH Cruise</strong></td>
+        <td>7 hrs 41 mins</td>
+        <td>16.66 Gallons</td>
+        <td>$59.98</td>
+        <td><strong>+$15.02 Saved (20.0% Cheaper)</strong></td>
+      </tr>
+      <tr>
+        <td><strong>75 MPH Cruise</strong></td>
+        <td>6 hrs 40 mins</td>
+        <td>20.83 Gallons</td>
+        <td>$75.00</td>
+        <td>$0.00 (Baseline Expensive)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>Notice the real-world trade-off: driving 65 MPH instead of 75 MPH costs only 61 minutes of travel time over 500 miles, but saves $15.02 in fuel per trip. If you cover 20,000 highway miles per year, that 10 MPH speed adjustment puts over <strong>$600 back in your bank account</strong> annually.</p>
+<p>For drivers interested in combining speed management with advanced throttle feathering, examine our guide to <a href="/pulse-and-glide-driving/">Pulse and Glide Driving</a>, and discover whether automated throttle helps or hurts efficiency in <a href="/does-cruise-control-waste-gas/">Does Cruise Control Waste Gas?</a>.</p>
+<h2 id="authoritative-data-physics-references">Authoritative Data & Physics References</h2>
+<p>Vehicle fuel consumption testing by the <a href="https://www.fueleconomy.gov/feg/driveHabits.jsp" rel="noopener noreferrer" target="_blank">US Department of Energy and EPA</a> confirms that each 5 mph driven over 60 mph is equivalent to paying an additional $0.30 per gallon of gasoline. Furthermore, aerodynamic wind-tunnel data published by <a href="https://www.sae.org/" rel="noopener noreferrer" target="_blank">SAE International</a> proves that vehicle drag coefficient ($C_d$) multiplied by frontal area ($A$) forms an unbreakable physical limit to high-speed internal combustion efficiency.</p>
 
           <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 

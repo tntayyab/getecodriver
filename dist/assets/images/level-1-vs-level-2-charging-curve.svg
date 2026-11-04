@@ -57,4 +57,12 @@
 
   <!-- Footnote -->
   <text x="440" y="415" text-anchor="middle" fill="#94a3b8" font-size="11">Data assumes 88% Level 2 efficiency vs 76% Level 1 efficiency with standard 20°C ambient cell preconditioning.</text>
+  <!-- Get Eco Driver Official Vector Watermark -->
+  <g transform="translate(610, 20)">
+    <rect width="150" height="32" rx="6" fill="#1E293B" stroke="#10B981" stroke-width="1.5"/>
+    <circle cx="20" cy="16" r="6" fill="#10B981"/>
+    <text x="18" y="20" fill="#0F172A" font-size="10" font-weight="900" text-anchor="middle">⚡</text>
+    <text x="35" y="21" fill="#F8FAFC" font-size="11" font-weight="800" letter-spacing="0.5">GET ECO DRIVER</text>
+  </g>
+
 </svg>

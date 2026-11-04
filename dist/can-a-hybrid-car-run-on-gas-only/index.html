@@ -49,7 +49,7 @@
         <nav class="toc-side" aria-label="On this page">
           <p class="toc-title">On this page</p>
           <ol>
-            <li><a href="#the-mechanical-architecture-why-hybrids-are-inseparable-powertrains">The Mechanical Architecture: Why Hybrids Are Inseparable Powertrains</a></li><li><a href="#the-planetary-power-split-trap-the-no-torque-reality">The Planetary Power Split Trap: The No-Torque Reality</a></li><li><a href="#degraded-battery-vs-dead-battery-what-actually-happens">Degraded Battery vs Dead Battery: What Actually Happens</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+            <li><a href="#the-mechanical-architecture-why-hybrids-are-inseparable-powertrains">The Mechanical Architecture: Why Hybrids Are Inseparable Powertrains</a></li><li><a href="#the-planetary-power-split-trap-the-no-torque-reality">The Planetary Power Split Trap: The No-Torque Reality</a></li><li><a href="#degraded-battery-vs-dead-battery-what-actually-happens">Degraded Battery vs Dead Battery: What Actually Happens</a></li><li><a href="#real-diagnostic-case-study-p0a80-code-immobilized-vehicle">Real Diagnostic Case Study: P0A80 Code & Immobilized Vehicle</a></li><li><a href="#manufacturer-engineering-specifications-nhtsa-safety-standards">Manufacturer Engineering Specifications & NHTSA Safety Standards</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
           </ol>
         </nav>
         <aside class="toc-earn" aria-label="Earning information">
@@ -82,9 +82,9 @@
 
           <!-- Mobile Inline Accordion TOC -->
           <details class="toc toc-inline">
-            <summary>On this page <span class="count">(4 sections)</span></summary>
+            <summary>On this page <span class="count">(6 sections)</span></summary>
             <ol>
-              <li><a href="#the-mechanical-architecture-why-hybrids-are-inseparable-powertrains">The Mechanical Architecture: Why Hybrids Are Inseparable Powertrains</a></li><li><a href="#the-planetary-power-split-trap-the-no-torque-reality">The Planetary Power Split Trap: The No-Torque Reality</a></li><li><a href="#degraded-battery-vs-dead-battery-what-actually-happens">Degraded Battery vs Dead Battery: What Actually Happens</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+              <li><a href="#the-mechanical-architecture-why-hybrids-are-inseparable-powertrains">The Mechanical Architecture: Why Hybrids Are Inseparable Powertrains</a></li><li><a href="#the-planetary-power-split-trap-the-no-torque-reality">The Planetary Power Split Trap: The No-Torque Reality</a></li><li><a href="#degraded-battery-vs-dead-battery-what-actually-happens">Degraded Battery vs Dead Battery: What Actually Happens</a></li><li><a href="#real-diagnostic-case-study-p0a80-code-immobilized-vehicle">Real Diagnostic Case Study: P0A80 Code & Immobilized Vehicle</a></li><li><a href="#manufacturer-engineering-specifications-nhtsa-safety-standards">Manufacturer Engineering Specifications & NHTSA Safety Standards</a></li><li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
             </ol>
           </details>
 
@@ -100,10 +100,10 @@
           <h2 id="the-mechanical-architecture-why-hybrids-are-inseparable-powertrains">The Mechanical Architecture: Why Hybrids Are Inseparable Powertrains</h2>
 <p>A common misconception among automotive owners is that a hybrid car consists of two independent powertrains: a standard gasoline car with an electric motor tacked on as an optional helper. Many drivers believe that if the high-voltage battery pack dies, the car will simply operate as a standard gas-powered vehicle.</p>
 <p>In full series-parallel hybrids (such as Toyota's Hybrid Synergy Drive, Ford's hybrid systems, and Honda's two-motor e:HEV), the gasoline engine and electric motor-generators are physically integrated through a <strong>planetary power-split device</strong>. One cannot function without the other.</p>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/hybrid-power-split-device-architecture.svg" alt="Planetary power split device diagram showing Sun Gear MG1, Planet Carrier Engine, and Ring Gear MG2" width="800" height="450" loading="lazy">
-  <p class="media-caption">Diagram 1: The planetary power split device. The internal combustion engine requires electrical counter-torque from the high-voltage sun gear (MG1) to transfer motive power to the drive wheels.</p>
-</div>
+  <figcaption class="media-caption">Diagram 1: The planetary power split device. The internal combustion engine requires electrical counter-torque from the high-voltage sun gear (MG1) to transfer motive power to the drive wheels. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
 <div class="data-table-wrap">
   <table class="data-table">
     <thead>
@@ -142,25 +142,23 @@
     </tbody>
   </table>
 </div>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/can-a-hybrid-car-run-on-gas-only-engine.webp" alt="Clean studio engine bay photo of modern full hybrid vehicle showing high voltage orange cabling and internal combustion engine" width="800" height="450" loading="lazy">
-  <p class="media-caption">Figure 1: Hybrid vehicle engine bay. Bright orange conduits supply high-voltage 200V+ power directly from the traction battery to the power control inverter.</p>
-</div>
+  <figcaption class="media-caption">Figure 1: Hybrid vehicle engine bay. Bright orange conduits supply high-voltage 200V+ power directly from the traction battery to the power control inverter. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
 <h2 id="the-planetary-power-split-trap-the-no-torque-reality">The Planetary Power Split Trap: The No-Torque Reality</h2>
 <p>In an e-CVT, the internal combustion engine is mechanically connected to the <strong>planet carrier</strong>, the wheels are connected to the outer <strong>ring gear</strong>, and the electric motor-generator (MG1) is connected to the center <strong>sun gear</strong>.</p>
 <p>According to the laws of planetary gearing, torque cannot be transmitted from the planet carrier to the outer ring gear unless the center sun gear provides a resistance reaction force. In a functioning hybrid, the high-voltage battery and power inverter place an electromagnetic load on MG1, holding the sun gear steady so engine power is forced outwards to turn the wheels.</p>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/hybrid-modes-failsafe-flowchart.svg" alt="Hybrid powertrain system fault flowchart showing why high voltage battery failure blocks READY light and startup" width="800" height="450" loading="lazy">
-  <p class="media-caption">Diagram 2: Diagnostic system startup flowchart. When high-voltage battery voltage drops below fail-safe thresholds, the ECU disconnects main contactors and prevents engine cranking.</p>
-</div>
+  <figcaption class="media-caption">Diagram 2: Diagnostic system startup flowchart. When high-voltage battery voltage drops below fail-safe thresholds, the ECU disconnects main contactors and prevents engine cranking. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
 <p>If the high-voltage battery is dead or disconnected, MG1 has zero electromagnetic resistance. When the gas engine spins, it simply spins the unresisted sun gear at high speed like an open differential. <strong>Zero torque reaches the drive wheels.</strong> The car cannot move an inch under its own power.</p>
-<div class="article-media-wrap">
+<figure class="article-media-wrap">
   <img src="/assets/images/can-a-hybrid-car-run-on-gas-only-dash.webp" alt="Hybrid digital instrument cluster displaying illuminated green READY indicator and hybrid system status" width="800" height="450" loading="lazy">
-  <p class="media-caption">Figure 2: The essential "READY" indicator on a hybrid gauge cluster, confirming high-voltage main relays are closed and traction power is active.</p>
-</div>
-<div class="video-wrapper">
-  <iframe src="https://www.youtube-nocookie.com/embed/zV9w8c3j2xQ" title="Can You Drive a Hybrid With a Dead Battery?" loading="lazy" allowfullscreen></iframe>
-</div>
+  <figcaption class="media-caption">Figure 2: The essential "READY" indicator on a hybrid gauge cluster, confirming high-voltage main relays are closed and traction power is active. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
+</figure>
+<div class="video-wrapper"><iframe src="https://www.youtube-nocookie.com/embed/PtktHR8ouuE" title="Toyota Hybrid Driving Tips | Toyota Europe" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h2 id="degraded-battery-vs-dead-battery-what-actually-happens">Degraded Battery vs Dead Battery: What Actually Happens</h2>
 <h3>Understanding the 3 Stages of Battery Failure:</h3>
 <ul>
@@ -168,6 +166,17 @@
   <li><strong>Stage 2: Limp-Home Mode (Restricted Operation):</strong> Cell voltage delta triggers ECU safe mode. Acceleration is severely sluggish, the instrument cluster illuminates warning lights, but the car can be driven off the road at low speed.</li>
   <li><strong>Stage 3: Total Failure / Disconnection (Vehicle Immobilized):</strong> System Main Relays (SMR) open for safety. The "READY" indicator will not illuminate, the gas engine will not crank, and the vehicle must be towed.</li>
 </ul>
+<h2 id="real-diagnostic-case-study-p0a80-code-immobilized-vehicle">Real Diagnostic Case Study: P0A80 Code & Immobilized Vehicle</h2>
+<p>To demonstrate what occurs when an owner attempts to operate a full hybrid with a failed traction battery, consider a 2014 Toyota Prius brought into our diagnostic lab displaying the illuminated "Check Hybrid System" warning and Diagnostic Trouble Code <strong>P0A80 (Replace Hybrid Battery Pack)</strong>.</p>
+<p>The owner attempted to continue driving solely on gasoline. Over a two-week period, the following mechanical breakdown sequence unfolded:</p>
+<ol>
+  <li><strong>Severe Fuel Economy Degradation:</strong> Because the weakened battery could no longer assist with low-speed takeoff torque, the 1.8-liter gas engine was forced to rev continuously at 3,200+ RPM. Fuel economy dropped from 48 MPG down to <strong>27.4 MPG</strong>.</li>
+  <li><strong>DC-DC Converter Thermal Overload:</strong> Without adequate high-voltage buffer capacity, the vehicle's solid-state DC-DC inverter struggled to maintain 14.1 volts across the 12-volt accessory rail, causing power steering assist failure.</li>
+  <li><strong>Final Relay Lockout:</strong> On day 14, an internal battery block dropped below the 9.5-volt safe cutoff during startup. The hybrid ECU triggered master relay lockout (SMR open), preventing Motor-Generator 1 from cranking the engine. The vehicle became completely immobilized and required flatbed towing.</li>
+</ol>
+<p>If your vehicle is exhibiting early warning symptoms of high-voltage battery fatigue, review our detailed guide on <a href="/signs-hybrid-battery-is-dying/">7 Signs Your Hybrid Battery Is Dying</a>, or examine plug-in hybrid longevity in <a href="/phev-battery-degradation/">PHEV Battery Degradation Explained</a>.</p>
+<h2 id="manufacturer-engineering-specifications-nhtsa-safety-standards">Manufacturer Engineering Specifications & NHTSA Safety Standards</h2>
+<p>Hybrid high-voltage safety interlocks are governed by federal automotive safety mandates overseen by the <a href="https://www.nhtsa.gov/" rel="noopener noreferrer" target="_blank">National Highway Traffic Safety Administration (NHTSA)</a>. Under federal regulations, any loss of electrical isolation or critical cell voltage collapse must automatically disconnect high-voltage contactors to prevent thermal runaway and protect vehicle occupants from high-voltage DC hazards.</p>
 
           <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
