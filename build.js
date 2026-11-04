@@ -150,7 +150,7 @@ ${schemaBlocks}`;
 // -------------------------------------------------------------
 
 function renderHeader(currentPath = '/') {
-  const navItems = SITE.navigation.filter(n => n.url !== '/').map(n => {
+  const navItems = SITE.navigation.map(n => {
     const isCurrent = currentPath === n.url ? ' aria-current="page"' : '';
     return `<a href="${n.url}"${isCurrent}>${n.name}</a>`;
   }).join('');

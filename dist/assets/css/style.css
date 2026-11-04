@@ -53,16 +53,16 @@ strong{font-weight:700}
 
 /* Header and nav: no JavaScript. Desktop: a row of links. Phones: a compact bar with a Menu button (native <details>). */
 .site-header{background:var(--surface);border-bottom:1px solid var(--line);position:relative}
-.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px 24px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
-.logo{display:inline-flex;align-items:center;gap:10px;min-height:48px;text-decoration:none;color:var(--ink);font:700 1.5rem/1 var(--font-head)}
-.logo svg{width:32px;height:32px;flex:none}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px;flex-wrap:nowrap;max-width:1260px}
+.logo{display:inline-flex;align-items:center;gap:10px;min-height:42px;text-decoration:none;color:var(--ink);font:700 1.35rem/1 var(--font-head);white-space:nowrap;flex-shrink:0}
+.logo svg{width:30px;height:30px;flex:none}
 .logo .glow{fill:var(--accent)}
 .logo .frame{fill:none;stroke:var(--primary);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
-.nav{display:flex;flex-wrap:wrap;gap:4px 6px}
-.nav a{display:inline-flex;align-items:center;min-height:48px;padding:0 12px;color:var(--ink);text-decoration:none;font-weight:600;font-size:1.0625rem;white-space:nowrap;border-radius:var(--btn-radius)}
+.nav{display:flex;flex-wrap:nowrap;align-items:center;gap:4px}
+.nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 10px;color:var(--ink);text-decoration:none;font-weight:600;font-size:0.95rem;white-space:nowrap;border-radius:var(--btn-radius);transition:background 0.15s ease,color 0.15s ease}
 .nav a:hover,.nav a[aria-current="page"]{background:var(--accent-soft);color:var(--primary)}
 .menu{display:none}
-@media (max-width:767px){
+@media (max-width:1024px){
   .site-header .wrap{flex-wrap:nowrap;padding-top:6px;padding-bottom:6px}
   .logo{font-size:1.375rem;gap:8px}
   .logo svg{width:28px;height:28px}

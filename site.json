@@ -27,8 +27,7 @@
     { "name": "EV Charging & Range", "url": "/ev-charging-and-range/" },
     { "name": "Fuel Economy & Hypermiling", "url": "/fuel-economy-and-hypermiling/" },
     { "name": "Hybrid Powertrains", "url": "/hybrid-powertrains/" },
-    { "name": "Eco Maintenance & Gear", "url": "/eco-maintenance-and-gear/" },
-    { "name": "About", "url": "/about-us/" }
+    { "name": "Eco Maintenance & Gear", "url": "/eco-maintenance-and-gear/" }
   ],
   "categories": [
     {
