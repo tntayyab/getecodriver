@@ -164,7 +164,7 @@ function renderHeader(currentPath = '/') {
   }).join('');
 
   return `<header class="site-header"><div class="wrap">
-<a class="logo" href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-logo-img" width="220" height="42"></picture></a>
+<a class="logo" href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-logo-img" width="260" height="52"></picture></a>
 <nav class="nav" aria-label="Main">${navItems}</nav>
 <details class="menu"><summary aria-label="Menu"><span class="bars" aria-hidden="true"></span><span class="m-open">Menu</span><span class="m-close">Close</span></summary><nav aria-label="Main menu">${navItems}</nav></details>
 </div></header>`;
@@ -174,7 +174,7 @@ function renderFooter() {
   const catLinks = SITE.categories.map(c => `<li><a href="/${c.slug}/">${c.name}</a></li>`).join('');
 
   return `<footer class="site-footer"><div class="wrap">
-<div class="brand"><a href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-footer-logo-img" width="180" height="35"></picture></a></div>
+<div class="brand"><a href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-footer-logo-img" width="220" height="44"></picture></a></div>
 <p>${SITE.description}</p>
 <ul class="links cats" aria-label="Guides">${catLinks}</ul>
 <ul class="links">

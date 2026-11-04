@@ -35,8 +35,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-weight:450;font-size:1.125rem;line-height:1.7}
 @media (min-width:768px){body{font-size:1.1875rem}}
 img{max-width:100%;height:auto;display:block}
-a{color:var(--primary);text-underline-offset:.18em;text-decoration-thickness:.08em}
-a:hover{text-decoration-thickness:.14em}
+a, a:hover, a:focus, a:active, a:visited{color:var(--primary);text-decoration:none!important}
+a:hover{color:var(--primary-hover);text-decoration:none!important}
+*,*::before,*::after{text-decoration:none}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 h1,h2,h3,h4{font-family:var(--font-head);font-weight:700;line-height:1.22;color:var(--ink);margin:1.6em 0 .55em}
 h1{font-size:clamp(2rem,4.6vw,2.875rem);margin-top:0}
@@ -54,9 +55,9 @@ strong{font-weight:700}
 /* Header and nav: no JavaScript. Desktop: a row of links. Phones: a compact bar with a Menu button (native <details>). */
 .site-header{background:var(--surface);border-bottom:1px solid var(--line);position:relative}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px;flex-wrap:nowrap;max-width:1260px}
-.logo{display:inline-flex;align-items:center;gap:10px;min-height:44px;text-decoration:none;color:var(--ink);font:700 1.35rem/1 var(--font-head);white-space:nowrap;flex-shrink:0}
-.site-logo-img{height:44px;width:auto;max-height:48px;display:block;object-fit:contain}
-.site-footer-logo-img{height:40px;width:auto;max-height:44px;display:inline-block;object-fit:contain;background:#ffffff;padding:4px 10px;border-radius:8px}
+.logo{display:inline-flex;align-items:center;gap:10px;min-height:54px;text-decoration:none!important;color:var(--ink);font:700 1.35rem/1 var(--font-head);white-space:nowrap;flex-shrink:0}
+.site-logo-img{height:54px;width:auto;max-height:60px;display:block;object-fit:contain}
+.site-footer-logo-img{height:46px;width:auto;max-height:52px;display:inline-block;object-fit:contain;background:#ffffff;padding:6px 12px;border-radius:8px}
 .logo svg{width:30px;height:30px;flex:none}
 .logo .glow{fill:var(--accent)}
 .logo .frame{fill:none;stroke:var(--primary);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
@@ -143,7 +144,8 @@ strong{font-weight:700}
   .article .kicker{font-size:.875rem;margin-bottom:6px}
   .article .meta{font-size:.9375rem;margin:0 0 18px}
 }
-.prose a{text-decoration:underline}
+.prose a{text-decoration:none!important;font-weight:600;transition:color .15s ease}
+.prose a:hover{color:var(--primary-hover);text-decoration:none!important}
 .meta{color:var(--muted);font-size:1rem;margin:-4px 0 22px}
 .meta time{font-weight:700;color:var(--ink)}
 /* Straight answer box at the top of every post; roundups name the top 3, reviews add the product */
@@ -193,7 +195,7 @@ h2[id],h3[id]{scroll-margin-top:16px}
   .toc-side ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
   .toc-side li{margin:0}
   .toc-side a{display:block;margin-left:-2px;padding:7px 0 7px 14px;border-left:2px solid transparent;color:var(--muted);text-decoration:none;font-size:1rem;line-height:1.4}
-  .toc-side a:hover,.toc-side a:focus-visible{color:var(--primary);border-left-color:var(--accent);text-decoration:underline}
+  .toc-side a:hover,.toc-side a:focus-visible{color:var(--primary);border-left-color:var(--accent);text-decoration:none!important}
 }
 
 /* Buttons */
@@ -302,11 +304,11 @@ th{font-family:var(--font-body);font-weight:700;background:var(--bg)}
 .side ul{list-style:none;margin:0;padding:0}
 .side li{margin:0;border-bottom:1px solid var(--line)}
 .side li:last-child{border-bottom:0}
-.side li a{display:block;padding:10px 0;color:var(--ink);text-decoration:none;font-size:1.0625rem}
-.side li a:hover{color:var(--primary);text-decoration:underline}
+.side li a{display:block;padding:10px 0;color:var(--ink);text-decoration:none!important;font-size:1.0625rem;transition:color .15s ease}
+.side li a:hover{color:var(--primary);text-decoration:none!important}
 .side .start{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
 .side .start h2,.side .start p,.side .start a{color:var(--primary-ink)}
-.side .start a{font-weight:700;text-decoration:underline}
+.side .start a{font-weight:700;text-decoration:none!important}
 
 /* Related guides: an even grid of compact cards (photo, category, title); one list on phones */
 .related{margin-top:40px;container-type:inline-size}
@@ -368,8 +370,8 @@ th{font-family:var(--font-body);font-weight:700;background:var(--bg)}
   .rail-row img{width:64px;height:64px;object-fit:contain;background:#fff;border-radius:6px}
   .rail-rank{position:absolute;top:6px;left:-8px;width:24px;height:24px;border-radius:50%;background:var(--primary);color:var(--primary-ink);display:grid;place-items:center;font-weight:700;font-size:.8125rem;line-height:1}
   .rail-body{display:flex;flex-direction:column;gap:2px;min-width:0}
-  .rail-name{font-weight:700;line-height:1.35;color:var(--ink);font-size:1rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-decoration:none}
-  a.rail-name:hover{color:var(--primary);text-decoration:underline}
+  .rail-name{font-weight:700;line-height:1.35;color:var(--ink);font-size:1rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-decoration:none!important}
+  a.rail-name:hover{color:var(--primary);text-decoration:none!important}
   .rail-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
   .rail-score{font-size:.9375rem;color:var(--muted)}
   .rail-score b{color:var(--primary);font-size:1rem}
@@ -685,4 +687,21 @@ nav[aria-label="Related topics"]{margin-bottom:24px}
 .slider-dots .dot.active {
   width: 28px;
   background: var(--accent);
+}
+
+/* Zero-Tolerance Universal Text-Decoration Removal */
+*, *::before, *::after,
+a, a:visited, a:hover, a:active, a:focus,
+.nav a, .nav a:hover,
+.card h2 a, .card h2 a:hover,
+.card h3 a, .card h3 a:hover,
+.prose a, .prose a:hover,
+.toc a, .toc a:hover,
+.toc-side a, .toc-side a:hover,
+.side a, .side a:hover,
+.rel-item, .rel-item:hover, .rel-title,
+.rail-name, a.rail-name, a.rail-name:hover,
+.site-footer a, .site-footer a:hover {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
 }
