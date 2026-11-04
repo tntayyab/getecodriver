@@ -40,6 +40,10 @@ const assetsSrc = path.join(ROOT, 'assets');
 if (fs.existsSync(assetsSrc)) {
   copyDir(assetsSrc, path.join(DIST, 'assets'));
 }
+const rootFav = path.join(ROOT, 'favicon.ico');
+if (fs.existsSync(rootFav)) {
+  fs.copyFileSync(rootFav, path.join(DIST, 'favicon.ico'));
+}
 
 // -------------------------------------------------------------
 // HTML HEAD & SCHEMAS
@@ -133,6 +137,10 @@ function renderHead(page) {
 <title>${title}</title>
 <meta name="description" content="${desc}">
 <link rel="canonical" href="${canonical}">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
 <meta property="og:locale" content="${SITE.language}">
 <meta property="og:site_name" content="${SITE.name}">
 <meta property="og:type" content="${ogType}">
@@ -156,7 +164,7 @@ function renderHeader(currentPath = '/') {
   }).join('');
 
   return `<header class="site-header"><div class="wrap">
-<a class="logo" href="/"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path class="frame" d="M12 6h8M16 3v3M10 9h12l-1.5 3h-9z"/><rect class="frame" x="10" y="12" width="12" height="13" rx="3"/><ellipse class="glow" cx="16" cy="18.5" rx="3" ry="4"/><path class="frame" d="M9 28h14"/></svg>${SITE.name}</a>
+<a class="logo" href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-logo-img" width="220" height="42"></picture></a>
 <nav class="nav" aria-label="Main">${navItems}</nav>
 <details class="menu"><summary aria-label="Menu"><span class="bars" aria-hidden="true"></span><span class="m-open">Menu</span><span class="m-close">Close</span></summary><nav aria-label="Main menu">${navItems}</nav></details>
 </div></header>`;
@@ -166,7 +174,7 @@ function renderFooter() {
   const catLinks = SITE.categories.map(c => `<li><a href="/${c.slug}/">${c.name}</a></li>`).join('');
 
   return `<footer class="site-footer"><div class="wrap">
-<div class="brand">${SITE.name}</div>
+<div class="brand"><a href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-footer-logo-img" width="180" height="35"></picture></a></div>
 <p>${SITE.description}</p>
 <ul class="links cats" aria-label="Guides">${catLinks}</ul>
 <ul class="links">

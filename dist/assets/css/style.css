@@ -54,7 +54,9 @@ strong{font-weight:700}
 /* Header and nav: no JavaScript. Desktop: a row of links. Phones: a compact bar with a Menu button (native <details>). */
 .site-header{background:var(--surface);border-bottom:1px solid var(--line);position:relative}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px;flex-wrap:nowrap;max-width:1260px}
-.logo{display:inline-flex;align-items:center;gap:10px;min-height:42px;text-decoration:none;color:var(--ink);font:700 1.35rem/1 var(--font-head);white-space:nowrap;flex-shrink:0}
+.logo{display:inline-flex;align-items:center;gap:10px;min-height:44px;text-decoration:none;color:var(--ink);font:700 1.35rem/1 var(--font-head);white-space:nowrap;flex-shrink:0}
+.site-logo-img{height:44px;width:auto;max-height:48px;display:block;object-fit:contain}
+.site-footer-logo-img{height:40px;width:auto;max-height:44px;display:inline-block;object-fit:contain;background:#ffffff;padding:4px 10px;border-radius:8px}
 .logo svg{width:30px;height:30px;flex:none}
 .logo .glow{fill:var(--accent)}
 .logo .frame{fill:none;stroke:var(--primary);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
