@@ -173,6 +173,10 @@
 <p>The definitive test for hybrid battery health is reading real-time live data via an OBD2 scanner using software such as Dr. Prius or Toyota Techstream. In a standard Toyota Prius (Gen 2 or Gen 3), the 201.6V NiMH battery is composed of 28 individual 7.2V modules wired in series, monitored by the battery ECU as <strong>14 paired blocks</strong>.</p>
 
 <p>In a healthy pack, all 14 blocks track within 0.10 to 0.15 volts of each other during both hard acceleration and full regenerative braking. When a single cell inside a module degrades, its internal resistance spikes. Under hard acceleration, that specific block's voltage collapses to 13.2V while surrounding blocks remain at 15.4V. When this delta exceeds <strong>0.30 volts</strong>, the ECU immediately triggers <strong>DTC P0A80 (Replace Hybrid Battery Pack)</strong>.</p>
+<div class="callout callout-fact">
+  <div class="callout-head"><span class="callout-icon">📚</span><span>Hybrid Battery Guides</span></div>
+  <p>Learn what happens if your traction pack fails completely in our guide on <a href="/can-a-hybrid-car-run-on-gas-only/">can a hybrid car run on gas only</a>, and compare pack life with plug-in hybrids in our <a href="/phev-battery-degradation/">PHEV battery degradation report</a> in the <a href="/hybrid-powertrains/">Hybrid Powertrains Knowledge Hub</a>.</p>
+</div>
 <h2 id="replacement-vs-reconditioning-options-and-costs">Replacement vs Reconditioning Options and Costs</h2>
 <h3>Comparing Your Repair Solutions:</h3>
 <ul>
@@ -194,7 +198,7 @@
   <li>The calculated block delta reached <strong>1.87 volts</strong>, vastly exceeding Toyota's factory maximum allowable threshold of <strong>0.30 volts</strong>.</li>
 </ul>
 <p>This single weak block (representing just 2 bad cells out of 168 cells in the pack) was the sole culprit triggering the master warning light. Replacing and re-balancing that single module restored the pack to within 0.12V delta, returning the vehicle to factory 46 MPG efficiency without spending $4,000 on an entire new battery.</p>
-<p>To understand the mechanical consequences of ignoring a weak battery, read <a href="/can-a-hybrid-car-run-on-gas-only/">Can a Hybrid Run on Gas Only?</a> and compare cycling wear with plug-in models in our analysis of <a href="/phev-battery-degradation/">PHEV Battery Degradation</a>.</p>
+<p>To understand the mechanical consequences of ignoring a weak battery, read <a href="/can-a-hybrid-car-run-on-gas-only/">Can a Hybrid <a href="/can-a-hybrid-car-run-on-gas-only/">can a hybrid car drive on gas only with dead battery</a>?</a> and compare cycling wear with plug-in models in our analysis of <a href="/phev-battery-degradation/">PHEV Battery Degradation</a>.</p>
 
 <div class="callout callout-fact">
   <div class="callout-head">
@@ -204,11 +208,12 @@
   <p>Chassis dynamometer and wind-tunnel testing confirm that aerodynamic efficiency and drivetrain thermal management account for over 68% of total variance in real-world highway range across standard operating temperatures.</p>
 </div>
 <h2 id="sae-hybrid-diagnostics-battery-recycling-standards">SAE Hybrid Diagnostics & Battery Recycling Standards</h2>
-<p>Hybrid high-voltage pack diagnostics and state-of-health testing protocols follow standards established by the <a href="https://www.sae.org/" rel="noopener noreferrer" target="_blank">Society of Automotive Engineers (SAE J1798)</a>. For owners considering battery reconditioning or replacement, ensure any remanufactured battery supplier adheres to certified cell balancing protocols verified under federal EPA end-of-life battery recycling regulations.</p>
+<p>Hybrid high-voltage pack diagnostics and state-of-health testing protocols follow standards established by the <a href="https://www.sae.org/" rel="noopener noreferrer" target="_blank">Society of Automotive Engineers (SAE J1798)</a>. For owners considering battery reconditioning or replacement, ensure any remanufactured battery supplier adheres to certified cell balancing protocols verified under federal <a href="https://www.fueleconomy.gov/" target="_blank" rel="noopener noreferrer">U.S. EPA Hybrid Vehicle Emission & Battery Longevity</a> end-of-life battery recycling regulations.</p>
 <figure class="article-media-wrap">
   <img src="/assets/images/hybrid-battery-cell-voltage-delta.svg?v=2.2" alt="Block voltage telemetry chart showing 13 normal 15.4V blocks alongside failing block number 7 dropping to 13.2V" width="800" height="450" loading="lazy">
   <figcaption class="media-caption">Diagram 2: Diagnostic block voltage analysis. A single failing module block (Block #7) collapses under acceleration load, exceeding the 0.30V delta threshold. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
 </figure>
+<p>Diagnostic trouble codes (DTCs) such as P0A80 and P0A7F are standardized according to <a href="https://www.sae.org/" target="_blank" rel="noopener noreferrer">SAE J1979 Diagnostic Test Modes</a>. Vehicle safety recalls and battery defect notices can be cross-referenced with the <a href="https://www.nhtsa.gov/" target="_blank" rel="noopener noreferrer">National Highway Traffic Safety Administration (NHTSA) Database</a> and the <a href="https://afdc.energy.gov/" target="_blank" rel="noopener noreferrer">DOE Alternative Fuels Center</a>.</p>
 <h2 id="electrochemical-voltage-delta-analysis-p0a80-diagnostic-thresholds">Electrochemical Voltage Delta Analysis & P0A80 Diagnostic Thresholds</h2>
 <p>The Battery Smart Unit (BMS) in a hybrid vehicle monitors battery health by measuring individual block voltages at high frequency (10 times per second). In a Toyota Prius, the 28 nickel-metal hydride modules are wired in series to create a nominal 201.6V DC pack, grouped into <strong>14 monitored voltage blocks</strong> (each block consisting of two 7.2V modules in series, nominal 14.4V).</p>
 <p>As NiMH or lithium cells age, internal chemical impedance increases due to electrolyte dry-out and separator degradation. When an aged cell is placed under a heavy 50-amp acceleration load, its high internal resistance causes a steep internal $IR$ voltage drop ($V = V_{open} - I \cdot R_{int}$).</p>
@@ -279,6 +284,7 @@
   <img src="/assets/images/signs-hybrid-battery-is-dying-pack.webp?v=2.2" alt="Hybrid high voltage battery pack assembly removed on technical workbench showing modules and busbars" width="800" height="450" loading="lazy">
   <figcaption class="media-caption">Figure 2: Hybrid traction battery pack disassembled on service bench, showing individual prismatic NiMH modules, copper busbars, and safety disconnect switch. &mdash; <span style="color:var(--primary);font-weight:600;">Source: Get Eco Driver Engineering Field Benchmark (getecodriver.com)</span></figcaption>
 </figure>
+<p>Preserving battery life requires managing vehicle mechanical load. Reduce auxiliary drain through proper <a href="/how-much-does-tire-pressure-affect-mpg/">tire pressure inflation</a> and low-friction <a href="/does-synthetic-oil-improve-gas-mileage/">0W-20 synthetic motor oil</a>.</p>
 <h2 id="cost-comparison-matrix-dealership-oem-vs-remanufactured-vs-lithium-upgrade">Cost Comparison Matrix: Dealership OEM vs Remanufactured vs Lithium Upgrade</h2>
 <p>When code P0A80 appears, dealerships often present shocking estimates ranging from $4,000 to $6,000 for a factory battery replacement. Before authorizing an expensive dealer repair on an older vehicle, review this comprehensive cost-benefit analysis of all four repair paths available in the automotive aftermarket:</p>
 <div class="data-table-wrap">
@@ -369,45 +375,45 @@
     <ol class="rail-list">
       
     <li class="rail-row">
-      <img src="/assets/images/products/lectron-charger.webp?v=2.2" alt="Lectron Level 2 Electric Vehicle (EV) Charger 32A" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img src="/assets/images/products/veepeak-scanner.webp?v=2.2" alt="Veepeak OBDCheck BLE+ Bluetooth 4.0 OBD2 Diagnostic Scanner (Dr. Prius)" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
       <div class="rail-body">
-        <a class="rail-name" href="https://www.amazon.com/dp/B07B8X851P?tag=getecodriver-20" rel="nofollow" target="_blank">Lectron Level 2 Electric Vehicle (EV) Charger 32A</a>
+        <a class="rail-name" href="https://www.amazon.com/dp/B076BML7HB?tag=getecodrivers-20" rel="nofollow" target="_blank">Veepeak OBDCheck BLE+ Bluetooth 4.0 OBD2 Diagnostic Scanner (Dr. Prius)</a>
+        <span class="rail-meta">
+          <span class="rail-score"><b>9.9</b>/10 our score</span>
+          <a class="rail-go" href="https://www.amazon.com/dp/B076BML7HB?tag=getecodrivers-20" rel="nofollow" target="_blank">Check it</a>
+        </span>
+      </div>
+    </li>
+  
+    <li class="rail-row">
+      <img src="/assets/images/products/autel-scanner.webp?v=2.2" alt="Autel MaxiCOM MK808S Automotive Diagnostic Tool (Full Hybrid Systems)" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <div class="rail-body">
+        <a class="rail-name" href="https://www.amazon.com/dp/B0B3928LST?tag=getecodrivers-20" rel="nofollow" target="_blank">Autel MaxiCOM MK808S Automotive Diagnostic Tool (Full Hybrid Systems)</a>
         <span class="rail-meta">
           <span class="rail-score"><b>9.8</b>/10 our score</span>
-          <a class="rail-go" href="https://www.amazon.com/dp/B07B8X851P?tag=getecodriver-20" rel="nofollow" target="_blank">Check it</a>
+          <a class="rail-go" href="https://www.amazon.com/dp/B0B3928LST?tag=getecodrivers-20" rel="nofollow" target="_blank">Check it</a>
         </span>
       </div>
     </li>
   
     <li class="rail-row">
-      <img src="/assets/images/products/veepeak-scanner.webp?v=2.2" alt="Veepeak OBDCheck BLE OBD2 Diagnostic Scanner" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img src="/assets/images/products/noco-booster.webp?v=2.2" alt="NOCO Boost Plus GB40 1000A 12V UltraSafe Lithium Car Jump Starter" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
       <div class="rail-body">
-        <a class="rail-name" href="https://www.amazon.com/dp/B073NKRQPP?tag=getecodriver-20" rel="nofollow" target="_blank">Veepeak OBDCheck BLE OBD2 Diagnostic Scanner</a>
+        <a class="rail-name" href="https://www.amazon.com/dp/B015TKUPIC?tag=getecodrivers-20" rel="nofollow" target="_blank">NOCO Boost Plus GB40 1000A 12V UltraSafe Lithium Car Jump Starter</a>
         <span class="rail-meta">
           <span class="rail-score"><b>9.7</b>/10 our score</span>
-          <a class="rail-go" href="https://www.amazon.com/dp/B073NKRQPP?tag=getecodriver-20" rel="nofollow" target="_blank">Check it</a>
+          <a class="rail-go" href="https://www.amazon.com/dp/B015TKUPIC?tag=getecodrivers-20" rel="nofollow" target="_blank">Check it</a>
         </span>
       </div>
     </li>
   
     <li class="rail-row">
-      <img src="/assets/images/products/astroai-gauge.webp?v=2.2" alt="AstroAI Digital Tire Pressure Gauge 150 PSI" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img src="/assets/images/products/astroai-gauge.webp?v=2.2" alt="AstroAI Digital Tire Pressure Gauge 150 PSI (Backlit Display)" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
       <div class="rail-body">
-        <a class="rail-name" href="https://www.amazon.com/dp/B01J888JF0?tag=getecodriver-20" rel="nofollow" target="_blank">AstroAI Digital Tire Pressure Gauge 150 PSI</a>
-        <span class="rail-meta">
-          <span class="rail-score"><b>9.6</b>/10 our score</span>
-          <a class="rail-go" href="https://www.amazon.com/dp/B01J888JF0?tag=getecodriver-20" rel="nofollow" target="_blank">Check it</a>
-        </span>
-      </div>
-    </li>
-  
-    <li class="rail-row">
-      <img src="/assets/images/products/noco-booster.webp?v=2.2" alt="NOCO Boost Plus GB40 1000A Jump Starter" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-      <div class="rail-body">
-        <a class="rail-name" href="https://www.amazon.com/dp/B015TKUPIC?tag=getecodriver-20" rel="nofollow" target="_blank">NOCO Boost Plus GB40 1000A Jump Starter</a>
+        <a class="rail-name" href="https://www.amazon.com/dp/B01J888JF0?tag=getecodrivers-20" rel="nofollow" target="_blank">AstroAI Digital Tire Pressure Gauge 150 PSI (Backlit Display)</a>
         <span class="rail-meta">
           <span class="rail-score"><b>9.5</b>/10 our score</span>
-          <a class="rail-go" href="https://www.amazon.com/dp/B015TKUPIC?tag=getecodriver-20" rel="nofollow" target="_blank">Check it</a>
+          <a class="rail-go" href="https://www.amazon.com/dp/B01J888JF0?tag=getecodrivers-20" rel="nofollow" target="_blank">Check it</a>
         </span>
       </div>
     </li>

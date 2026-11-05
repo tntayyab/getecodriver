@@ -193,35 +193,118 @@ function renderFooter() {
 }
 
 // -------------------------------------------------------------
-// DEFAULT RAIL PRODUCTS (Automotive Efficiency Gear)
+// -------------------------------------------------------------
+// REAL AMAZON PRODUCTS BY CATEGORY (getecodrivers-20)
 // -------------------------------------------------------------
 
-const DEFAULT_RAIL_PRODUCTS = [
-  {
-    name: "Lectron Level 2 Electric Vehicle (EV) Charger 32A",
-    score: "9.8",
-    img: "/assets/images/products/lectron-charger.webp",
-    asin: "B07B8X851P"
-  },
-  {
-    name: "Veepeak OBDCheck BLE OBD2 Diagnostic Scanner",
-    score: "9.7",
-    img: "/assets/images/products/veepeak-scanner.webp",
-    asin: "B073NKRQPP"
-  },
-  {
-    name: "AstroAI Digital Tire Pressure Gauge 150 PSI",
-    score: "9.6",
-    img: "/assets/images/products/astroai-gauge.webp",
-    asin: "B01J888JF0"
-  },
-  {
-    name: "NOCO Boost Plus GB40 1000A Jump Starter",
-    score: "9.5",
-    img: "/assets/images/products/noco-booster.webp",
-    asin: "B015TKUPIC"
-  }
-];
+const CATEGORY_PRODUCTS = {
+  'ev-charging-and-range': [
+    {
+      name: "Emporia 48 Amp Smart Level 2 EV Charger (Hardwired or NEMA 14-50, WiFi)",
+      score: "9.9",
+      img: "/assets/images/products/emporia-charger.webp",
+      asin: "B09ZNN3JB7"
+    },
+    {
+      name: "Lectron 240V 32 Amp Level 2 Portable EV Charger (NEMA 14-50, 21ft Cable)",
+      score: "9.7",
+      img: "/assets/images/products/lectron-charger.webp",
+      asin: "B079NTNJ5C"
+    },
+    {
+      name: "Schumacher SC1455 Level 1 / Level 2 Portable EV Charger (16A 120V/240V)",
+      score: "9.6",
+      img: "/assets/images/products/schumacher-charger.webp",
+      asin: "B08PQ44S4J"
+    },
+    {
+      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Backlit LCD 4 Ranges)",
+      score: "9.5",
+      img: "/assets/images/products/astroai-gauge.webp",
+      asin: "B01J888JF0"
+    }
+  ],
+  'hybrid-powertrains': [
+    {
+      name: "Veepeak OBDCheck BLE+ Bluetooth 4.0 OBD2 Diagnostic Scanner (Dr. Prius)",
+      score: "9.9",
+      img: "/assets/images/products/veepeak-scanner.webp",
+      asin: "B076BML7HB"
+    },
+    {
+      name: "Autel MaxiCOM MK808S Automotive Diagnostic Tool (Full Hybrid Systems)",
+      score: "9.8",
+      img: "/assets/images/products/autel-scanner.webp",
+      asin: "B0B3928LST"
+    },
+    {
+      name: "NOCO Boost Plus GB40 1000A 12V UltraSafe Lithium Car Jump Starter",
+      score: "9.7",
+      img: "/assets/images/products/noco-booster.webp",
+      asin: "B015TKUPIC"
+    },
+    {
+      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Backlit Display)",
+      score: "9.5",
+      img: "/assets/images/products/astroai-gauge.webp",
+      asin: "B01J888JF0"
+    }
+  ],
+  'eco-maintenance-and-gear': [
+    {
+      name: "Mobil 1 Advanced Fuel Economy 0W-20 Full Synthetic Motor Oil (5 Quart)",
+      score: "9.9",
+      img: "/assets/images/products/mobil1-oil.webp",
+      asin: "B008MISDH4"
+    },
+    {
+      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Lighted Nozzle & LCD)",
+      score: "9.8",
+      img: "/assets/images/products/astroai-gauge.webp",
+      asin: "B01J888JF0"
+    },
+    {
+      name: "CURT 18153 60 x 24-Inch Steel Basket Hitch Cargo Carrier (500 lbs)",
+      score: "9.7",
+      img: "/assets/images/products/curt-hitch-carrier.webp",
+      asin: "B004QEK2A6"
+    },
+    {
+      name: "Thule Motion XT Aerodynamic Rooftop Cargo Carrier Box (Low Drag Hard Shell)",
+      score: "9.6",
+      img: "/assets/images/products/thule-roof-box.webp",
+      asin: "B01MRV5Q4R"
+    }
+  ],
+  'fuel-economy-and-hypermiling': [
+    {
+      name: "ScanGauge II Ultra Compact 3-in-1 Automotive Computer (Real-Time MPG)",
+      score: "9.9",
+      img: "/assets/images/products/scangauge-computer.webp",
+      asin: "B000AAMY86"
+    },
+    {
+      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Accurate PSI Calibration)",
+      score: "9.8",
+      img: "/assets/images/products/astroai-gauge.webp",
+      asin: "B01J888JF0"
+    },
+    {
+      name: "Garmin DriveSmart 66 6-Inch GPS Navigator (Live Fuel Prices & Eco-Routing)",
+      score: "9.7",
+      img: "/assets/images/products/garmin-navigator.webp",
+      asin: "B099KTYWSC"
+    },
+    {
+      name: "Mobil 1 Advanced Fuel Economy 0W-20 Synthetic Motor Oil (Low Friction)",
+      score: "9.6",
+      img: "/assets/images/products/mobil1-oil.webp",
+      asin: "B008MISDH4"
+    }
+  ]
+};
+
+const DEFAULT_RAIL_PRODUCTS = CATEGORY_PRODUCTS['eco-maintenance-and-gear'];
 
 function renderRail(products = DEFAULT_RAIL_PRODUCTS) {
   const items = products.map(p => `
@@ -406,7 +489,7 @@ ${renderHeader(articleUrl)}
     </div>
 
     <!-- 3. RIGHT STICKY COLUMN: Products in this guide -->
-    ${renderRail(art.railProducts || DEFAULT_RAIL_PRODUCTS)}
+    ${renderRail(art.railProducts || CATEGORY_PRODUCTS[art.categorySlug] || DEFAULT_RAIL_PRODUCTS)}
   </div>
 </main>
 
