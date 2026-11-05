@@ -139,11 +139,11 @@ function renderHead(page) {
 <title>${title}</title>
 <meta name="description" content="${desc}">
 <link rel="canonical" href="${canonical}">
-${prevTag}${nextTag}<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+${prevTag}${nextTag}<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2.2">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png?v=2.2">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png?v=2.2">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png?v=2.2">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png?v=2.2">
 <meta property="og:locale" content="${SITE.language}">
 <meta property="og:site_name" content="${SITE.name}">
 <meta property="og:type" content="${ogType}">
@@ -167,7 +167,7 @@ function renderHeader(currentPath = '/') {
   }).join('');
 
   return `<header class="site-header"><div class="wrap">
-<a class="logo" href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-logo-img" width="260" height="52"></picture></a>
+<a class="logo" href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp?v=2.2" type="image/webp"><img src="/assets/images/logo.png?v=2.2" alt="${SITE.name}" class="site-logo-img" width="260" height="52"></picture></a>
 <nav class="nav" aria-label="Main">${navItems}</nav>
 <details class="menu"><summary aria-label="Menu"><span class="bars" aria-hidden="true"></span><span class="m-open">Menu</span><span class="m-close">Close</span></summary><nav aria-label="Main menu">${navItems}</nav></details>
 </div></header>`;
@@ -177,7 +177,7 @@ function renderFooter() {
   const catLinks = SITE.categories.map(c => `<li><a href="/${c.slug}/">${c.name}</a></li>`).join('');
 
   return `<footer class="site-footer"><div class="wrap">
-<div class="brand"><a href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp" type="image/webp"><img src="/assets/images/logo.png" alt="${SITE.name}" class="site-footer-logo-img" width="220" height="44"></picture></a></div>
+<div class="brand"><a href="/" aria-label="${SITE.name}"><picture><source srcset="/assets/images/logo.webp?v=2.2" type="image/webp"><img src="/assets/images/logo.png?v=2.2" alt="${SITE.name}" class="site-footer-logo-img" width="220" height="44"></picture></a></div>
 <p>${SITE.description}</p>
 <ul class="links cats" aria-label="Guides">${catLinks}</ul>
 <ul class="links">
@@ -226,7 +226,7 @@ const DEFAULT_RAIL_PRODUCTS = [
 function renderRail(products = DEFAULT_RAIL_PRODUCTS) {
   const items = products.map(p => `
     <li class="rail-row">
-      <img src="${p.img}" alt="${p.name}" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img src="${p.img}?v=2.2" alt="${p.name}" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">
       <div class="rail-body">
         <a class="rail-name" href="https://www.amazon.com/dp/${p.asin}?tag=${SITE.affiliate.amazonTag}" rel="nofollow" target="_blank">${p.name}</a>
         <span class="rail-meta">
@@ -281,11 +281,13 @@ articles.forEach(art => {
     art.sections.forEach((sec, idx) => {
       const slugId = sec.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
       headings.push({ id: slugId, title: sec.heading });
-      sectionsHtml += `<h2 id="${slugId}">${sec.heading}</h2>\n${sec.content}\n`;
+      const contentBusted = (sec.content || '').replace(/src="(\/assets\/images\/[^"?]+)(?:\?[^"]*)?"/g, 'src="$1?v=2.2"');
+      sectionsHtml += `<h2 id="${slugId}">${sec.heading}</h2>\n${contentBusted}\n`;
     });
   } else if (art.bodyHtml) {
     // Parse H2s from bodyHtml and inject IDs
-    sectionsHtml = art.bodyHtml.replace(/<h2>(.*?)<\/h2>/gi, (match, title) => {
+    const contentBusted = (art.bodyHtml || '').replace(/src="(\/assets\/images\/[^"?]+)(?:\?[^"]*)?"/g, 'src="$1?v=2.2"');
+    sectionsHtml = contentBusted.replace(/<h2>(.*?)<\/h2>/gi, (match, title) => {
       const slugId = title.toLowerCase().replace(/<[^>]+>/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
       headings.push({ id: slugId, title: title.replace(/<[^>]+>/g, '') });
       return `<h2 id="${slugId}">${title}</h2>`;
@@ -678,7 +680,7 @@ ${renderHeader(pagePath)}
     <div class="slider-track">
       <!-- Slide 1: EV Charging & Range -->
       <div class="slide active">
-        <img src="/assets/images/slide-1-ev-charging.webp" alt="Electric vehicle charging at modern rapid station" class="slide-img" fetchpriority="high">
+        <img src="/assets/images/slide-1-ev-charging.webp?v=2.2" alt="Electric vehicle charging at modern rapid station" class="slide-img" fetchpriority="high">
         <div class="slide-overlay">
           <div class="slide-content">
             <span class="slide-badge">⚡ EV Charging & Range</span>
@@ -691,7 +693,7 @@ ${renderHeader(pagePath)}
 
       <!-- Slide 2: Hypermiling & Aerodynamics -->
       <div class="slide">
-        <img src="/assets/images/slide-2-aerodynamic-hypermiling.webp" alt="Aerodynamic hybrid vehicle cruising along coastal highway" class="slide-img" loading="lazy">
+        <img src="/assets/images/slide-2-aerodynamic-hypermiling.webp?v=2.2" alt="Aerodynamic hybrid vehicle cruising along coastal highway" class="slide-img" loading="lazy">
         <div class="slide-overlay">
           <div class="slide-content">
             <span class="slide-badge">🌱 Hypermiling & Aerodynamics</span>
@@ -704,7 +706,7 @@ ${renderHeader(pagePath)}
 
       <!-- Slide 3: Hybrid Powertrain Energy Recovery -->
       <div class="slide">
-        <img src="/assets/images/slide-3-hybrid-telemetry.webp" alt="Driver cockpit view showing hybrid regenerative telemetry" class="slide-img" loading="lazy">
+        <img src="/assets/images/slide-3-hybrid-telemetry.webp?v=2.2" alt="Driver cockpit view showing hybrid regenerative telemetry" class="slide-img" loading="lazy">
         <div class="slide-overlay">
           <div class="slide-content">
             <span class="slide-badge">🔋 Hybrid Powertrains</span>

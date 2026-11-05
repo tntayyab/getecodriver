@@ -863,6 +863,143 @@ figcaption.media-caption {
   border: 0;
 }
 
+/* Carglass-Style Rich Callout Boxes & Interactive Flow */
+.callout {
+  margin: 2.2em 0;
+  padding: 1.4rem 1.6rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  position: relative;
+  background: var(--surface);
+  box-shadow: 0 2px 12px rgba(var(--shadow-rgb), 0.04);
+}
+.callout-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-head);
+  font-size: 1.12rem;
+  font-weight: 700;
+  margin-bottom: 0.65rem;
+}
+.callout-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+.callout p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.68;
+  color: var(--ink);
+}
+
+.callout-tip {
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  border-left: 5px solid #16A34A;
+}
+.callout-tip .callout-head {
+  color: #166534;
+}
+
+.callout-warning {
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-left: 5px solid #DC2626;
+}
+.callout-warning .callout-head {
+  color: #991B1B;
+}
+
+.callout-fact {
+  background: #EFF6FF;
+  border: 1px solid #BFDBFE;
+  border-left: 5px solid #2563EB;
+}
+.callout-fact .callout-head {
+  color: #1E40AF;
+}
+
+/* Step-by-Step Practical Procedure Cards */
+.step-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.6em 0 2.2em;
+}
+.step-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 1.25rem 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.step-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(var(--shadow-rgb), 0.06);
+}
+.step-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  background: var(--primary);
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 1.05rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(31, 77, 58, 0.25);
+}
+.step-body h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  font-family: var(--font-head);
+  color: var(--ink);
+}
+.step-body p {
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* Metric / Stat Highlighting Pill Bar */
+.stat-pill-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 1.8em 0 2.2em;
+}
+.stat-pill {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(var(--shadow-rgb), 0.03);
+}
+.stat-val {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: var(--font-head);
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+.stat-lbl {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
 .ev-calculator {
   background: var(--surface);
   border: 2px solid var(--line);
