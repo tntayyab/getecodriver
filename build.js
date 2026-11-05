@@ -50,10 +50,12 @@ if (fs.existsSync(rootFav)) {
 // -------------------------------------------------------------
 
 function renderHead(page) {
-  const title = page.isHome ? `${SITE.name} | ${SITE.tagline}` : `${page.title} | ${SITE.name}`;
+  const title = page.titleOverride || (page.isHome ? `${SITE.name} | ${SITE.tagline}` : `${page.title} | ${SITE.name}`);
   const desc = page.description || SITE.description;
   const canonical = page.canonical || `${SITE.url}${page.path || '/'}`;
   const ogType = page.isArticle ? 'article' : 'website';
+  const prevTag = page.prevUrl ? `<link rel="prev" href="${page.prevUrl}">\n` : '';
+  const nextTag = page.nextUrl ? `<link rel="next" href="${page.nextUrl}">\n` : '';
 
   let schemaBlocks = '';
 
@@ -137,7 +139,7 @@ function renderHead(page) {
 <title>${title}</title>
 <meta name="description" content="${desc}">
 <link rel="canonical" href="${canonical}">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
+${prevTag}${nextTag}<link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png">
@@ -557,8 +559,72 @@ ${renderFooter()}
   fs.writeFileSync(path.join(catDir, 'index.html'), html);
 });
 
-// 4. Generate Custom Homepage
-allUrls.unshift({ url: '/', lastmod: new Date().toISOString().split('T')[0] });
+// -------------------------------------------------------------
+// PAGINATION COMPONENT & ARTICLE CARDS RENDERER
+// -------------------------------------------------------------
+
+function renderPagination(currentPage, totalPages, basePath = '') {
+  if (totalPages <= 1) return '';
+
+  const getPageUrl = (page) => {
+    if (page === 1) return basePath ? `${basePath}/#guides` : '/#guides';
+    return basePath ? `${basePath}/page/${page}/#guides` : `/page/${page}/#guides`;
+  };
+
+  const prevUrl = currentPage > 1 ? getPageUrl(currentPage - 1) : null;
+  const nextUrl = currentPage < totalPages ? getPageUrl(currentPage + 1) : null;
+
+  let pageNumbersHtml = '';
+  for (let i = 1; i <= totalPages; i++) {
+    if (i === currentPage) {
+      pageNumbersHtml += `<li class="pagination-item"><span class="pagination-link active" aria-current="page">${i}</span></li>`;
+    } else {
+      pageNumbersHtml += `<li class="pagination-item"><a href="${getPageUrl(i)}" class="pagination-link">${i}</a></li>`;
+    }
+  }
+
+  const prevBtn = prevUrl
+    ? `<a href="${prevUrl}" class="pagination-btn pagination-prev" aria-label="Previous page">&larr; Prev</a>`
+    : `<span class="pagination-btn pagination-prev disabled" aria-disabled="true">&larr; Prev</span>`;
+
+  const nextBtn = nextUrl
+    ? `<a href="${nextUrl}" class="pagination-btn pagination-next" aria-label="Next page">Next &rarr;</a>`
+    : `<span class="pagination-btn pagination-next disabled" aria-disabled="true">Next &rarr;</span>`;
+
+  return `
+  <nav class="pagination-nav" aria-label="Guides pagination">
+    <div class="pagination">
+      ${prevBtn}
+      <ul class="pagination-list">
+        ${pageNumbersHtml}
+      </ul>
+      ${nextBtn}
+    </div>
+  </nav>
+  `;
+}
+
+function renderArticlesCards(items) {
+  return items.map(a => {
+    const cat = SITE.categories.find(c => c.slug === a.categorySlug) || { name: 'Guides' };
+    return `
+      <li>
+        <article class="card">
+          <div class="card-body">
+            <span class="tag">${cat.name}</span>
+            <h3><a href="/${a.slug}/">${a.title}</a></h3>
+            <p>${a.description}</p>
+            <time datetime="${a.datePublished}">Updated ${new Date(a.dateModified || a.datePublished).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
+          </div>
+        </article>
+      </li>
+    `;
+  }).join('');
+}
+
+// 4. Generate Paginated Homepage (9 Posts Per Page)
+const POSTS_PER_PAGE = 9;
+const totalHomePages = Math.ceil(articles.length / POSTS_PER_PAGE);
 
 const homeCatCards = SITE.categories.map(c => {
   const count = articles.filter(a => a.categorySlug === c.slug).length;
@@ -574,33 +640,37 @@ const homeCatCards = SITE.categories.map(c => {
   `;
 }).join('');
 
-const recentArticlesCards = articles.map(a => {
-  const cat = SITE.categories.find(c => c.slug === a.categorySlug) || { name: 'Guides' };
-  return `
-    <li>
-      <article class="card">
-        <div class="card-body">
-          <span class="tag">${cat.name}</span>
-          <h3><a href="/${a.slug}/">${a.title}</a></h3>
-          <p>${a.description}</p>
-          <time datetime="${a.datePublished}">Updated ${new Date(a.dateModified || a.datePublished).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
-        </div>
-      </article>
-    </li>
-  `;
-}).join('');
+for (let pageNum = 1; pageNum <= totalHomePages; pageNum++) {
+  const isFirstPage = pageNum === 1;
+  const pageArticles = articles.slice((pageNum - 1) * POSTS_PER_PAGE, pageNum * POSTS_PER_PAGE);
+  const pageCards = renderArticlesCards(pageArticles);
+  const paginationHtml = renderPagination(pageNum, totalHomePages, '');
 
-const homeHtml = `<!doctype html>
+  const pagePath = isFirstPage ? '/' : `/page/${pageNum}/`;
+  const canonicalUrl = isFirstPage ? `${SITE.url}/` : `${SITE.url}/page/${pageNum}/`;
+  const prevUrl = pageNum > 1 ? (pageNum === 2 ? `${SITE.url}/` : `${SITE.url}/page/${pageNum - 1}/`) : null;
+  const nextUrl = pageNum < totalHomePages ? `${SITE.url}/page/${pageNum + 1}/` : null;
+
+  const titleOverride = isFirstPage ? null : `${SITE.name} | Page ${pageNum} | ${SITE.tagline}`;
+  const descOverride = isFirstPage ? SITE.description : `Page ${pageNum} of practical eco-driving, EV range optimization, and fuel-saving guides from Get Eco Driver.`;
+  const sectionTitle = isFirstPage ? 'Latest Efficiency & Range Guides' : `Latest Efficiency & Range Guides (Page ${pageNum} of ${totalHomePages})`;
+
+  const homeHtml = `<!doctype html>
 <html lang="${SITE.language}">
 <head>
 ${renderHead({
-  isHome: true,
-  path: '/'
+  isHome: isFirstPage,
+  path: pagePath,
+  canonical: canonicalUrl,
+  titleOverride: titleOverride,
+  description: descOverride,
+  prevUrl: prevUrl,
+  nextUrl: nextUrl
 })}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-${renderHeader('/')}
+${renderHeader(pagePath)}
 
 <main id="main" class="wrap">
   <!-- Hero Featured Slider with 3 WebP Images -->
@@ -667,11 +737,12 @@ ${renderHeader('/')}
   </section>
 
   <!-- Latest Guides Full-Width 3-Column Grid -->
-  <section style="margin-top:3.5rem;">
-    <h2 class="section-title" style="margin-bottom:1.5rem;">Latest Efficiency & Range Guides</h2>
+  <section id="guides" style="margin-top:3.5rem;">
+    <h2 class="section-title" style="margin-bottom:1.5rem;">${sectionTitle}</h2>
     <ul class="cards">
-      ${recentArticlesCards}
+      ${pageCards}
     </ul>
+    ${paginationHtml}
   </section>
 </main>
 
@@ -727,7 +798,19 @@ ${renderFooter()}
 </body>
 </html>`;
 
-fs.writeFileSync(path.join(DIST, 'index.html'), homeHtml);
+  if (isFirstPage) {
+    allUrls.unshift({ url: '/', lastmod: new Date().toISOString().split('T')[0] });
+    fs.writeFileSync(path.join(DIST, 'index.html'), homeHtml);
+    const page1Dir = path.join(DIST, 'page', '1');
+    ensureDir(page1Dir);
+    fs.writeFileSync(path.join(page1Dir, 'index.html'), homeHtml);
+  } else {
+    allUrls.push({ url: `/page/${pageNum}/`, lastmod: new Date().toISOString().split('T')[0] });
+    const pageDir = path.join(DIST, 'page', String(pageNum));
+    ensureDir(pageDir);
+    fs.writeFileSync(path.join(pageDir, 'index.html'), homeHtml);
+  }
+}
 
 // 5. Generate Sitemaps & Robots.txt
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
