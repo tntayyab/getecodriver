@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 5050;
+const PORT = process.env.PORT || 8080;
 const DIST = path.join(__dirname, 'dist');
 
 const MIME_TYPES = {
@@ -54,6 +54,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '127.0.0.1', () => {
   console.log(`🚀 Get Eco Driver Local Server running at: http://localhost:${PORT}`);
 });

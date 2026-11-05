@@ -541,12 +541,10 @@ ${renderHeader(catUrl)}
     <p class="lead">${cat.description}</p>
   </section>
 
-  <div class="layout">
-    <div>
-      <h2 class="section-title">Available Engineering Guides (${catArticles.length})</h2>
-      ${articleCards}
-    </div>
-  </div>
+  <section style="margin:2.5rem 0;">
+    <h2 class="section-title" style="margin-bottom:1.5rem;">Available Engineering Guides (${catArticles.length})</h2>
+    ${articleCards}
+  </section>
 </main>
 
 ${renderFooter()}
@@ -667,15 +665,13 @@ ${renderHeader('/')}
     </div>
   </section>
 
-  <!-- Latest Guides using Senior Cards Layout -->
-  <div class="layout" style="margin-top:3rem;">
-    <div>
-      <h2 class="section-title">Latest Efficiency & Range Guides</h2>
-      <ul class="cards">
-        ${recentArticlesCards}
-      </ul>
-    </div>
-  </div>
+  <!-- Latest Guides Full-Width 3-Column Grid -->
+  <section style="margin-top:3.5rem;">
+    <h2 class="section-title" style="margin-bottom:1.5rem;">Latest Efficiency & Range Guides</h2>
+    <ul class="cards">
+      ${recentArticlesCards}
+    </ul>
+  </section>
 </main>
 
 <script>
