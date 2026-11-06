@@ -135,13 +135,13 @@ function renderHead(page) {
   }
 
   return `<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-K3S3Q7WM"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4NEK6JKTV1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'GTM-K3S3Q7WM');
+  gtag('config', 'G-4NEK6JKTV1');
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -424,10 +424,7 @@ ${renderHead({
 })}
 </head>
 <body class="is-post">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3S3Q7WM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <a class="skip" href="#main">Skip to content</a>
 ${renderHeader(articleUrl)}
 
@@ -571,10 +568,7 @@ ${renderHead({
 })}
 </head>
 <body class="is-post">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3S3Q7WM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <a class="skip" href="#main">Skip to content</a>
 ${renderHeader(pageUrl)}
 
@@ -636,10 +630,7 @@ ${renderHead({
 })}
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3S3Q7WM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <a class="skip" href="#main">Skip to content</a>
 ${renderHeader(catUrl)}
 
@@ -775,10 +766,7 @@ ${renderHead({
 })}
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3S3Q7WM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <a class="skip" href="#main">Skip to content</a>
 ${renderHeader(pagePath)}
 
@@ -948,10 +936,7 @@ const notFoundHtml = `<!doctype html>
 <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3S3Q7WM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <a class="skip" href="#main">Skip to content</a>
 ${renderHeader('/')}
 <main id="main" class="wrap" style="text-align:center;padding:5rem 1rem;">
