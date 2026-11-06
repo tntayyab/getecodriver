@@ -134,8 +134,9 @@ function renderHead(page) {
     }
   }
 
-  return `<!-- Google tag (gtag.js) -->
+  return `<!-- Google tag (gtag.js) & GTM container -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NEK6JKTV1"></script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K3S3Q7WM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
