@@ -73,31 +73,5 @@
       "question": "Can I plug a Level 2 charger into a standard clothes dryer outlet?",
       "answer": "Yes. If your garage or laundry room has an existing 240V NEMA 10-30 or NEMA 14-30 dryer receptacle, you can connect a portable 24-Amp or 16-Amp Level 2 EVSE directly with an appropriate adapter, delivering 3.8 to 5.7 kW (14 to 22 miles per hour) without panel rewiring."
     }
-  ],
-  "railProducts": [
-    {
-      "name": "Lectron 240V 32A Level 2 EV Charger (NEMA 14-50)",
-      "score": "9.8",
-      "img": "/assets/images/products/lectron-charger.webp",
-      "asin": "B07B8X851P"
-    },
-    {
-      "name": "Veepeak OBDCheck BLE OBD2 Diagnostic Scanner",
-      "score": "9.7",
-      "img": "/assets/images/products/veepeak-scanner.webp",
-      "asin": "B073NKRQPP"
-    },
-    {
-      "name": "AstroAI Digital Tire Pressure Gauge 150 PSI",
-      "score": "9.6",
-      "img": "/assets/images/products/astroai-gauge.webp",
-      "asin": "B01J888JF0"
-    },
-    {
-      "name": "NOCO Boost Plus GB40 1000A Jump Starter",
-      "score": "9.5",
-      "img": "/assets/images/products/noco-booster.webp",
-      "asin": "B015TKUPIC"
-    }
   ]
 }
