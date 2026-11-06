@@ -211,106 +211,106 @@ function renderFooter() {
 const CATEGORY_PRODUCTS = {
   'ev-charging-and-range': [
     {
-      name: "Emporia 48 Amp Smart Level 2 EV Charger (Hardwired or NEMA 14-50, WiFi)",
+      name: "ChargePoint Home Flex Level 2 EV Charger (Up to 50A, J1772, WiFi Enabled)",
       score: "9.9",
       img: "/assets/images/products/emporia-charger.webp",
-      asin: "B09ZNN3JB7"
+      asin: "B07WXZDHGV"
     },
     {
-      name: "Lectron 240V 32 Amp Level 2 Portable EV Charger (NEMA 14-50, 21ft Cable)",
-      score: "9.7",
+      name: "Level 1+2 Portable EV Charger 240V 16A 25ft Cable (NEMA 6-20 with 5-15 Adapter)",
+      score: "9.8",
       img: "/assets/images/products/lectron-charger.webp",
-      asin: "B079NTNJ5C"
+      asin: "B0CJCYDTJX"
     },
     {
-      name: "Schumacher SC1455 Level 1 / Level 2 Portable EV Charger (16A 120V/240V)",
-      score: "9.6",
-      img: "/assets/images/products/schumacher-charger.webp",
-      asin: "B08PQ44S4J"
-    },
-    {
-      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Backlit LCD 4 Ranges)",
-      score: "9.5",
+      name: "Accu-Gage RS60XA Professional Tire Pressure Gauge with Protective Rubber Guard",
+      score: "9.7",
       img: "/assets/images/products/astroai-gauge.webp",
-      asin: "B01J888JF0"
+      asin: "B00VS0T7IC"
+    },
+    {
+      name: "NOCO Boost Plus GB40 1000A 12V UltraSafe Lithium Portable Jump Starter",
+      score: "9.6",
+      img: "/assets/images/products/noco-booster.webp",
+      asin: "B015TKUPIC"
     }
   ],
   'hybrid-powertrains': [
     {
-      name: "Veepeak OBDCheck BLE+ Bluetooth 4.0 OBD2 Diagnostic Scanner (Dr. Prius)",
+      name: "Veepeak OBDCheck BLE Bluetooth 4.0 OBD2 Diagnostic Scanner (Dr. Prius Compatible)",
       score: "9.9",
       img: "/assets/images/products/veepeak-scanner.webp",
-      asin: "B076BML7HB"
+      asin: "B073XKQQQW"
     },
     {
-      name: "Autel MaxiCOM MK808S Automotive Diagnostic Tool (Full Hybrid Systems)",
+      name: "Autel MaxiCOM MK808S Automotive Diagnostic Scanner (Bidirectional All-System)",
       score: "9.8",
       img: "/assets/images/products/autel-scanner.webp",
-      asin: "B0B3928LST"
+      asin: "B0744JBC7W"
     },
     {
-      name: "NOCO Boost Plus GB40 1000A 12V UltraSafe Lithium Car Jump Starter",
+      name: "BlueDriver Bluetooth Pro OBDII Diagnostic Scan Tool & Code Reader (iOS & Android)",
       score: "9.7",
+      img: "/assets/images/products/veepeak-scanner.webp",
+      asin: "B00652G4TS"
+    },
+    {
+      name: "NOCO Boost Plus GB40 1000A 12V UltraSafe Lithium Portable Jump Starter",
+      score: "9.6",
       img: "/assets/images/products/noco-booster.webp",
       asin: "B015TKUPIC"
-    },
-    {
-      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Backlit Display)",
-      score: "9.5",
-      img: "/assets/images/products/astroai-gauge.webp",
-      asin: "B01J888JF0"
     }
   ],
   'eco-maintenance-and-gear': [
     {
-      name: "Mobil 1 Advanced Fuel Economy 0W-20 Full Synthetic Motor Oil (5 Quart)",
+      name: "Castrol EDGE 0W-20 Advanced Full Synthetic Motor Oil (5 Quarts)",
       score: "9.9",
       img: "/assets/images/products/mobil1-oil.webp",
-      asin: "B008MISDH4"
+      asin: "B00JGQLZJ4"
     },
     {
-      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Lighted Nozzle & LCD)",
+      name: "Accu-Gage RS60XA Professional Tire Pressure Gauge (Precision Bleeder Valve)",
       score: "9.8",
       img: "/assets/images/products/astroai-gauge.webp",
-      asin: "B01J888JF0"
+      asin: "B00VS0T7IC"
     },
     {
-      name: "CURT 18153 60 x 24-Inch Steel Basket Hitch Cargo Carrier (500 lbs)",
+      name: "CURT 18153 60 x 24-Inch Folding Hitch Basket Cargo Carrier (500 lbs Capacity)",
       score: "9.7",
       img: "/assets/images/products/curt-hitch-carrier.webp",
-      asin: "B004QEK2A6"
+      asin: "B00JF5LRN0"
     },
     {
-      name: "Thule Motion XT Aerodynamic Rooftop Cargo Carrier Box (Low Drag Hard Shell)",
+      name: "Thule 859XT Canyon XT Aerodynamic Rooftop Cargo Basket (Low Wind Drag)",
       score: "9.6",
       img: "/assets/images/products/thule-roof-box.webp",
-      asin: "B01MRV5Q4R"
+      asin: "B01DWRB4TI"
     }
   ],
   'fuel-economy-and-hypermiling': [
     {
-      name: "ScanGauge II Ultra Compact 3-in-1 Automotive Computer (Real-Time MPG)",
+      name: "ScanGauge 3 Touch Screen OBD2 Diagnostic Computer & Real-Time MPG Fuel Economy Meter",
       score: "9.9",
       img: "/assets/images/products/scangauge-computer.webp",
-      asin: "B000AAMY86"
+      asin: "B0BFBQZZMC"
     },
     {
-      name: "AstroAI Digital Tire Pressure Gauge 150 PSI (Accurate PSI Calibration)",
+      name: "Veepeak OBDCheck BLE Bluetooth 4.0 OBD2 Diagnostic Scanner (Real-Time Sensors)",
       score: "9.8",
-      img: "/assets/images/products/astroai-gauge.webp",
-      asin: "B01J888JF0"
+      img: "/assets/images/products/veepeak-scanner.webp",
+      asin: "B073XKQQQW"
     },
     {
-      name: "Garmin DriveSmart 66 6-Inch GPS Navigator (Live Fuel Prices & Eco-Routing)",
+      name: "ANCEL AD410 Enhanced OBD2 Vehicle Code Reader & Live Data Diagnostic Tool",
       score: "9.7",
-      img: "/assets/images/products/garmin-navigator.webp",
-      asin: "B099KTYWSC"
+      img: "/assets/images/products/autel-scanner.webp",
+      asin: "B071FSNL73"
     },
     {
-      name: "Mobil 1 Advanced Fuel Economy 0W-20 Synthetic Motor Oil (Low Friction)",
+      name: "Accu-Gage RS60XA Professional Tire Pressure Gauge with Protective Rubber Guard",
       score: "9.6",
-      img: "/assets/images/products/mobil1-oil.webp",
-      asin: "B008MISDH4"
+      img: "/assets/images/products/astroai-gauge.webp",
+      asin: "B00VS0T7IC"
     }
   ]
 };
