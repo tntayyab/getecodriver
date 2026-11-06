@@ -144,6 +144,7 @@ function renderHead(page) {
   gtag('config', 'G-4NEK6JKTV1');
 </script>
 <meta charset="utf-8">
+<meta name="yandex-verification" content="1cd8264b2c81ffaf">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${title}</title>
 <meta name="description" content="${desc}">
