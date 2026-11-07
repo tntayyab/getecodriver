@@ -352,10 +352,26 @@ const articlesDir = path.join(ROOT, 'src', 'content', 'articles');
 ensureDir(articlesDir);
 const articleFiles = fs.readdirSync(articlesDir).filter(f => f.endsWith('.json'));
 
-const articles = articleFiles.map(f => {
+const allArticles = articleFiles.map(f => {
   const content = JSON.parse(fs.readFileSync(path.join(articlesDir, f), 'utf8'));
   return content;
 });
+
+// Scheduling Engine: Filter out future scheduled articles unless BUILD_ALL=true
+const now = new Date();
+const buildAll = process.env.BUILD_ALL === 'true';
+
+const articles = allArticles.filter(art => {
+  if (buildAll) return true;
+  if (!art.datePublished) return true;
+  return new Date(art.datePublished) <= now;
+});
+
+console.log(`
+========================================`);
+console.log(`🕒 SCHEDULER ENGINE: Total Articles: ${allArticles.length} | Live Published: ${articles.length} | Scheduled Future: ${allArticles.length - articles.length}`);
+console.log(`========================================
+`);
 
 // Sort newest first
 articles.sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));

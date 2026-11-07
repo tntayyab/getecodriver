@@ -1,0 +1,2500 @@
+{
+  "metadata": {
+    "totalPosts": 100,
+    "startDate": "2026-11-07",
+    "endDate": "2027-01-01",
+    "totalDays": 56,
+    "gapDays": 6,
+    "publishingDays": 50
+  },
+  "calendar": [
+    {
+      "date": "2026-11-07",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:24:17",
+          "iso_str": "2026-11-07T11:24:17+06:00"
+        },
+        {
+          "slot_name": "Evening",
+          "time_str": "17:32:14",
+          "iso_str": "2026-11-07T17:32:14+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:08:47",
+          "iso_str": "2026-11-08T11:08:47+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:46:27",
+          "iso_str": "2026-11-09T10:46:27+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:23:01",
+          "iso_str": "2026-11-09T12:23:01+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "19:53:13",
+          "iso_str": "2026-11-09T19:53:13+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:38:12",
+          "iso_str": "2026-11-10T10:38:12+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "09:11:28",
+          "iso_str": "2026-11-11T09:11:28+06:00"
+        },
+        {
+          "slot_name": "Evening",
+          "time_str": "17:41:51",
+          "iso_str": "2026-11-11T17:41:51+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "19:31:48",
+          "iso_str": "2026-11-11T19:31:48+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "is_gap": true,
+      "count": 0,
+      "slots": []
+    },
+    {
+      "date": "2026-11-13",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "09:42:17",
+          "iso_str": "2026-11-13T09:42:17+06:00"
+        },
+        {
+          "slot_name": "Evening",
+          "time_str": "17:09:13",
+          "iso_str": "2026-11-13T17:09:13+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:45:21",
+          "iso_str": "2026-11-13T22:45:21+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "19:54:22",
+          "iso_str": "2026-11-14T19:54:22+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:41:02",
+          "iso_str": "2026-11-15T11:41:02+06:00"
+        },
+        {
+          "slot_name": "Evening",
+          "time_str": "18:27:34",
+          "iso_str": "2026-11-15T18:27:34+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:01:59",
+          "iso_str": "2026-11-15T20:01:59+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Evening",
+          "time_str": "18:02:36",
+          "iso_str": "2026-11-16T18:02:36+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:26:42",
+          "iso_str": "2026-11-17T08:26:42+06:00"
+        },
+        {
+          "slot_name": "Evening",
+          "time_str": "17:28:49",
+          "iso_str": "2026-11-17T17:28:49+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "09:14:55",
+          "iso_str": "2026-11-18T09:14:55+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:11:40",
+          "iso_str": "2026-11-19T10:11:40+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:03:10",
+          "iso_str": "2026-11-19T21:03:10+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "15:06:17",
+          "iso_str": "2026-11-20T15:06:17+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:50:40",
+          "iso_str": "2026-11-21T10:50:40+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:58:34",
+          "iso_str": "2026-11-21T12:58:34+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:36:15",
+          "iso_str": "2026-11-21T22:36:15+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "20:39:59",
+          "iso_str": "2026-11-22T20:39:59+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "is_gap": true,
+      "count": 0,
+      "slots": []
+    },
+    {
+      "date": "2026-11-24",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "13:11:43",
+          "iso_str": "2026-11-24T13:11:43+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:53:53",
+          "iso_str": "2026-11-24T20:53:53+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "09:13:52",
+          "iso_str": "2026-11-25T09:13:52+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:23:51",
+          "iso_str": "2026-11-25T12:23:51+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:50:25",
+          "iso_str": "2026-11-25T20:50:25+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:40:56",
+          "iso_str": "2026-11-26T14:40:56+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:02:31",
+          "iso_str": "2026-11-27T11:02:31+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "13:56:56",
+          "iso_str": "2026-11-27T13:56:56+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:14:29",
+          "iso_str": "2026-11-27T22:14:29+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "13:18:47",
+          "iso_str": "2026-11-28T13:18:47+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "is_gap": true,
+      "count": 0,
+      "slots": []
+    },
+    {
+      "date": "2026-11-30",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:26:37",
+          "iso_str": "2026-11-30T11:26:37+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:19:57",
+          "iso_str": "2026-11-30T21:19:57+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "09:11:08",
+          "iso_str": "2026-12-01T09:11:08+06:00"
+        },
+        {
+          "slot_name": "Evening",
+          "time_str": "18:40:31",
+          "iso_str": "2026-12-01T18:40:31+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "19:53:48",
+          "iso_str": "2026-12-01T19:53:48+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:54:40",
+          "iso_str": "2026-12-02T08:54:40+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:03:38",
+          "iso_str": "2026-12-03T14:03:38+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "19:46:24",
+          "iso_str": "2026-12-03T19:46:24+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "21:45:16",
+          "iso_str": "2026-12-04T21:45:16+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:09:46",
+          "iso_str": "2026-12-05T11:09:46+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:44:43",
+          "iso_str": "2026-12-05T12:44:43+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:47:48",
+          "iso_str": "2026-12-05T21:47:48+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Evening",
+          "time_str": "16:58:18",
+          "iso_str": "2026-12-06T16:58:18+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:15:46",
+          "iso_str": "2026-12-07T08:15:46+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:34:16",
+          "iso_str": "2026-12-07T22:34:16+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:24:58",
+          "iso_str": "2026-12-08T10:24:58+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:42:55",
+          "iso_str": "2026-12-08T12:42:55+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:10:19",
+          "iso_str": "2026-12-08T22:10:19+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:50:12",
+          "iso_str": "2026-12-09T14:50:12+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:09:23",
+          "iso_str": "2026-12-09T20:09:23+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "is_gap": true,
+      "count": 0,
+      "slots": []
+    },
+    {
+      "date": "2026-12-11",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:48:20",
+          "iso_str": "2026-12-11T10:48:20+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:20:01",
+          "iso_str": "2026-12-11T14:20:01+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "19:58:59",
+          "iso_str": "2026-12-11T19:58:59+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Evening",
+          "time_str": "17:31:03",
+          "iso_str": "2026-12-12T17:31:03+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-13",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:35:05",
+          "iso_str": "2026-12-13T12:35:05+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:37:31",
+          "iso_str": "2026-12-13T22:37:31+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-14",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:47:42",
+          "iso_str": "2026-12-14T08:47:42+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:16:35",
+          "iso_str": "2026-12-14T14:16:35+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:12:16",
+          "iso_str": "2026-12-14T20:12:16+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:03:13",
+          "iso_str": "2026-12-15T14:03:13+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:48:48",
+          "iso_str": "2026-12-15T21:48:48+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-16",
+      "is_gap": true,
+      "count": 0,
+      "slots": []
+    },
+    {
+      "date": "2026-12-17",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:17:19",
+          "iso_str": "2026-12-17T11:17:19+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "13:57:42",
+          "iso_str": "2026-12-17T13:57:42+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:16:23",
+          "iso_str": "2026-12-17T22:16:23+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-18",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "20:00:15",
+          "iso_str": "2026-12-18T20:00:15+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-19",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:20:37",
+          "iso_str": "2026-12-19T08:20:37+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:51:14",
+          "iso_str": "2026-12-19T21:51:14+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:33:45",
+          "iso_str": "2026-12-20T08:33:45+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:56:03",
+          "iso_str": "2026-12-20T14:56:03+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:28:04",
+          "iso_str": "2026-12-20T20:28:04+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:33:32",
+          "iso_str": "2026-12-21T08:33:32+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:30:17",
+          "iso_str": "2026-12-21T20:30:17+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-22",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:33:08",
+          "iso_str": "2026-12-22T10:33:08+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "15:20:59",
+          "iso_str": "2026-12-22T15:20:59+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:56:36",
+          "iso_str": "2026-12-22T21:56:36+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "11:41:26",
+          "iso_str": "2026-12-23T11:41:26+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:18:06",
+          "iso_str": "2026-12-23T20:18:06+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "21:00:27",
+          "iso_str": "2026-12-24T21:00:27+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "is_gap": false,
+      "count": 2,
+      "slots": [
+        {
+          "slot_name": "Afternoon",
+          "time_str": "12:28:43",
+          "iso_str": "2026-12-25T12:28:43+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "22:17:41",
+          "iso_str": "2026-12-25T22:17:41+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-26",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "22:36:21",
+          "iso_str": "2026-12-26T22:36:21+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "is_gap": true,
+      "count": 0,
+      "slots": []
+    },
+    {
+      "date": "2026-12-28",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "09:18:12",
+          "iso_str": "2026-12-28T09:18:12+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "13:03:34",
+          "iso_str": "2026-12-28T13:03:34+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "21:24:08",
+          "iso_str": "2026-12-28T21:24:08+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Evening",
+          "time_str": "18:28:15",
+          "iso_str": "2026-12-29T18:28:15+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "10:08:51",
+          "iso_str": "2026-12-30T10:08:51+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "14:35:06",
+          "iso_str": "2026-12-30T14:35:06+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "19:42:41",
+          "iso_str": "2026-12-30T19:42:41+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "is_gap": false,
+      "count": 3,
+      "slots": [
+        {
+          "slot_name": "Morning",
+          "time_str": "08:38:59",
+          "iso_str": "2026-12-31T08:38:59+06:00"
+        },
+        {
+          "slot_name": "Afternoon",
+          "time_str": "15:27:54",
+          "iso_str": "2026-12-31T15:27:54+06:00"
+        },
+        {
+          "slot_name": "Night",
+          "time_str": "20:30:10",
+          "iso_str": "2026-12-31T20:30:10+06:00"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-01",
+      "is_gap": false,
+      "count": 1,
+      "slots": [
+        {
+          "slot_name": "Night",
+          "time_str": "21:34:30",
+          "iso_str": "2027-01-01T21:34:30+06:00"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "num": 1,
+      "keyword": "how to test prius hybrid battery with multimeter",
+      "slug": "how-to-test-prius-hybrid-battery-with-multimeter",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Diagnostic Guide",
+      "eav": "[Prius HV Battery] -> [Voltage Delta] -> [>0.2V variance fails]",
+      "sv_kd": "880 / 12",
+      "zero_click": "8%",
+      "hook": "A Prius high-voltage battery module is failing when multimeter testing reveals a voltage drop exceeding 0.20 volts across any individual 7.2V NiMH cell under a 12V 55W headlight bulb load.",
+      "scheduledDate": "2026-11-07",
+      "scheduledTime": "11:24:17",
+      "scheduledIso": "2026-11-07T11:24:17+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 26,
+      "keyword": "why does ev charging slow down after 80 percent",
+      "slug": "why-does-ev-charging-slow-down-after-80-percent",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Physics / Explainer",
+      "eav": "[Lithium Plating Prevention] -> [Constant Current to CV] -> [Thermal Throttling]",
+      "sv_kd": "2,100 / 16",
+      "zero_click": "12%",
+      "hook": "EV charging speeds decelerate sharply after 80% state-of-charge because the onboard Battery Management System shifts from Constant Current to Constant Voltage mode to prevent internal lithium plating.",
+      "scheduledDate": "2026-11-07",
+      "scheduledTime": "17:32:14",
+      "scheduledIso": "2026-11-07T17:32:14+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 51,
+      "keyword": "most fuel efficient speed on highway myth vs reality",
+      "slug": "most-fuel-efficient-speed-on-highway-myth-vs-reality",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Data Benchmark",
+      "eav": "[BSFC Efficiency Curve] -> [Gear Ratio & Aero Drag] -> [50 to 55 mph sweet spot]",
+      "sv_kd": "3,100 / 21",
+      "zero_click": "12%",
+      "hook": "The most fuel-efficient cruising speed for modern gasoline and hybrid passenger vehicles is between 50 and 55 mph, where top-gear engine efficiency balances against rising aerodynamic drag.",
+      "scheduledDate": "2026-11-08",
+      "scheduledTime": "11:08:47",
+      "scheduledIso": "2026-11-08T11:08:47+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 76,
+      "keyword": "how much does tire pressure affect gas mileage",
+      "slug": "how-much-does-tire-pressure-affect-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Core Diagnostic",
+      "eav": "[Rolling Resistance Coefficient] -> [Tire Deflection] -> [0.2% MPG per 1 PSI]",
+      "sv_kd": "2,800 / 19",
+      "zero_click": "12%",
+      "hook": "For every 1 PSI drop in four vehicle tires below recommended door placard specifications, overall fuel economy decreases by approximately 0.2% due to increased sidewall rubber deflection.",
+      "scheduledDate": "2026-11-09",
+      "scheduledTime": "10:46:27",
+      "scheduledIso": "2026-11-09T10:46:27+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 2,
+      "keyword": "toyota hybrid battery fan cleaning symptoms",
+      "slug": "toyota-hybrid-battery-fan-cleaning-symptoms",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Symptom Matrix",
+      "eav": "[Blower Fan Filter] -> [Dust Restriction] -> [Thermal Throttling]",
+      "sv_kd": "720 / 9",
+      "zero_click": "11%",
+      "hook": "A clogged hybrid battery cooling fan triggers loud continuous blower noise from the rear passenger vent, rapid battery thermal throttling, and immediate drop in regenerative braking efficiency.",
+      "scheduledDate": "2026-11-09",
+      "scheduledTime": "12:23:01",
+      "scheduledIso": "2026-11-09T12:23:01+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 27,
+      "keyword": "how much does cold weather reduce ev range",
+      "slug": "how-much-does-cold-weather-reduce-ev-range",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Empirical Benchmark",
+      "eav": "[Lithium Electrolyte Viscosity] -> [Cabin PTC Heater] -> [20% to 40% loss]",
+      "sv_kd": "2,400 / 18",
+      "zero_click": "15%",
+      "hook": "Sub-freezing temperatures reduce real-world electric vehicle driving range by 20% to 41% due to sluggish lithium-ion electrolyte conductivity and the high electrical draw of resistive cabin heaters.",
+      "scheduledDate": "2026-11-09",
+      "scheduledTime": "19:53:13",
+      "scheduledIso": "2026-11-09T19:53:13+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 52,
+      "keyword": "does cruise control save gas in hilly terrain",
+      "slug": "does-cruise-control-save-gas-in-hilly-terrain",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Empirical Test",
+      "eav": "[Throttle Hunting] -> [Engine Load Spikes] -> [5% to 8% higher consumption]",
+      "sv_kd": "1,400 / 15",
+      "zero_click": "11%",
+      "hook": "Standard cruise control increases fuel consumption by 5% to 8% in hilly terrain because the cruise computer applies wide-open throttle to maintain exact speed uphill rather than letting momentum drift.",
+      "scheduledDate": "2026-11-10",
+      "scheduledTime": "10:38:12",
+      "scheduledIso": "2026-11-10T10:38:12+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 77,
+      "keyword": "does synthetic oil improve gas mileage over conventional",
+      "slug": "does-synthetic-oil-improve-gas-mileage-over-conventional",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Lubrication Science",
+      "eav": "[Hydrodynamic Friction] -> [Viscosity Shearing] -> [1% to 2% efficiency gain]",
+      "sv_kd": "2,400 / 17",
+      "zero_click": "14%",
+      "hook": "Full synthetic motor oil improves fuel economy by 1% to 2% compared to conventional mineral oils because its uniform molecular structure minimizes internal fluid friction and piston ring shearing resistance.",
+      "scheduledDate": "2026-11-11",
+      "scheduledTime": "09:11:28",
+      "scheduledIso": "2026-11-11T09:11:28+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 3,
+      "keyword": "p0a80 replace hybrid battery pack reset procedure",
+      "slug": "p0a80-replace-hybrid-battery-pack-reset-procedure",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Code Troubleshooting",
+      "eav": "[DTC P0a80] -> [Diagnostic Clearing] -> [OBD2 12V disconnect]",
+      "sv_kd": "1,100 / 16",
+      "zero_click": "7%",
+      "hook": "Clearing error code P0A80 requires addressing the high-voltage module block variance before resetting the ECU via an OBD-II CAN bus scanner or a 5-minute disconnect of the 12V auxiliary terminal.",
+      "scheduledDate": "2026-11-11",
+      "scheduledTime": "17:41:51",
+      "scheduledIso": "2026-11-11T17:41:51+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 28,
+      "keyword": "charging ev to 80 vs 100 daily degradation difference",
+      "slug": "charging-ev-to-80-vs-100-daily-degradation-difference",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Battery Chemistry",
+      "eav": "[NMC Cathode Stress] -> [High Voltage Dwell] -> [3x cycle life retention]",
+      "sv_kd": "1,300 / 14",
+      "zero_click": "9%",
+      "hook": "Capping daily EV charging at 80% extends lithium-ion NMC battery longevity by up to three times compared to daily 100% charging by eliminating prolonged high-voltage state-of-charge stress.",
+      "scheduledDate": "2026-11-11",
+      "scheduledTime": "19:31:48",
+      "scheduledIso": "2026-11-11T19:31:48+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 53,
+      "keyword": "pulse and glide driving technique explained with automatic",
+      "slug": "pulse-and-glide-driving-technique-explained-with-automatic",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Driver Protocol",
+      "eav": "[Brake Specific Fuel Consumption] -> [Neutral Drift Glide] -> [15% to 25% MPG gain]",
+      "sv_kd": "1,200 / 13",
+      "zero_click": "9%",
+      "hook": "Pulse-and-glide in an automatic hybrid involves briskly accelerating to 40 mph at peak thermal engine efficiency, then lifting the throttle completely to enter zero-fuel electrical freewheeling down to 30 mph.",
+      "scheduledDate": "2026-11-13",
+      "scheduledTime": "09:42:17",
+      "scheduledIso": "2026-11-13T09:42:17+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 78,
+      "keyword": "0w-20 vs 5w-30 gas mileage difference in hybrid",
+      "slug": "0w-20-vs-5w-30-gas-mileage-difference-in-hybrid",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Oil Viscosity Test",
+      "eav": "[Kinematic Viscosity @ 100C] -> [Pumping Losses] -> [0.5 to 1.5 MPG gain]",
+      "sv_kd": "1,300 / 14",
+      "zero_click": "9%",
+      "hook": "Switching from 5W-30 to 0W-20 motor oil in a hybrid engine improves fuel efficiency by 0.5 to 1.5 MPG by reducing parasitic engine drag during frequent cold-engine electric-to-gas starting cycles.",
+      "scheduledDate": "2026-11-13",
+      "scheduledTime": "17:09:13",
+      "scheduledIso": "2026-11-13T17:09:13+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 4,
+      "keyword": "signs of weak 12v battery in hybrid car",
+      "slug": "signs-of-weak-12v-battery-in-hybrid-car",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Diagnostic Checklist",
+      "eav": "[Auxiliary 12V AGM] -> [System Boot Failure] -> [<12.2V threshold]",
+      "sv_kd": "1,400 / 14",
+      "zero_click": "12%",
+      "hook": "A weak 12-volt auxiliary battery in a hybrid causes erratic dashboard warnings, delayed \"READY\" light ignition, and loss of hybrid computer boot capability while resting below 12.2 volts.",
+      "scheduledDate": "2026-11-13",
+      "scheduledTime": "22:45:21",
+      "scheduledIso": "2026-11-13T22:45:21+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 29,
+      "keyword": "level 1 vs level 2 charger energy efficiency comparison",
+      "slug": "level-1-vs-level-2-charger-energy-efficiency-comparison",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Efficiency Metric",
+      "eav": "[AC-to-DC Inverter Overhead] -> [Conversion Losses] -> [83% L1 vs 91% L2]",
+      "sv_kd": "950 / 11",
+      "zero_click": "11%",
+      "hook": "Level 2 charging is 8% to 12% more energy-efficient than Level 1 charging because the onboard computer and cooling pumps operate for significantly fewer hours during the AC-to-DC conversion cycle.",
+      "scheduledDate": "2026-11-14",
+      "scheduledTime": "19:54:22",
+      "scheduledIso": "2026-11-14T19:54:22+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 54,
+      "keyword": "how much does ac really reduce gas mileage",
+      "slug": "how-much-does-ac-really-reduce-gas-mileage",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Real-World Test",
+      "eav": "[Compressor Parasitic Load] -> [Speed Threshold] -> [1-3 MPG city vs 0.5 hwy]",
+      "sv_kd": "2,600 / 18",
+      "zero_click": "14%",
+      "hook": "Automotive air conditioning reduces city fuel economy by 1 to 3 MPG due to belt-driven compressor load, but creates less total drag than open windows at speeds above 55 mph.",
+      "scheduledDate": "2026-11-15",
+      "scheduledTime": "11:41:02",
+      "scheduledIso": "2026-11-15T11:41:02+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 79,
+      "keyword": "best low rolling resistance tires for highway mpg",
+      "slug": "best-low-rolling-resistance-tires-for-highway-mpg",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Commercial Roundup",
+      "eav": "[Silica Tread Compound] -> [Hysteresis Reduction] -> [3% to 5% range recovery]",
+      "sv_kd": "1,600 / 18",
+      "zero_click": "13%",
+      "hook": "The best low rolling resistance tires utilize specialized silica-infused tread compounds and lightweight carcass belts to reduce hysteresis energy loss, delivering a verified 3% to 5% fuel savings.",
+      "scheduledDate": "2026-11-15",
+      "scheduledTime": "18:27:34",
+      "scheduledIso": "2026-11-15T18:27:34+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 5,
+      "keyword": "dr prius app battery health test accuracy",
+      "slug": "dr-prius-app-battery-health-test-accuracy",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "App Evaluation",
+      "eav": "[Dr. Prius App] -> [Delta State of Charge] -> [94% field accuracy]",
+      "sv_kd": "650 / 8",
+      "zero_click": "14%",
+      "hook": "The Dr. Prius application delivers 94% diagnostic accuracy compared to bench testing by analyzing real-time internal resistance and cell block voltage deltas during active discharge cycles.",
+      "scheduledDate": "2026-11-15",
+      "scheduledTime": "20:01:59",
+      "scheduledIso": "2026-11-15T20:01:59+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 30,
+      "keyword": "can you leave an ev plugged in when going on vacation",
+      "slug": "can-you-leave-an-ev-plugged-in-when-going-on-vacation",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Ownership Protocol",
+      "eav": "[BMS Parasitic Drain] -> [Buffer Maintenance] -> [50% SOC storage floor]",
+      "sv_kd": "1,800 / 12",
+      "zero_click": "14%",
+      "hook": "An electric vehicle should remain plugged in with its charge limit set to 50% during extended vacations so the active thermal management system can condition the cells without depleting the 12V battery.",
+      "scheduledDate": "2026-11-16",
+      "scheduledTime": "18:02:36",
+      "scheduledIso": "2026-11-16T18:02:36+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 55,
+      "keyword": "driving with tailgate down gas mileage mythbusters",
+      "slug": "driving-with-tailgate-down-gas-mileage-mythbusters",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Aerodynamic Test",
+      "eav": "[Bed Vortices Bubble] -> [Air Dam Turbulence] -> [Decreased aerodynamic efficiency]",
+      "sv_kd": "1,800 / 14",
+      "zero_click": "12%",
+      "hook": "Driving a pickup truck with the tailgate down decreases fuel economy because dropping the tailgate collapses the recirculating \"trapped vortex\" air bubble that allows laminar airflow over the truck bed.",
+      "scheduledDate": "2026-11-17",
+      "scheduledTime": "08:26:42",
+      "scheduledIso": "2026-11-17T08:26:42+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 80,
+      "keyword": "do roof cargo boxes hurt gas mileage more than hitch carriers",
+      "slug": "do-roof-cargo-boxes-hurt-gas-mileage-more-than-hitch-carriers",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Comparison Test",
+      "eav": "[Frontal Area Aerodynamics] -> [Vehicle Wake Cavity] -> [Hitch 2-5% vs Roof 15-25%]",
+      "sv_kd": "950 / 12",
+      "zero_click": "8%",
+      "hook": "Hitch-mounted cargo carriers are significantly more aerodynamic than rooftop cargo boxes, reducing highway fuel economy by only 2% to 5% compared to the 15% to 25% penalty caused by roof boxes.",
+      "scheduledDate": "2026-11-17",
+      "scheduledTime": "17:28:49",
+      "scheduledIso": "2026-11-17T17:28:49+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 6,
+      "keyword": "can you drive a hybrid car with a bad inverter",
+      "slug": "can-you-drive-a-hybrid-car-with-a-bad-inverter",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Safety / Decision",
+      "eav": "[Inverter Converter] -> [Operational Failure] -> [Immediate Shutdown]",
+      "sv_kd": "590 / 6",
+      "zero_click": "9%",
+      "hook": "Driving a hybrid with a failing inverter-converter is mechanically impossible because the inverter governs the high-voltage motor-generator phase conversion and will trip an immediate safety shutdown.",
+      "scheduledDate": "2026-11-18",
+      "scheduledTime": "09:14:55",
+      "scheduledIso": "2026-11-18T09:14:55+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 31,
+      "keyword": "best portable level 2 ev charger for road trips",
+      "slug": "best-portable-level-2-ev-charger-for-road-trips",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Commercial Roundup",
+      "eav": "[NEMA 14-50 Portable EVSE] -> [Amperage Flexibility] -> [32A Dual-Voltage]",
+      "sv_kd": "1,400 / 16",
+      "zero_click": "13%",
+      "hook": "The best portable Level 2 EV chargers deliver dual-voltage 120V/240V versatility, adjustable 16A-to-32A output, and rugged IP66 weatherproofing compatible with RV park NEMA 14-50 receptacles.",
+      "scheduledDate": "2026-11-19",
+      "scheduledTime": "10:11:40",
+      "scheduledIso": "2026-11-19T10:11:40+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 56,
+      "keyword": "scangauge ii vs scangauge 3 differences review",
+      "slug": "scangauge-ii-vs-scangauge-3-differences-review",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Commercial VS",
+      "eav": "[OBD2 Refresh Rate] -> [Display Architecture] -> [Color touchscreen vs 2-line]",
+      "sv_kd": "890 / 11",
+      "zero_click": "10%",
+      "hook": "The ScanGauge 3 significantly upgrades the older ScanGauge II by adding a full-color capacitive touchscreen, Wi-Fi firmware updates, and simultaneous display of up to 9 real-time digital sensor gauges.",
+      "scheduledDate": "2026-11-19",
+      "scheduledTime": "21:03:10",
+      "scheduledIso": "2026-11-19T21:03:10+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 81,
+      "keyword": "dirty engine air filter reduce gas mileage modern cars",
+      "slug": "dirty-engine-air-filter-reduce-gas-mileage-modern-cars",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Technical Myth",
+      "eav": "[MAF Sensor Feedback] -> [Throttle Plate Compensation] -> [Zero MPG loss on EFI]",
+      "sv_kd": "1,700 / 15",
+      "zero_click": "11%",
+      "hook": "A dirty engine air filter does not reduce gas mileage on modern fuel-injected vehicles because the computer automatically restricts fuel delivery to maintain proper stoichiometry, reducing peak power instead.",
+      "scheduledDate": "2026-11-20",
+      "scheduledTime": "15:06:17",
+      "scheduledIso": "2026-11-20T15:06:17+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 7,
+      "keyword": "honda civic hybrid ima battery bypass switch",
+      "slug": "honda-civic-hybrid-ima-battery-bypass-switch",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Technical Modification",
+      "eav": "[IMA System] -> [BCM Voltage Tap] -> [12V starter fallback]",
+      "sv_kd": "480 / 11",
+      "zero_click": "6%",
+      "hook": "Bypassing a failing Honda IMA battery requires unplugging the BCM wiring harness behind the rear seatback to force the vehicle into dedicated 12V conventional starter operation.",
+      "scheduledDate": "2026-11-21",
+      "scheduledTime": "10:50:40",
+      "scheduledIso": "2026-11-21T10:50:40+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 32,
+      "keyword": "how many amps do i need for level 2 home charger",
+      "slug": "how-many-amps-do-i-need-for-level-2-home-charger",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Electrical Sizing",
+      "eav": "[Home EVSE Circuit] -> [80% Continuous Load Rule] -> [40A or 50A breaker]",
+      "sv_kd": "2,900 / 19",
+      "zero_click": "10%",
+      "hook": "Installing a 32-amp Level 2 home charger requires a dedicated 40-amp circuit breaker, while a 48-amp hardwired unit requires a dedicated 60-amp circuit under the National Electrical Code 80% rule.",
+      "scheduledDate": "2026-11-21",
+      "scheduledTime": "12:58:34",
+      "scheduledIso": "2026-11-21T12:58:34+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 57,
+      "keyword": "how to read instant fuel economy on obd2 scanner",
+      "slug": "how-to-read-instant-fuel-economy-on-obd2-scanner",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Technical Telemetry",
+      "eav": "[PID Mass Air Flow] -> [Fuel-Air Stoichiometry] -> [14.7:1 calculation]",
+      "sv_kd": "640 / 8",
+      "zero_click": "8%",
+      "hook": "Reading instant fuel economy via OBD2 requires monitoring the Mass Air Flow (MAF) sensor PID and calculating instant consumption against vehicle speed using the 14.7:1 gasoline stoichiometric ratio.",
+      "scheduledDate": "2026-11-21",
+      "scheduledTime": "22:36:15",
+      "scheduledIso": "2026-11-21T22:36:15+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 82,
+      "keyword": "how to clean mass air flow sensor to improve mpg",
+      "slug": "how-to-clean-mass-air-flow-sensor-to-improve-mpg",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Step-by-Step DIY",
+      "eav": "[Hot Wire Element] -> [CRC MAF Cleaner Solvent] -> [Hexane base zero residue]",
+      "sv_kd": "1,900 / 16",
+      "zero_click": "9%",
+      "hook": "Cleaning a contaminated mass airflow sensor requires spraying the internal platinum hot-wire element with dedicated zero-residue MAF solvent to restore accurate intake air measurement and correct rich fuel trims.",
+      "scheduledDate": "2026-11-22",
+      "scheduledTime": "20:39:59",
+      "scheduledIso": "2026-11-22T20:39:59+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 8,
+      "keyword": "how long can a hybrid sit without driving",
+      "slug": "how-long-can-a-hybrid-sit-without-driving",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Preventative Care",
+      "eav": "[Traction Battery] -> [Self-Discharge Rate] -> [60 to 90 days]",
+      "sv_kd": "1,600 / 15",
+      "zero_click": "15%",
+      "hook": "A hybrid vehicle can sit unused for a maximum of 60 to 90 days before high-voltage NiMH cell self-discharge drops pack voltage below the 40% threshold required to boot the gasoline engine.",
+      "scheduledDate": "2026-11-24",
+      "scheduledTime": "13:11:43",
+      "scheduledIso": "2026-11-24T13:11:43+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 33,
+      "keyword": "ev battery preconditioning before fast charging time",
+      "slug": "ev-battery-preconditioning-before-fast-charging-time",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Technical Guide",
+      "eav": "[Cathode Temperature Target] -> [Optimum 25C to 35C] -> [15 to 30 min runtime]",
+      "sv_kd": "1,100 / 13",
+      "zero_click": "8%",
+      "hook": "Activating EV battery preconditioning 15 to 30 minutes prior to arriving at a DC fast charger elevates pack temperatures to 25\u00b0C\u201335\u00b0C, cutting charge times by up to 40% in cold weather.",
+      "scheduledDate": "2026-11-24",
+      "scheduledTime": "20:53:53",
+      "scheduledIso": "2026-11-24T20:53:53+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 58,
+      "keyword": "does drafting a semi truck save gas safely",
+      "slug": "does-drafting-a-semi-truck-save-gas-safely",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Risk / Science",
+      "eav": "[Drafting Slipstream] -> [Following Distance] -> [100ft safe 10% vs 10ft crash]",
+      "sv_kd": "1,600 / 16",
+      "zero_click": "13%",
+      "hook": "Drafting behind a semi-truck at an unsafe 10-foot distance reduces fuel consumption by up to 39%, but maintaining a safe 100-foot following distance yields negligible aerodynamic gain while increasing collision risk.",
+      "scheduledDate": "2026-11-25",
+      "scheduledTime": "09:13:52",
+      "scheduledIso": "2026-11-25T09:13:52+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 83,
+      "keyword": "how bad spark plugs affect gas mileage symptoms",
+      "slug": "how-bad-spark-plugs-affect-gas-mileage-symptoms",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Symptom Matrix",
+      "eav": "[Incomplete Combustion] -> [Unburned Hydrocarbons] -> [Up to 30% fuel penalty]",
+      "sv_kd": "2,200 / 18",
+      "zero_click": "12%",
+      "hook": "Worn spark plugs with eroded electrode gaps reduce fuel efficiency by up to 30% because weak ignition sparks cause incomplete fuel combustion, leading to raw fuel escaping into the exhaust.",
+      "scheduledDate": "2026-11-25",
+      "scheduledTime": "12:23:51",
+      "scheduledIso": "2026-11-25T12:23:51+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 9,
+      "keyword": "camry hybrid check hybrid system warning light reset",
+      "slug": "camry-hybrid-check-hybrid-system-warning-light-reset",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Troubleshooting",
+      "eav": "[Check Hybrid System] -> [Interlock Switch] -> [Service Plug Latch]",
+      "sv_kd": "1,200 / 18",
+      "zero_click": "10%",
+      "hook": "The Camry \"Check Hybrid System\" alert commonly triggers when the high-voltage service disconnect plug is not fully seated with its horizontal safety latch clicked down.",
+      "scheduledDate": "2026-11-25",
+      "scheduledTime": "20:50:25",
+      "scheduledIso": "2026-11-25T20:50:25+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 34,
+      "keyword": "does dc fast charging ruin battery health",
+      "slug": "does-dc-fast-charging-ruin-battery-health",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Scientific Evaluation",
+      "eav": "[Dendrite Formation] -> [Thermal Spikes] -> [0.1% higher degradation/yr]",
+      "sv_kd": "1,600 / 17",
+      "zero_click": "11%",
+      "hook": "Frequent DC fast charging accelerates EV battery degradation by only 0.1% to 0.2% more per year than AC charging, provided the vehicle\u2019s active liquid thermal management system functions properly.",
+      "scheduledDate": "2026-11-26",
+      "scheduledTime": "14:40:56",
+      "scheduledIso": "2026-11-26T14:40:56+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 59,
+      "keyword": "how much weight does it take to reduce mpg",
+      "slug": "how-much-weight-does-it-take-to-reduce-mpg",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Mathematical Rule",
+      "eav": "[Inertial Acceleration Mass] -> [100 lbs rule] -> [1% to 2% MPG degradation]",
+      "sv_kd": "1,300 / 12",
+      "zero_click": "10%",
+      "hook": "Every extra 100 pounds of cargo carried inside a vehicle reduces fuel economy by approximately 1% to 2%, with the greatest penalty occurring during stop-and-go city acceleration.",
+      "scheduledDate": "2026-11-27",
+      "scheduledTime": "11:02:31",
+      "scheduledIso": "2026-11-27T11:02:31+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 84,
+      "keyword": "curt 18153 folding hitch cargo carrier review mpg test",
+      "slug": "curt-18153-folding-hitch-cargo-carrier-review-mpg-test",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Product Review",
+      "eav": "[Steel Hitch Basket] -> [500 lbs Payload] -> [Under 3% highway drag]",
+      "sv_kd": "680 / 8",
+      "zero_click": "10%",
+      "hook": "Real-world highway testing of the CURT 18153 folding hitch carrier reveals less than a 3% fuel economy impact when loaded below the vehicle's rear roofline, making it 5x more efficient than roof boxes.",
+      "scheduledDate": "2026-11-27",
+      "scheduledTime": "13:56:56",
+      "scheduledIso": "2026-11-27T13:56:56+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 10,
+      "keyword": "reconditioning hybrid battery cells at home",
+      "slug": "reconditioning-hybrid-battery-cells-at-home",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Step-by-Step DIY",
+      "eav": "[NiMH Module] -> [Cyclic Reconditioning] -> [0.8V discharge floor]",
+      "sv_kd": "890 / 14",
+      "zero_click": "8%",
+      "hook": "Home reconditioning of NiMH hybrid cells requires cycling individual modules through three charge-discharge iterations down to 0.8 volts per cell using a smart hobby balance charger.",
+      "scheduledDate": "2026-11-27",
+      "scheduledTime": "22:14:29",
+      "scheduledIso": "2026-11-27T22:14:29+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 35,
+      "keyword": "how to test ev battery health before buying used",
+      "slug": "how-to-test-ev-battery-health-before-buying-used",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Buyer Checklist",
+      "eav": "[OBD2 Dongle + Car Scanner] -> [SOH Metric] -> [Max Cell mV Delta]",
+      "sv_kd": "1,200 / 15",
+      "zero_click": "9%",
+      "hook": "Testing a used EV\u2019s battery health requires connecting an OBD2 diagnostic scanner to read the State of Health (SOH) percentage and verify that individual cell voltage variance stays below 15 millivolts.",
+      "scheduledDate": "2026-11-28",
+      "scheduledTime": "13:18:47",
+      "scheduledIso": "2026-11-28T13:18:47+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 60,
+      "keyword": "coasting in neutral vs in gear fuel consumption",
+      "slug": "coasting-in-neutral-vs-in-gear-fuel-consumption",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Modern EFI Science",
+      "eav": "[Deceleration Fuel Cut-Off] -> [DFCO Injector Duty] -> [Zero fuel in gear]",
+      "sv_kd": "2,200 / 17",
+      "zero_click": "11%",
+      "hook": "Modern fuel-injected vehicles consume zero fuel while coasting downhill in gear because Deceleration Fuel Cut-Off (DFCO) shuts off the fuel injectors, whereas coasting in neutral burns idle fuel.",
+      "scheduledDate": "2026-11-30",
+      "scheduledTime": "11:26:37",
+      "scheduledIso": "2026-11-30T11:26:37+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 85,
+      "keyword": "does wheel alignment affect gas mileage",
+      "slug": "does-wheel-alignment-affect-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Suspension Physics",
+      "eav": "[Toe-in Scrub Angle] -> [Tire Drag Scrubbing] -> [Up to 10% fuel penalty]",
+      "sv_kd": "1,400 / 13",
+      "zero_click": "11%",
+      "hook": "A misaligned vehicle with severe toe-in or toe-out angles reduces fuel economy by up to 10% because the tires scrub sideways against the pavement rather than rolling freely forward.",
+      "scheduledDate": "2026-11-30",
+      "scheduledTime": "21:19:57",
+      "scheduledIso": "2026-11-30T21:19:57+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 11,
+      "keyword": "toyota hybrid transmission fluid change interval",
+      "slug": "toyota-hybrid-transmission-fluid-change-interval",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Maintenance Spec",
+      "eav": "[eCVT Planetary Gearset] -> [ATF WS Fluid] -> [60,000 miles]",
+      "sv_kd": "1,300 / 11",
+      "zero_click": "13%",
+      "hook": "Toyota eCVT planetary transaxles require Toyota Genuine ATF WS fluid replacement every 60,000 miles to eliminate metal shavings from high-torque motor-generator electromagnetic windings.",
+      "scheduledDate": "2026-12-01",
+      "scheduledTime": "09:11:08",
+      "scheduledIso": "2026-12-01T09:11:08+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 36,
+      "keyword": "why is my ev charging slower at home",
+      "slug": "why-is-my-ev-charging-slower-at-home",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Troubleshooting",
+      "eav": "[Onboard Charger Throttling] -> [High Ambient Temp] -> [Voltage Sag under load]",
+      "sv_kd": "880 / 10",
+      "zero_click": "7%",
+      "hook": "Slower-than-normal home EV charging occurs due to household grid voltage drop during peak hours, thermal throttling inside the EVSE handle, or onboard charger reduction to 16 amps.",
+      "scheduledDate": "2026-12-01",
+      "scheduledTime": "18:40:31",
+      "scheduledIso": "2026-12-01T18:40:31+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 61,
+      "keyword": "how to calculate real mpg without trip computer",
+      "slug": "how-to-calculate-real-mpg-without-trip-computer",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Math / DIY",
+      "eav": "[Odometer Delta Miles] -> [Pump Gallons Filled] -> [Miles divided by gallons]",
+      "sv_kd": "1,900 / 14",
+      "zero_click": "15%",
+      "hook": "Calculating accurate real-world MPG requires recording the trip odometer miles between two full tank fill-ups and dividing the elapsed miles by the exact number of gallons pumped.",
+      "scheduledDate": "2026-12-01",
+      "scheduledTime": "19:53:48",
+      "scheduledIso": "2026-12-01T19:53:48+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 86,
+      "keyword": "aerodynamic hubcaps vs alloy wheels ev range test",
+      "slug": "aerodynamic-hubcaps-vs-alloy-wheels-ev-range-test",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Aero Evaluation",
+      "eav": "[Wheel Turbulence Vortices] -> [Aero Disc Covers] -> [3% to 4% highway efficiency]",
+      "sv_kd": "850 / 9",
+      "zero_click": "10%",
+      "hook": "Aerodynamic wheel covers improve electric vehicle and hybrid highway range by 3% to 4% by smoothing high-speed air turbulence around rotating wheel spokes and brake calipers.",
+      "scheduledDate": "2026-12-02",
+      "scheduledTime": "08:54:40",
+      "scheduledIso": "2026-12-02T08:54:40+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 12,
+      "keyword": "hybrid car hesitates when switching from electric to gas",
+      "slug": "hybrid-car-hesitates-when-switching-from-electric-to-gas",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Mechanical Diagnostic",
+      "eav": "[Power Split Device] -> [Damper Spring Fatigue] -> [Torque Delay]",
+      "sv_kd": "540 / 7",
+      "zero_click": "8%",
+      "hook": "Acceleration hesitation during electric-to-gas transition indicates throttle body carbon fouling, worn spark plugs, or dampener spring fatigue in the transaxle input disc.",
+      "scheduledDate": "2026-12-03",
+      "scheduledTime": "14:03:38",
+      "scheduledIso": "2026-12-03T14:03:38+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 37,
+      "keyword": "nema 14-50 vs 6-50 for ev charging differences",
+      "slug": "nema-14-50-vs-6-50-for-ev-charging-differences",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Electrical Spec",
+      "eav": "[Neutral Wire Requirement] -> [Appliance Compatibility] -> [4-wire vs 3-wire]",
+      "sv_kd": "1,700 / 14",
+      "zero_click": "10%",
+      "hook": "The primary difference between NEMA 14-50 and NEMA 6-50 receptacles is that the 14-50 features a neutral wire for standard household 120V compatibility, whereas the 6-50 uses a dedicated 3-wire 240V circuit.",
+      "scheduledDate": "2026-12-03",
+      "scheduledTime": "19:46:24",
+      "scheduledIso": "2026-12-03T19:46:24+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 62,
+      "keyword": "does premium gas give better mileage in regular cars",
+      "slug": "does-premium-gas-give-better-mileage-in-regular-cars",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Fuel Chemistry",
+      "eav": "[Octane Rating] -> [Knock Resistance] -> [Zero MPG improvement]",
+      "sv_kd": "2,700 / 19",
+      "zero_click": "15%",
+      "hook": "Filling a car designed for 87-octane regular fuel with 91-or-93 premium gasoline yields zero increase in fuel economy because higher octane only resists premature pre-ignition, without adding more thermal energy.",
+      "scheduledDate": "2026-12-04",
+      "scheduledTime": "21:45:16",
+      "scheduledIso": "2026-12-04T21:45:16+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 87,
+      "keyword": "fuel injector cleaner do they really improve gas mileage",
+      "slug": "fuel-injector-cleaner-do-they-really-improve-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Additive Science",
+      "eav": "[Polyetheramine PEA Chem] -> [Spray Pattern Restoration] -> [1-2 MPG recovery]",
+      "sv_kd": "2,400 / 19",
+      "zero_click": "13%",
+      "hook": "Fuel injector cleaners containing concentrated Polyetheramine (PEA) reliably restore 1 to 2 lost MPG by dissolving stubborn carbon deposits that distort the fine atomization spray pattern.",
+      "scheduledDate": "2026-12-05",
+      "scheduledTime": "11:09:46",
+      "scheduledIso": "2026-12-05T11:09:46+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 13,
+      "keyword": "is it worth replacing cells in a hybrid battery",
+      "slug": "is-it-worth-replacing-cells-in-a-hybrid-battery",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Financial Analysis",
+      "eav": "[Individual Cell Replacement] -> [Capacity Mismatch] -> [3-12 mo lifespan]",
+      "sv_kd": "750 / 9",
+      "zero_click": "12%",
+      "hook": "Replacing individual failed hybrid cells offers a cost-effective temporary fix costing under $200, but cell capacity mismatch causes subsequent adjacent module failures within 6 to 12 months.",
+      "scheduledDate": "2026-12-05",
+      "scheduledTime": "12:44:43",
+      "scheduledIso": "2026-12-05T12:44:43+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 38,
+      "keyword": "ev heat pump vs resistive heater energy consumption",
+      "slug": "ev-heat-pump-vs-resistive-heater-energy-consumption",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Mechanical Physics",
+      "eav": "[COP Coefficient] -> [Thermal Transfer] -> [3x less energy draw]",
+      "sv_kd": "780 / 9",
+      "zero_click": "12%",
+      "hook": "Heat pumps in modern EVs consume up to 66% less electrical energy than resistive PTC heaters down to -10\u00b0C by utilizing thermodynamic refrigerant expansion rather than direct electrical heating.",
+      "scheduledDate": "2026-12-05",
+      "scheduledTime": "21:47:48",
+      "scheduledIso": "2026-12-05T21:47:48+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 63,
+      "keyword": "fuel efficiency differences between eco mode and normal",
+      "slug": "fuel-efficiency-differences-between-eco-mode-and-normal",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Drive Mode Test",
+      "eav": "[Throttle Mapping] -> [AC Compressor Cycle] -> [3% to 7% real-world savings]",
+      "sv_kd": "1,500 / 15",
+      "zero_click": "12%",
+      "hook": "Activating Eco Mode improves real-world fuel economy by 3% to 7% primarily by dampening aggressive throttle pedal sensitivity and cycling the air conditioning compressor less aggressively.",
+      "scheduledDate": "2026-12-06",
+      "scheduledTime": "16:58:18",
+      "scheduledIso": "2026-12-06T16:58:18+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 88,
+      "keyword": "how sticking brake caliper ruins gas mileage",
+      "slug": "how-sticking-brake-caliper-ruins-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Mechanical Fault",
+      "eav": "[Hydraulic Slide Pin Seize] -> [Constant Friction Drag] -> [3 to 5 MPG drop]",
+      "sv_kd": "1,100 / 12",
+      "zero_click": "8%",
+      "hook": "A seized brake caliper slide pin causes the brake pad to maintain continuous friction against the rotor, generating excessive wheel hub heat and slashing gas mileage by 3 to 5 MPG.",
+      "scheduledDate": "2026-12-07",
+      "scheduledTime": "08:15:46",
+      "scheduledIso": "2026-12-07T08:15:46+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 14,
+      "keyword": "p0a7f hybrid battery pack deterioration fix",
+      "slug": "p0a7f-hybrid-battery-pack-deterioration-fix",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "DTC Action Plan",
+      "eav": "[DTC P0A7F] -> [Capacity Degradation] -> [Rebalancing vs Replacement]",
+      "sv_kd": "620 / 10",
+      "zero_click": "7%",
+      "hook": "DTC P0A7F indicates high-voltage battery capacity has fallen below 40% of factory amp-hour specifications, necessitating either high-voltage grid rebalancing or a full remanufactured pack.",
+      "scheduledDate": "2026-12-07",
+      "scheduledTime": "22:34:16",
+      "scheduledIso": "2026-12-07T22:34:16+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 39,
+      "keyword": "ev tire pressure for maximum range in winter",
+      "slug": "ev-tire-pressure-for-maximum-range-in-winter",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Tuning Guide",
+      "eav": "[Cold Air Contraction] -> [Boyle's Law] -> [+2 to +3 PSI offset]",
+      "sv_kd": "920 / 11",
+      "zero_click": "9%",
+      "hook": "In winter conditions, inflate EV tires 2 to 3 PSI above cold door placard specifications to compensate for thermal pressure contraction and prevent heavy rolling resistance drag.",
+      "scheduledDate": "2026-12-08",
+      "scheduledTime": "10:24:58",
+      "scheduledIso": "2026-12-08T10:24:58+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 64,
+      "keyword": "why is my gas mileage getting worse all of a sudden",
+      "slug": "why-is-my-gas-mileage-getting-worse-all-of-a-sudden",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Diagnostic Guide",
+      "eav": "[O2 Sensor Sluggishness] -> [Tire Pressure Drop] -> [Dragging Brake Caliper]",
+      "sv_kd": "3,200 / 22",
+      "zero_click": "10%",
+      "hook": "A sudden, sharp drop in gas mileage is typically caused by a dragging brake caliper, an under-inflated tire, a failing coolant temperature sensor locking the engine in \"rich\" warmup mode, or a lazy O2 sensor.",
+      "scheduledDate": "2026-12-08",
+      "scheduledTime": "12:42:55",
+      "scheduledIso": "2026-12-08T12:42:55+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 89,
+      "keyword": "underbody aerodynamic panels do they work",
+      "slug": "underbody-aerodynamic-panels-do-they-work",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Fluid Dynamics",
+      "eav": "[Laminar Airflow] -> [Undercarriage Turbulence] -> [1% to 2% efficiency gain]",
+      "sv_kd": "720 / 8",
+      "zero_click": "12%",
+      "hook": "Underbody aerodynamic splash shields and smooth panels measurably increase vehicle highway fuel economy by 1% to 2% by preventing turbulent air from catching on the exhaust, subframe, and fuel tank.",
+      "scheduledDate": "2026-12-08",
+      "scheduledTime": "22:10:19",
+      "scheduledIso": "2026-12-08T22:10:19+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 15,
+      "keyword": "prius catalytic converter theft prevention shield",
+      "slug": "prius-catalytic-converter-theft-prevention-shield",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Commercial Guide",
+      "eav": "[Catalytic Shield] -> [Aluminum Plate] -> [5052 Marine Grade]",
+      "sv_kd": "950 / 12",
+      "zero_click": "11%",
+      "hook": "The most effective Prius catalytic converter protection is a 5052 marine-grade aluminum skid plate secured with security shear-bolts to block saw blade access beneath the subframe.",
+      "scheduledDate": "2026-12-09",
+      "scheduledTime": "14:50:12",
+      "scheduledIso": "2026-12-09T14:50:12+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 40,
+      "keyword": "how long does a 40 amp level 2 charger take to charge",
+      "slug": "how-long-does-a-40-amp-level-2-charger-take-to-charge",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Calculation Tool",
+      "eav": "[Charging Rate] -> [7.7 kW to 9.6 kW] -> [6 to 8 hours for 75kWh]",
+      "sv_kd": "1,500 / 13",
+      "zero_click": "11%",
+      "hook": "A 40-amp Level 2 charger supplying 9.6 kW of power replenishes an average 75 kWh electric vehicle battery from 20% to 80% in approximately 4.5 to 5 hours.",
+      "scheduledDate": "2026-12-09",
+      "scheduledTime": "20:09:23",
+      "scheduledIso": "2026-12-09T20:09:23+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 65,
+      "keyword": "how much does idling your car waste gas",
+      "slug": "how-much-does-idling-your-car-waste-gas",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Fuel Consumption",
+      "eav": "[Idle Fuel Burn Rate] -> [Engine Displacement] -> [0.2 to 0.5 gal/hr]",
+      "sv_kd": "2,100 / 16",
+      "zero_click": "13%",
+      "hook": "Idling a modern passenger vehicle consumes between 0.2 and 0.5 gallons of gasoline per hour, making it more fuel-efficient to turn the engine off if stopped for longer than 10 seconds.",
+      "scheduledDate": "2026-12-11",
+      "scheduledTime": "10:48:20",
+      "scheduledIso": "2026-12-11T10:48:20+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 90,
+      "keyword": "how often should you change transmission fluid for best mpg",
+      "slug": "how-often-should-you-change-transmission-fluid-for-best-mpg",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Fluid Maintenance",
+      "eav": "[Viscosity Degradation] -> [Torque Converter Slip] -> [30k-60k intervals]",
+      "sv_kd": "1,600 / 15",
+      "zero_click": "13%",
+      "hook": "Changing automatic and CVT transmission fluid every 30,000 to 60,000 miles prevents degraded fluid shearing, maintains firm clutch pack lockup, and prevents parasitic torque converter slippage.",
+      "scheduledDate": "2026-12-11",
+      "scheduledTime": "14:20:01",
+      "scheduledIso": "2026-12-11T14:20:01+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 16,
+      "keyword": "how to jumpstart a hybrid car dead 12v battery",
+      "slug": "how-to-jumpstart-a-hybrid-car-dead-12v-battery",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Procedure Guide",
+      "eav": "[Engine Fuse Box Terminal] -> [Jump Box Connection] -> [Dedicated Positive Post]",
+      "sv_kd": "2,200 / 15",
+      "zero_click": "10%",
+      "hook": "Jumpstarting a hybrid requires connecting the positive jump cable to the designated red terminal inside the engine bay fuse box, never directly to the high-voltage traction pack.",
+      "scheduledDate": "2026-12-11",
+      "scheduledTime": "19:58:59",
+      "scheduledIso": "2026-12-11T19:58:59+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 41,
+      "keyword": "is hardwired ev charger better than plug in",
+      "slug": "is-hardwired-ev-charger-better-than-plug-in",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Installation Guide",
+      "eav": "[Outlet Melting Risk] -> [48A vs 40A ceiling] -> [Permanent Contact]",
+      "sv_kd": "1,300 / 15",
+      "zero_click": "8%",
+      "hook": "Hardwiring an EV charger is technically superior to plug-in receptacles because it eliminates high-resistance GFCI nuisance tripping, prevents NEMA outlet melting, and delivers 48-amp charging speeds.",
+      "scheduledDate": "2026-12-12",
+      "scheduledTime": "17:31:03",
+      "scheduledIso": "2026-12-12T17:31:03+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 66,
+      "keyword": "how driving uphill and downhill affects mpg",
+      "slug": "how-driving-uphill-and-downhill-affects-mpg",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Topography Physics",
+      "eav": "[Potential Energy Storage] -> [Kinetic Recovery] -> [Net thermodynamic loss]",
+      "sv_kd": "880 / 10",
+      "zero_click": "11%",
+      "hook": "Driving over hilly terrain always nets lower total fuel economy than flat highways because the energy gained from descending downhill never fully offsets the massive energy burned fighting gravity uphill.",
+      "scheduledDate": "2026-12-13",
+      "scheduledTime": "12:35:05",
+      "scheduledIso": "2026-12-13T12:35:05+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 91,
+      "keyword": "best synthetic 0w-20 motor oil for maximum fuel economy",
+      "slug": "best-synthetic-0w-20-motor-oil-for-maximum-fuel-economy",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Commercial Roundup",
+      "eav": "[Friction Modifiers] -> [API SP / ILSAC GF-6] -> [Castrol EDGE vs Mobil 1]",
+      "sv_kd": "1,300 / 16",
+      "zero_click": "12%",
+      "hook": "The best 0W-20 synthetic motor oils for maximum fuel efficiency meet ILSAC GF-6 standards with advanced liquid titanium or molybdenum friction modifiers that minimize hydrodynamic engine drag.",
+      "scheduledDate": "2026-12-13",
+      "scheduledTime": "22:37:31",
+      "scheduledIso": "2026-12-13T22:37:31+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 17,
+      "keyword": "ford fusion hybrid wrench light comes and goes",
+      "slug": "ford-fusion-hybrid-wrench-light-comes-and-goes",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Intermittent Fault",
+      "eav": "[Electronic Throttle Body] -> [Hall Sensor Drift] -> [PCM Limp Mode]",
+      "sv_kd": "680 / 8",
+      "zero_click": "9%",
+      "hook": "The intermittent wrench icon on a Ford Fusion Hybrid indicates throttle body actuator potentiometer drift, dirty mass airflow sensor elements, or inverter cooling pump failure.",
+      "scheduledDate": "2026-12-14",
+      "scheduledTime": "08:47:42",
+      "scheduledIso": "2026-12-14T08:47:42+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 42,
+      "keyword": "phantom drain in electric cars causes and prevention",
+      "slug": "phantom-drain-in-electric-cars-causes-and-prevention",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Parasitic Loss",
+      "eav": "[Sentry Mode & Connectivity] -> [12V Polling] -> [1% to 3% daily loss]",
+      "sv_kd": "1,100 / 12",
+      "zero_click": "10%",
+      "hook": "EV phantom battery drain occurs primarily from active security camera sentry modes, high-frequency third-party app polling, and automatic battery thermal conditioning in extreme weather.",
+      "scheduledDate": "2026-12-14",
+      "scheduledTime": "14:16:35",
+      "scheduledIso": "2026-12-14T14:16:35+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 67,
+      "keyword": "best driving speed for fuel economy in pickup trucks",
+      "slug": "best-driving-speed-for-fuel-economy-in-pickup-trucks",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Truck Optimization",
+      "eav": "[Frontal Area Aerodynamics] -> [Cd Drag Coefficient] -> [50 to 55 mph limit]",
+      "sv_kd": "1,100 / 13",
+      "zero_click": "12%",
+      "hook": "Pickup trucks suffer acute aerodynamic drag penalties above 55 mph due to their large frontal surface area, experiencing up to a 20% fuel economy drop when pushed from 60 mph to 75 mph.",
+      "scheduledDate": "2026-12-14",
+      "scheduledTime": "20:12:16",
+      "scheduledIso": "2026-12-14T20:12:16+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 92,
+      "keyword": "how oxygen sensor failure causes poor gas mileage",
+      "slug": "how-oxygen-sensor-failure-causes-poor-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Sensor Telemetry",
+      "eav": "[Zirconia Sensing Element] -> [Rich Default Bias] -> [Up to 40% fuel waste]",
+      "sv_kd": "1,500 / 14",
+      "zero_click": "9%",
+      "hook": "A failing upstream oxygen sensor defaults the ECU into safe open-loop \"rich\" fuel delivery mode, wasting up to 40% more gasoline by injecting excess fuel to prevent catastrophic lean cylinder knock.",
+      "scheduledDate": "2026-12-15",
+      "scheduledTime": "14:03:13",
+      "scheduledIso": "2026-12-15T14:03:13+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 18,
+      "keyword": "do hybrid brakes last longer than regular brakes",
+      "slug": "do-hybrid-brakes-last-longer-than-regular-brakes",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Comparative Science",
+      "eav": "[Regenerative Braking] -> [Friction Wear] -> [80,000 to 100,000 mi]",
+      "sv_kd": "1,100 / 13",
+      "zero_click": "14%",
+      "hook": "Hybrid brake pads last between 80,000 and 100,000 miles\u2014nearly triple conventional vehicles\u2014because motor-generator regenerative drag absorbs up to 90% of kinetic braking force.",
+      "scheduledDate": "2026-12-15",
+      "scheduledTime": "21:48:48",
+      "scheduledIso": "2026-12-15T21:48:48+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 43,
+      "keyword": "lfp vs nmc battery charging habits comparison",
+      "slug": "lfp-vs-nmc-battery-charging-habits-comparison",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Cell Chemistry",
+      "eav": "[Iron Phosphate vs Nickel Manganese] -> [100% weekly charge] -> [No dendrite risk]",
+      "sv_kd": "1,400 / 16",
+      "zero_click": "13%",
+      "hook": "Lithium Iron Phosphate (LFP) batteries should be charged to 100% at least once per week for accurate BMS voltage calibration, whereas NMC chemistries should be capped at 80% for daily commuting.",
+      "scheduledDate": "2026-12-17",
+      "scheduledTime": "11:17:19",
+      "scheduledIso": "2026-12-17T11:17:19+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 68,
+      "keyword": "how much mpg do you lose with roof rack",
+      "slug": "how-much-mpg-do-you-lose-with-roof-rack",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Wind Tunnel Data",
+      "eav": "[Parasitic Form Drag] -> [Crossbar Vortices] -> [10% to 25% highway loss]",
+      "sv_kd": "1,400 / 15",
+      "zero_click": "11%",
+      "hook": "Driving with an empty roof rack reduces highway fuel economy by 2% to 10%, while loaded cargo boxes or bike mounts increase aerodynamic drag enough to slash highway MPG by up to 25%.",
+      "scheduledDate": "2026-12-17",
+      "scheduledTime": "13:57:42",
+      "scheduledIso": "2026-12-17T13:57:42+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 93,
+      "keyword": "tire tread depth effect on gas mileage",
+      "slug": "tire-tread-depth-effect-on-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Rolling Resistance",
+      "eav": "[Tread Block Squirm] -> [Hysteresis Heat] -> [New tires burn 1-2% more]",
+      "sv_kd": "620 / 7",
+      "zero_click": "11%",
+      "hook": "Brand-new tires with deep tread blocks actually achieve 1% to 2% lower fuel economy than half-worn tires because tall rubber tread blocks flex and squirm more under load, generating more thermal resistance.",
+      "scheduledDate": "2026-12-17",
+      "scheduledTime": "22:16:23",
+      "scheduledIso": "2026-12-17T22:16:23+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 19,
+      "keyword": "best obd2 scanner for hybrid battery health",
+      "slug": "best-obd2-scanner-for-hybrid-battery-health",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Commercial Roundup",
+      "eav": "[Bluetooth OBD2 Scanner] -> [CAN Bus Protocol] -> [Fast PID Polling]",
+      "sv_kd": "1,400 / 17",
+      "zero_click": "12%",
+      "hook": "The best OBD2 scanners for hybrid diagnostic testing combine Bluetooth 4.0 BLE architecture with high-speed CAN bus polling capable of reading proprietary hybrid battery block PID data.",
+      "scheduledDate": "2026-12-18",
+      "scheduledTime": "20:00:15",
+      "scheduledIso": "2026-12-18T20:00:15+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 44,
+      "keyword": "can an ev charge in the rain outside safely",
+      "slug": "can-an-ev-charge-in-the-rain-outside-safely",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Safety Verification",
+      "eav": "[J1772 Water Ingress] -> [Pilot Pin Ground Fault] -> [IP67 Seal Standard]",
+      "sv_kd": "2,100 / 12",
+      "zero_click": "15%",
+      "hook": "Charging an electric vehicle in heavy rain is completely safe because SAE J1772 and NACS connectors use mechanical water-shedding seals and low-voltage pilot pins that cut power if moisture is detected.",
+      "scheduledDate": "2026-12-19",
+      "scheduledTime": "08:20:37",
+      "scheduledIso": "2026-12-19T08:20:37+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 69,
+      "keyword": "does tire width affect gas mileage",
+      "slug": "does-tire-width-affect-gas-mileage",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Contact Patch Science",
+      "eav": "[Frontal Air Resistance] -> [Tire Rolling Resistance] -> [0.5 MPG loss per 10mm]",
+      "sv_kd": "750 / 9",
+      "zero_click": "10%",
+      "hook": "Fitting wider tires decreases fuel economy by 0.5 to 1.5 MPG due to increased aerodynamic frontal drag and a broader tread contact patch that increases total rubber deformation resistance.",
+      "scheduledDate": "2026-12-19",
+      "scheduledTime": "21:51:14",
+      "scheduledIso": "2026-12-19T21:51:14+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 94,
+      "keyword": "thule canyon xt roof basket wind noise and mpg review",
+      "slug": "thule-canyon-xt-roof-basket-wind-noise-and-mpg-review",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Product Review",
+      "eav": "[Steel Tubular Aero] -> [Fairing Deflector] -> [4 to 6 MPG highway loss]",
+      "sv_kd": "750 / 9",
+      "zero_click": "10%",
+      "hook": "While the Thule Canyon XT includes an aerodynamic front wind fairing to eliminate high-pitched buffeting, highway testing shows a persistent 4 to 6 MPG fuel penalty on compact vehicles at 70 mph.",
+      "scheduledDate": "2026-12-20",
+      "scheduledTime": "08:33:45",
+      "scheduledIso": "2026-12-20T08:33:45+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 20,
+      "keyword": "hybrid inverter cooling pump symptoms of failure",
+      "slug": "hybrid-inverter-cooling-pump-symptoms-of-failure",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Mechanical Warning",
+      "eav": "[Electric Water Pump] -> [Cavitation & Reservoir Swirl] -> [Zero Fluid Movement]",
+      "sv_kd": "510 / 6",
+      "zero_click": "7%",
+      "hook": "A failed hybrid inverter coolant pump exhibits an absence of visible turbulent fluid swirling inside the inverter coolant reservoir while the vehicle is in \"READY\" operational mode.",
+      "scheduledDate": "2026-12-20",
+      "scheduledTime": "14:56:03",
+      "scheduledIso": "2026-12-20T14:56:03+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 45,
+      "keyword": "how much does level 2 charger increase electric bill",
+      "slug": "how-much-does-level-2-charger-increase-electric-bill",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Cost Calculation",
+      "eav": "[Kilowatt-Hour Cost] -> [Miles Driven per Month] -> [$30 to $50/mo average]",
+      "sv_kd": "2,800 / 17",
+      "zero_click": "14%",
+      "hook": "Driving 1,000 miles per month with a Level 2 home charger adds approximately $35 to $45 to an electric bill based on average US utility rates of $0.15 per kilowatt-hour and 3.3 mi/kWh vehicle efficiency.",
+      "scheduledDate": "2026-12-20",
+      "scheduledTime": "20:28:04",
+      "scheduledIso": "2026-12-20T20:28:04+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 70,
+      "keyword": "how cold weather affects gas car mpg compared to ev",
+      "slug": "how-cold-weather-affects-gas-car-mpg-compared-to-ev",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Comparative Study",
+      "eav": "[Engine Warmup Phase] -> [Cold Fluid Viscosity] -> [12% gas vs 35% EV]",
+      "sv_kd": "1,300 / 14",
+      "zero_click": "14%",
+      "hook": "Cold winter weather reduces conventional gasoline car fuel economy by 10% to 15%, whereas electric vehicles experience double to triple that penalty (25% to 40%) due to electric cabin heating.",
+      "scheduledDate": "2026-12-21",
+      "scheduledTime": "08:33:32",
+      "scheduledIso": "2026-12-21T08:33:32+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 95,
+      "keyword": "does changing fuel filter improve gas mileage",
+      "slug": "does-changing-fuel-filter-improve-gas-mileage",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Fuel Delivery Myth",
+      "eav": "[Fuel Rail Pressure] -> [Fuel Pump Strain] -> [Power loss, not MPG]",
+      "sv_kd": "1,200 / 12",
+      "zero_click": "11%",
+      "hook": "Replacing a clogged fuel filter restores lost engine acceleration and prevents fuel pump burnout, but does not improve gas mileage because the ECU regulates injection based on downstream sensor feedback.",
+      "scheduledDate": "2026-12-21",
+      "scheduledTime": "20:30:17",
+      "scheduledIso": "2026-12-21T20:30:17+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 21,
+      "keyword": "what happens if hybrid car runs out of gas",
+      "slug": "what-happens-if-hybrid-car-runs-out-of-gas",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Emergency Protocol",
+      "eav": "[Traction Pack Protection] -> [EV Depletion Limit] -> [Emergency 1-mile range]",
+      "sv_kd": "1,800 / 14",
+      "zero_click": "13%",
+      "hook": "If a hybrid runs completely out of gasoline, the high-voltage traction battery propels the vehicle for approximately 1 to 2 miles before the hybrid ECU cuts power to prevent fatal deep discharge.",
+      "scheduledDate": "2026-12-22",
+      "scheduledTime": "10:33:08",
+      "scheduledIso": "2026-12-22T10:33:08+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 46,
+      "keyword": "solar panel setup required to charge an electric car",
+      "slug": "solar-panel-setup-required-to-charge-an-electric-car",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Clean Energy Spec",
+      "eav": "[Array Sizing] -> [Kilowatt Output] -> [7 to 10 panels per 30 miles]",
+      "sv_kd": "1,900 / 18",
+      "zero_click": "12%",
+      "hook": "Powering an electric vehicle for 30 miles of daily driving requires an array of approximately 7 to 9 high-efficiency 400W solar panels producing 10 to 12 kWh of daily electricity.",
+      "scheduledDate": "2026-12-22",
+      "scheduledTime": "15:20:59",
+      "scheduledIso": "2026-12-22T15:20:59+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 71,
+      "keyword": "does engine braking save fuel or waste gas",
+      "slug": "does-engine-braking-save-fuel-or-waste-gas",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Powertrain Physics",
+      "eav": "[Vacuum Throttling] -> [DFCO Status] -> [Zero fuel consumption]",
+      "sv_kd": "1,800 / 16",
+      "zero_click": "12%",
+      "hook": "Engine braking saves fuel compared to idling down hills because modern electronic control units cut fuel injector pulses to zero when engine RPM exceeds 1,200 with the throttle closed.",
+      "scheduledDate": "2026-12-22",
+      "scheduledTime": "21:56:36",
+      "scheduledIso": "2026-12-22T21:56:36+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 96,
+      "keyword": "how to test for a dragging brake caliper at home",
+      "slug": "how-to-test-for-a-dragging-brake-caliper-at-home",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "DIY Diagnostic",
+      "eav": "[Infrared Thermometer] -> [Rotor Temperature Delta] -> [>50F variance indicates drag]",
+      "sv_kd": "890 / 10",
+      "zero_click": "7%",
+      "hook": "Testing for a dragging brake caliper at home requires aiming an infrared thermometer at the brake rotors after driving; a rotor reading more than 50\u00b0F hotter than its opposite wheel indicates a seized caliper.",
+      "scheduledDate": "2026-12-23",
+      "scheduledTime": "11:41:26",
+      "scheduledIso": "2026-12-23T11:41:26+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 22,
+      "keyword": "prius red triangle of death causes and fixes",
+      "slug": "prius-red-triangle-of-death-causes-and-fixes",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Comprehensive Hub",
+      "eav": "[Master Warning Indicator] -> [Engine Low Oil / Low HV Volts] -> [3 Primary Causes]",
+      "sv_kd": "2,400 / 19",
+      "zero_click": "11%",
+      "hook": "The Prius Master Warning \"Red Triangle\" illuminates due to one of three critical faults: engine oil starvation below the sensor threshold, inverter cooling pump failure, or hybrid battery block imbalance.",
+      "scheduledDate": "2026-12-23",
+      "scheduledTime": "20:18:06",
+      "scheduledIso": "2026-12-23T20:18:06+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 47,
+      "keyword": "why does ev range drop suddenly on the highway",
+      "slug": "why-does-ev-range-drop-suddenly-on-the-highway",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Aerodynamic Science",
+      "eav": "[Drag Force Velocity Squared] -> [Aerodynamic Resistance] -> [25% efficiency drop]",
+      "sv_kd": "1,400 / 14",
+      "zero_click": "11%",
+      "hook": "EV highway range drops precipitously above 65 mph because aerodynamic drag increases with the square of velocity, requiring exponential electrical consumption to overcome wind resistance.",
+      "scheduledDate": "2026-12-24",
+      "scheduledTime": "21:00:27",
+      "scheduledIso": "2026-12-24T21:00:27+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 72,
+      "keyword": "how to read long term fuel trim on scan tool",
+      "slug": "how-to-read-long-term-fuel-trim-on-scan-tool",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Telemetry Mastery",
+      "eav": "[LTFT Diagnostic Range] -> [Closed Loop Tuning] -> [Within +/- 5% spec]",
+      "sv_kd": "950 / 12",
+      "zero_click": "8%",
+      "hook": "Long-term fuel trim (LTFT) indicates ECU fuel compensation; a healthy engine stays within \u00b15%, while values exceeding +10% indicate an unmetered vacuum leak or weak fuel pump.",
+      "scheduledDate": "2026-12-25",
+      "scheduledTime": "12:28:43",
+      "scheduledIso": "2026-12-25T12:28:43+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 97,
+      "keyword": "front air dam removal effect on highway mpg",
+      "slug": "front-air-dam-removal-effect-on-highway-mpg",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Body Aerodynamics",
+      "eav": "[Stagnation Pressure] -> [Underbody Turbulence] -> [1 to 1.5 MPG loss]",
+      "sv_kd": "810 / 8",
+      "zero_click": "9%",
+      "hook": "Removing the factory front plastic air dam reduces highway fuel efficiency by 1 to 1.5 MPG because it forces high-pressure incoming air directly beneath the irregular undercarriage rather than deflecting it around the vehicle.",
+      "scheduledDate": "2026-12-25",
+      "scheduledTime": "22:17:41",
+      "scheduledIso": "2026-12-25T22:17:41+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 23,
+      "keyword": "hyundai sonata hybrid battery reset switch location",
+      "slug": "hyundai-sonata-hybrid-battery-reset-switch-location",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Model Specific",
+      "eav": "[12V Battery Reset Button] -> [Integrated Lithium Auxiliary] -> [Driver Dash Panel]",
+      "sv_kd": "850 / 7",
+      "zero_click": "8%",
+      "hook": "The 12-volt battery reset switch on Hyundai Sonata Hybrids is located on the lower instrument panel to the left of the steering wheel, reconnecting the integrated lithium auxiliary circuit.",
+      "scheduledDate": "2026-12-26",
+      "scheduledTime": "22:36:21",
+      "scheduledIso": "2026-12-26T22:36:21+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 48,
+      "keyword": "best extension cord for level 2 ev charger",
+      "slug": "best-extension-cord-for-level-2-ev-charger",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Hardware / Safety",
+      "eav": "[Copper Gauge Wire] -> [Continuous Amperage Rating] -> [10 AWG vs 8 AWG]",
+      "sv_kd": "1,200 / 16",
+      "zero_click": "9%",
+      "hook": "Safe Level 2 EV charging extensions require heavy-duty 8 AWG or 6 AWG pure copper cabling rated for continuous high-temperature loads; generic 14 AWG household cords present a catastrophic fire hazard.",
+      "scheduledDate": "2026-12-28",
+      "scheduledTime": "09:18:12",
+      "scheduledIso": "2026-12-28T09:18:12+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 73,
+      "keyword": "driving 70 vs 80 mph gas mileage difference",
+      "slug": "driving-70-vs-80-mph-gas-mileage-difference",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Empirical Speed Run",
+      "eav": "[Wind Resistance Curve] -> [Velocity Squared Law] -> [12% to 15% penalty]",
+      "sv_kd": "1,600 / 15",
+      "zero_click": "13%",
+      "hook": "Increasing highway cruising speed from 70 mph to 80 mph increases fuel consumption by 12% to 15% because aerodynamic resistance increases dramatically with vehicle speed.",
+      "scheduledDate": "2026-12-28",
+      "scheduledTime": "13:03:34",
+      "scheduledIso": "2026-12-28T13:03:34+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 98,
+      "keyword": "ev and hybrid wheel alignment specifications differences",
+      "slug": "ev-and-hybrid-wheel-alignment-specifications-differences",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Technical Alignment",
+      "eav": "[Battery Curb Weight] -> [Camber & Toe Settings] -> [Low-drag tolerance]",
+      "sv_kd": "540 / 7",
+      "zero_click": "8%",
+      "hook": "Wheel alignments for EVs and hybrids require tighter toe tolerances (within 0.05 degrees) to prevent the heavy curb weight of high-voltage battery packs from accelerating asymmetric tire scrub drag.",
+      "scheduledDate": "2026-12-28",
+      "scheduledTime": "21:24:08",
+      "scheduledIso": "2026-12-28T21:24:08+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 24,
+      "keyword": "nickel metal hydride vs lithium ion hybrid battery life",
+      "slug": "nickel-metal-hydride-vs-lithium-ion-hybrid-battery-life",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Technical Chemistry",
+      "eav": "[NiMH vs Li-Ion] -> [Cycle Durability] -> [NiMH 250k mi vs Li-Ion 150k mi]",
+      "sv_kd": "720 / 10",
+      "zero_click": "14%",
+      "hook": "NiMH hybrid batteries endure deeper thermal cycling with service lives exceeding 250,000 miles, whereas Lithium-Ion packs offer 30% higher energy density but degrade faster under sustained heat.",
+      "scheduledDate": "2026-12-29",
+      "scheduledTime": "18:28:15",
+      "scheduledIso": "2026-12-29T18:28:15+06:00",
+      "slotName": "Evening"
+    },
+    {
+      "num": 49,
+      "keyword": "what is ev regenerative braking one pedal driving efficiency",
+      "slug": "what-is-ev-regenerative-braking-one-pedal-driving-efficiency",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Driver Technique",
+      "eav": "[Kinetic Energy Capture] -> [Mechanical Braking Elimination] -> [15% range recapture]",
+      "sv_kd": "950 / 11",
+      "zero_click": "13%",
+      "hook": "One-pedal driving maximizes EV efficiency by capturing up to 70% of kinetic energy that conventional friction brakes would dissipate as heat, boosting urban driving range by 15% to 20%.",
+      "scheduledDate": "2026-12-30",
+      "scheduledTime": "10:08:51",
+      "scheduledIso": "2026-12-30T10:08:51+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 74,
+      "keyword": "best bluetooth obd2 adapter for real time mpg tracking",
+      "slug": "best-bluetooth-obd2-adapter-for-real-time-mpg-tracking",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Commercial Roundup",
+      "eav": "[PID Query Speed] -> [ELM327 Architecture] -> [Fast polling dongles]",
+      "sv_kd": "1,200 / 14",
+      "zero_click": "11%",
+      "hook": "The top Bluetooth OBD2 adapters for live MPG telemetry feature fast ARM microcontrollers capable of polling mass airflow and speed sensors at 40+ PIDs per second without lagging dashboard apps.",
+      "scheduledDate": "2026-12-30",
+      "scheduledTime": "14:35:06",
+      "scheduledIso": "2026-12-30T14:35:06+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 99,
+      "keyword": "best digital tire pressure gauge with bleeder valve review",
+      "slug": "best-digital-tire-pressure-gauge-with-bleeder-valve-review",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Commercial Roundup",
+      "eav": "[ANSI Grade Accuracy] -> [Backlit LCD + Bleeder] -> [Accu-Gage vs AstroAI]",
+      "sv_kd": "1,100 / 14",
+      "zero_click": "11%",
+      "hook": "The top digital tire pressure gauges feature ANSI B40.7 Grade 1A certified accuracy (\u00b10.5%) and integrated brass bleeder valves that allow precise down-tuning of hot tire pressures without removing the chuck.",
+      "scheduledDate": "2026-12-30",
+      "scheduledTime": "19:42:41",
+      "scheduledIso": "2026-12-30T19:42:41+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 25,
+      "keyword": "best aftermarket hybrid battery replacement companies",
+      "slug": "best-aftermarket-hybrid-battery-replacement-companies",
+      "categorySlug": "hybrid-powertrains",
+      "categoryName": "Hybrid Powertrains",
+      "archetype": "Commercial Authority",
+      "eav": "[Remanufactured Pack] -> [Warranty Term] -> [GreenBean vs Dorman]",
+      "sv_kd": "1,200 / 18",
+      "zero_click": "10%",
+      "hook": "Top aftermarket hybrid battery replacement providers provide newly fabricated cylindrical cells or balanced cylindrical packs backed by lifetime transferable mobile-installation warranties.",
+      "scheduledDate": "2026-12-31",
+      "scheduledTime": "08:38:59",
+      "scheduledIso": "2026-12-31T08:38:59+06:00",
+      "slotName": "Morning"
+    },
+    {
+      "num": 50,
+      "keyword": "how to fix j1772 ev charging handle stuck in port",
+      "slug": "how-to-fix-j1772-ev-charging-handle-stuck-in-port",
+      "categorySlug": "ev-charging-and-range",
+      "categoryName": "EV Charging & Range",
+      "archetype": "Emergency DIY",
+      "eav": "[Actuator Latch Pin] -> [Emergency Release Cord] -> [Manual Release Lever]",
+      "sv_kd": "1,100 / 9",
+      "zero_click": "6%",
+      "hook": "A stuck J1772 charging handle is released by pulling the manual mechanical emergency release cable located inside the rear cargo trunk trim panel adjacent to the charge port housing.",
+      "scheduledDate": "2026-12-31",
+      "scheduledTime": "15:27:54",
+      "scheduledIso": "2026-12-31T15:27:54+06:00",
+      "slotName": "Afternoon"
+    },
+    {
+      "num": 75,
+      "keyword": "why does my car get better mileage in summer than winter",
+      "slug": "why-does-my-car-get-better-mileage-in-summer-than-winter",
+      "categorySlug": "fuel-economy-and-hypermiling",
+      "categoryName": "Fuel Economy & Hypermiling",
+      "archetype": "Seasonal Science",
+      "eav": "[Summer Gas Blend RVP] -> [Air Density Reduction] -> [1.5-3 MPG seasonal gain]",
+      "sv_kd": "1,400 / 13",
+      "zero_click": "14%",
+      "hook": "Cars achieve 1.5 to 3 higher MPG during summer due to denser summer-blend gasoline with higher energy content, faster engine thermal warmup, and thinner warm ambient air exerting less drag.",
+      "scheduledDate": "2026-12-31",
+      "scheduledTime": "20:30:10",
+      "scheduledIso": "2026-12-31T20:30:10+06:00",
+      "slotName": "Night"
+    },
+    {
+      "num": 100,
+      "keyword": "how to clean egr valve on toyota hybrid to stop engine knock",
+      "slug": "how-to-clean-egr-valve-on-toyota-hybrid-to-stop-engine-knock",
+      "categorySlug": "eco-maintenance-and-gear",
+      "categoryName": "Eco-Maintenance & Gear",
+      "archetype": "Critical Hybrid DIY",
+      "eav": "[Exhaust Gas Recirculation] -> [Cooler Carbon Clog] -> [Severe 150k mi rattle]",
+      "sv_kd": "1,400 / 15",
+      "zero_click": "8%",
+      "hook": "Cleaning a clogged Toyota hybrid EGR valve and cooler with brake cleaner or carb solvent eliminates low-RPM engine rattles and restores engine thermal efficiency by reducing combustion chamber temperatures.",
+      "scheduledDate": "2027-01-01",
+      "scheduledTime": "21:34:30",
+      "scheduledIso": "2027-01-01T21:34:30+06:00",
+      "slotName": "Night"
+    }
+  ]
+}
